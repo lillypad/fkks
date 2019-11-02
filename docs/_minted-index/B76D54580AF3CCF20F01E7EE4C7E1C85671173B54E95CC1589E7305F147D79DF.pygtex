@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+          \PYG{n+nl}{\PYGZus{}add\PYGZus{}stdcall:}
+            \PYG{n+nf}{push} \PYG{n+no}{ebp}
+            \PYG{n+nf}{mov} \PYG{n+no}{ebp}\PYG{p}{,} \PYG{n+no}{esp}
+            \PYG{n+nf}{mov} \PYG{n+no}{eax}\PYG{p}{,} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{8}\PYG{p}{]}  \PYG{c}{; set eax to 3}
+            \PYG{n+nf}{mov} \PYG{n+no}{edx}\PYG{p}{,} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{12}\PYG{p}{]} \PYG{c}{; set edx to 2}
+            \PYG{n+nf}{add} \PYG{n+no}{eax}\PYG{p}{,} \PYG{n+no}{edx}
+            \PYG{n+nf}{pop} \PYG{n+no}{ebp}
+            \PYG{n+nf}{ret} \PYG{l+m+mi}{8}               \PYG{c}{; how many bytes to pop}
+          \PYG{n+nl}{\PYGZus{}start:}               \PYG{c}{; main function}
+            \PYG{n+nf}{push} \PYG{l+m+mi}{3}              \PYG{c}{; second argument}
+            \PYG{n+nf}{push} \PYG{l+m+mi}{2}              \PYG{c}{; first argument}
+            \PYG{n+nf}{call} \PYG{n+no}{\PYGZus{}add\PYGZus{}stdcall}
+\end{Verbatim}

@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+          \PYG{k}{static} \PYG{k+kt}{string} \PYG{n+nf}{decode\PYGZus{}1}\PYG{p}{(}\PYG{k+kt}{string} \PYG{n}{string\PYGZus{}0}\PYG{p}{)\PYGZob{}}
+            \PYG{k+kt}{string} \PYG{n}{password} \PYG{p}{=} \PYG{l+s}{\PYGZdq{}fdfdfrtertert\PYGZdq{}}\PYG{p}{;}
+            \PYG{k+kt}{string} \PYG{n}{s} \PYG{p}{=} \PYG{l+s}{\PYGZdq{}fdfdfrtertert\PYGZdq{}}\PYG{p}{;}
+            \PYG{k+kt}{string} \PYG{n}{s2} \PYG{p}{=} \PYG{l+s}{\PYGZdq{}@1B2c3D4sfg5F6g7H8\PYGZdq{}}\PYG{p}{;}
+            \PYG{k+kt}{byte}\PYG{p}{[]} \PYG{n}{bytes} \PYG{p}{=} \PYG{n}{Encoding}\PYG{p}{.}\PYG{n}{ASCII}\PYG{p}{.}\PYG{n}{GetBytes}\PYG{p}{(}\PYG{n}{s2}\PYG{p}{);}
+            \PYG{k+kt}{byte}\PYG{p}{[]} \PYG{n}{bytes2} \PYG{p}{=} \PYG{n}{Encoding}\PYG{p}{.}\PYG{n}{ASCII}\PYG{p}{.}\PYG{n}{GetBytes}\PYG{p}{(}\PYG{n}{s}\PYG{p}{);}
+            \PYG{k+kt}{byte}\PYG{p}{[]} \PYG{n}{array} \PYG{p}{=} \PYG{n}{Convert}\PYG{p}{.}\PYG{n}{FromBase64String}\PYG{p}{(}\PYG{n}{string\PYGZus{}0}\PYG{p}{);}
+            \PYG{n}{Rfc2898DeriveBytes} \PYG{n}{rfc2898DeriveBytes} \PYG{p}{=} \PYG{k}{new} \PYG{n}{Rfc2898DeriveBytes}\PYG{p}{(}\PYG{n}{password}\PYG{p}{,} \PYG{n}{bytes2}\PYG{p}{,} \PYG{l+m}{2}\PYG{p}{);}
+            \PYG{k+kt}{byte}\PYG{p}{[]} \PYG{n}{bytes3} \PYG{p}{=} \PYG{n}{rfc2898DeriveBytes}\PYG{p}{.}\PYG{n}{GetBytes}\PYG{p}{(}\PYG{l+m}{32}\PYG{p}{);}
+            \PYG{n}{ICryptoTransform} \PYG{n}{transform} \PYG{p}{=} \PYG{k}{new} \PYG{n}{RijndaelManaged}
+            \PYG{p}{\PYGZob{}}
+                \PYG{n}{Mode} \PYG{p}{=} \PYG{n}{CipherMode}\PYG{p}{.}\PYG{n}{CBC}
+            \PYG{p}{\PYGZcb{}.}\PYG{n}{CreateDecryptor}\PYG{p}{(}\PYG{n}{bytes3}\PYG{p}{,} \PYG{n}{bytes}\PYG{p}{);}
+            \PYG{n}{MemoryStream} \PYG{n}{memoryStream} \PYG{p}{=} \PYG{k}{new} \PYG{n}{MemoryStream}\PYG{p}{(}\PYG{n}{array}\PYG{p}{);}
+            \PYG{n}{CryptoStream} \PYG{n}{cryptoStream} \PYG{p}{=} \PYG{k}{new} \PYG{n}{CryptoStream}\PYG{p}{(}\PYG{n}{memoryStream}\PYG{p}{,} \PYG{n}{transform}\PYG{p}{,} \PYG{n}{CryptoStreamMode}\PYG{p}{.}\PYG{n}{Read}\PYG{p}{);}
+            \PYG{k+kt}{byte}\PYG{p}{[]} \PYG{n}{array2} \PYG{p}{=} \PYG{k}{new} \PYG{k+kt}{byte}\PYG{p}{[}\PYG{k}{checked}\PYG{p}{(}\PYG{n}{array}\PYG{p}{.}\PYG{n}{Length} \PYG{p}{\PYGZhy{}} \PYG{l+m}{1} \PYG{p}{+} \PYG{l+m}{1}\PYG{p}{)];}
+            \PYG{k+kt}{int} \PYG{n}{count} \PYG{p}{=} \PYG{n}{cryptoStream}\PYG{p}{.}\PYG{n}{Read}\PYG{p}{(}\PYG{n}{array2}\PYG{p}{,} \PYG{l+m}{0}\PYG{p}{,} \PYG{n}{array2}\PYG{p}{.}\PYG{n}{Length}\PYG{p}{);}
+            \PYG{n}{memoryStream}\PYG{p}{.}\PYG{n}{Close}\PYG{p}{();}
+            \PYG{n}{cryptoStream}\PYG{p}{.}\PYG{n}{Close}\PYG{p}{();}
+            \PYG{k}{return} \PYG{n}{Encoding}\PYG{p}{.}\PYG{n}{UTF8}\PYG{p}{.}\PYG{n}{GetString}\PYG{p}{(}\PYG{n}{array2}\PYG{p}{,} \PYG{l+m}{0}\PYG{p}{,} \PYG{n}{count}\PYG{p}{);}
+        \PYG{p}{\PYGZcb{}}
+\end{Verbatim}

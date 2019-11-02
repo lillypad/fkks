@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+          \PYG{n+nl}{\PYGZus{}add\PYGZus{}cdecl:}
+            \PYG{n+nf}{push} \PYG{n+no}{ebp}
+            \PYG{n+nf}{mov} \PYG{n+no}{ebp}\PYG{p}{,} \PYG{n+no}{esp}
+            \PYG{n+nf}{mov} \PYG{n+no}{eax}\PYG{p}{,} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{8}\PYG{p}{]}  \PYG{c}{; get 3 from the stack}
+            \PYG{n+nf}{mov} \PYG{n+no}{edx}\PYG{p}{,} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{12}\PYG{p}{]} \PYG{c}{; get 2 from the stack}
+            \PYG{n+nf}{add} \PYG{n+no}{eax}\PYG{p}{,} \PYG{n+no}{edx}        \PYG{c}{; add values to eax}
+            \PYG{n+nf}{pop} \PYG{n+no}{ebp}
+            \PYG{n+nf}{ret}
+          \PYG{n+nl}{\PYGZus{}start:}
+            \PYG{n+nf}{push} \PYG{l+m+mi}{3}              \PYG{c}{; second argument}
+            \PYG{n+nf}{push} \PYG{l+m+mi}{2}              \PYG{c}{; first argument}
+            \PYG{n+nf}{call} \PYG{n+no}{\PYGZus{}add\PYGZus{}cdecl}
+            \PYG{n+nf}{add} \PYG{n+no}{esp}\PYG{p}{,} \PYG{l+m+mi}{8}
+\end{Verbatim}

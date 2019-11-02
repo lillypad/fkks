@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+        \PYG{n+nf}{section}     \PYG{n+no}{.text}                  \PYG{c}{; the code section}
+        \PYG{n+nf}{global}      \PYG{n+no}{\PYGZus{}start}                 \PYG{c}{; tell linker entrypoint}
+        \PYG{n+nl}{\PYGZus{}start:}
+          \PYG{n+nf}{mov}     \PYG{n+no}{edx}\PYG{p}{,}\PYG{n+no}{len}                  \PYG{c}{; message length}
+          \PYG{n+nf}{mov}     \PYG{n+no}{ecx}\PYG{p}{,}\PYG{n+no}{msg}                  \PYG{c}{; message to write}
+          \PYG{n+nf}{mov}     \PYG{n+no}{ebx}\PYG{p}{,}\PYG{l+m+mi}{1}                    \PYG{c}{; file descriptor stdout}
+          \PYG{n+nf}{mov}     \PYG{n+no}{eax}\PYG{p}{,}\PYG{l+m+mi}{4}                    \PYG{c}{; syscall number for write}
+          \PYG{n+nf}{int}     \PYG{l+m+mi}{0x80}                     \PYG{c}{; linux x86 interrupt}
+          \PYG{n+nf}{mov}     \PYG{n+no}{eax}\PYG{p}{,}\PYG{l+m+mi}{1}                    \PYG{c}{; syscall number for exit}
+          \PYG{n+nf}{int}     \PYG{l+m+mi}{0x80}                     \PYG{c}{; linux x86 interrupt}
+        \PYG{n+nf}{section}     \PYG{n+no}{.data}                  \PYG{c}{; the data section}
+          \PYG{n+nf}{msg}     \PYG{n+no}{db}  \PYG{err}{\PYGZsq{}}\PYG{n+no}{Hello}\PYG{p}{,} \PYG{n+no}{world}\PYG{p}{!}\PYG{err}{\PYGZsq{}}\PYG{p}{,}\PYG{l+m+mi}{0x0}  \PYG{c}{; null terminated string}
+          \PYG{n+nf}{len}     \PYG{n+no}{equ} \PYG{err}{\PYGZbs{}}\PYG{n+no}{\PYGZdl{}} \PYG{p}{\PYGZhy{}} \PYG{n+no}{msg}             \PYG{c}{; message length}
+\end{Verbatim}

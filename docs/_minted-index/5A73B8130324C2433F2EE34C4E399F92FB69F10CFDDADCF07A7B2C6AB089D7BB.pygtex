@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+          \PYG{k+kr}{\PYGZus{}\PYGZus{}stdcall} \PYG{k+kt}{int} \PYG{n+nf}{add\PYGZus{}stdcall}\PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{a}\PYG{p}{,} \PYG{k+kt}{int} \PYG{n}{b}\PYG{p}{)\PYGZob{}}
+            \PYG{k}{return} \PYG{n}{a} \PYG{o}{+} \PYG{n}{b}\PYG{p}{;}
+          \PYG{p}{\PYGZcb{}}
+          \PYG{k+kt}{int} \PYG{n}{x} \PYG{o}{=} \PYG{n}{add\PYGZus{}stdcall}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{);}
+\end{Verbatim}
