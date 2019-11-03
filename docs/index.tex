@@ -74,7 +74,7 @@
 \makeatother
 
 
-\title{Malware Unpacking Workshop}
+\title{Finders Keepers (KPot Stealers)}
 
 \institute{GoSecure}
 \author{Lilly Chalupowski}
@@ -91,13 +91,13 @@
 \end{frame}
 }
 
+\setbeamertemplate{footline}[myfootline]
+
 \newcommand\AtPagemyUpperLeft[1]{\AtPageLowerLeft{%
 \put(\LenToUnit{0.74\paperwidth},\LenToUnit{0.92\paperheight}){#1}}}
 \AddToShipoutPictureFG{
   \AtPagemyUpperLeft{{\includegraphics[width=4cm,keepaspectratio]{gosecure-logo}}}
 }%
-
-\setbeamertemplate{footline}[myfootline]
 
 {\usebackgroundtemplate{\includegraphics[width=\paperwidth]{question-mark-background.png}}%
 \begin{frame}
@@ -967,7 +967,7 @@
   \end{columns}
 \end{frame}
 
-{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{malspam-background.png}}%
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{malspam-background.png}}
 \begin{frame}
   \frametitle{KPot}
   \framesubtitle{Initial Infection Vector}
@@ -1013,6 +1013,7 @@
 \end{frame}
 }
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
   \frametitle{KPot}
   \framesubtitle{Operation Lawyer Loot - Extracting the Payload}
@@ -1037,47 +1038,22 @@
     \end{tcolorbox}
   \end{center}
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x00}
-  \begin{columns}
-    \begin{column}{.3\textwidth}
-      \begin{itemize}
-      \item{Looks like this is an ISO}
-      \item{Let's extract it!}
-      \end{itemize}
-    \end{column}
-    \hfill
-    \begin{column}{.7\textwidth}
-      \begin{center}
-        \includegraphics[scale=1.75]{kpot-unpacking-0}
-      \end{center}
-    \end{column}
-  \end{columns}
+  \frametitle{Kpot}
+  \framesubtitle{Operation Lawyer Loot - Portex Analyzer Entropy}
+  \begin{center}
+    \includegraphics[width=8cm]{kpot-portex-analyzer-stage-1}
+  \end{center}
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{solutions: 0x01}
-  \begin{columns}
-    \begin{column}{.3\textwidth}
-      \begin{itemize}
-      \item{Extract the ISO Image}
-      \end{itemize}
-    \end{column}
-    \hfill
-    \begin{column}{.7\textwidth}
-      \begin{center}
-        \includegraphics[scale=1.75]{kpot-unpacking-1}
-      \end{center}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x02}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - Determining the Stage 1 Packer}
   \begin{columns}
     \begin{column}{.3\textwidth}
       \begin{itemize}
@@ -1093,10 +1069,12 @@
     \end{column}
   \end{columns}
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x03}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - Unpacking Stage 1}
   \begin{columns}
     \begin{column}{.3\textwidth}
       \begin{itemize}
@@ -1112,18 +1090,22 @@
     \end{column}
   \end{columns}
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x04}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - Identifying Stage 2 Packed Data}
   \begin{center}
-    \includegraphics[scale=1.17]{kpot-unpacking-4}
+    \includegraphics[width=14cm]{kpot-unpacking-4}
   \end{center}
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x05}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - Stage 2 String Decryptor}
   \begin{columns}
     \begin{column}{.3\textwidth}
       \begin{itemize}
@@ -1139,177 +1121,109 @@
     \end{column}
   \end{columns}
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x07}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - Stage 2 String Decryptor in Visual Studio}
   \begin{center}
-    \includegraphics[scale=1.5]{kpot-unpacking-6}
+    \includegraphics[width=13cm]{kpot-unpacking-6}
   \end{center}
-  NOTE: Just use copy and paste and now let's try it in PowerShell!
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x08}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - String Deobfuscation Tool}
   \begin{center}
     \begin{figure}
-      \includegraphics[scale=1.25]{kpot-unpacking-7}
+      \includegraphics[width=14cm]{kpot-unpacking-7}
       \caption{Unpacking KPot - String Deobfuscation}
     \end{figure}
   \end{center}
-  \bigskip
-  \bigskip
-  \bigskip
-  \bigskip
-  \bigskip
-  NOTE: Now let's look at the injection function!
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x09}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - Stage 2 Injection Method}
   \begin{center}
     \begin{figure}
       \includegraphics[scale=1.28]{kpot-unpacking-8}
-      \caption{Unpacking KPot - New String Obfuscation Function}
+      \caption{Unpacking KPot - API Function Name Encryption}
     \end{figure}
   \end{center}
-  NOTE: Let's look at the deobfuscation function!
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x0A}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - Stage 2 Injection API Function Name Decryption}
   \begin{center}
     \begin{figure}
-      \includegraphics[scale=1.60]{kpot-unpacking-9}
-      \caption{Unpacking KPot - Different Deobfuscation Function}
+      \includegraphics[width=12cm]{kpot-unpacking-9}
+      \caption{Unpacking KPot - Decrypt Injection API Function Names}
     \end{figure}
   \end{center}
-  NOTE: Should be able to do copy and paste again with Visual Studio!
 \end{frame}
+}
 
-\begin{frame}[fragile]{}
-  \frametitle{KPot Deobfuscation Part 1}
-  \framesubtitle{unpacking: 0x0B}
-  \begin{center}
-    \begin{tcolorbox}[title=deobfuscation.cs,colback=black]
-        \begin{minted}[fontsize=\tiny]{csharp}
-          using System;
-          using System.Collections.Generic;
-          using System.IO;
-          using System.Linq;
-          using System.Security.Cryptography;
-          using System.Text;
-          using System.Threading.Tasks;
-          static string decode_0(string string_0){
-            string s = "[input unicode characters here]";
-            RijndaelManaged rijndaelManaged = new RijndaelManaged();
-            MD5CryptoServiceProvider md5CryptoServiceProvider = new MD5CryptoServiceProvider();
-            string result;
-            byte[] array = new byte[32];
-            byte[] sourceArray = md5CryptoServiceProvider.ComputeHash(Encoding.ASCII.GetBytes(s));
-            Array.Copy(sourceArray, 0, array, 0, 10);
-            Array.Copy(sourceArray, 0, array, 15, 10);
-            rijndaelManaged.Key = array;
-            rijndaelManaged.Mode = CipherMode.ECB;
-            ICryptoTransform cryptoTransform = rijndaelManaged.CreateDecryptor();
-            byte[] array2 = Convert.FromBase64String(string_0);
-            string @string = Encoding.ASCII.GetString(cryptoTransform.TransformFinalBlock(array2, 0, array2.Length));
-            result = @string;
-            return result;
-          }
-        \end{minted}
-    \end{tcolorbox}
-  \end{center}
-\end{frame}
-
-\begin{frame}[fragile]{}
-  \frametitle{KPot Deobfuscation Part 2}
-  \framesubtitle{unpacking: 0x0C}
-  \begin{center}
-    \begin{tcolorbox}[title=deobfuscation.cs,colback=black]
-        \begin{minted}[fontsize=\tiny]{csharp}
-          static string decode_1(string string_0){
-            string password = "fdfdfrtertert";
-            string s = "fdfdfrtertert";
-            string s2 = "@1B2c3D4sfg5F6g7H8";
-            byte[] bytes = Encoding.ASCII.GetBytes(s2);
-            byte[] bytes2 = Encoding.ASCII.GetBytes(s);
-            byte[] array = Convert.FromBase64String(string_0);
-            Rfc2898DeriveBytes rfc2898DeriveBytes = new Rfc2898DeriveBytes(password, bytes2, 2);
-            byte[] bytes3 = rfc2898DeriveBytes.GetBytes(32);
-            ICryptoTransform transform = new RijndaelManaged
-            {
-                Mode = CipherMode.CBC
-            }.CreateDecryptor(bytes3, bytes);
-            MemoryStream memoryStream = new MemoryStream(array);
-            CryptoStream cryptoStream = new CryptoStream(memoryStream, transform, CryptoStreamMode.Read);
-            byte[] array2 = new byte[checked(array.Length - 1 + 1)];
-            int count = cryptoStream.Read(array2, 0, array2.Length);
-            memoryStream.Close();
-            cryptoStream.Close();
-            return Encoding.UTF8.GetString(array2, 0, count);
-        }
-        \end{minted}
-    \end{tcolorbox}
-  \end{center}
-\end{frame}
-
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x0D}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - Stage 2 Injection API Function Name Decryption}
   \begin{center}
     \begin{figure}
-      \includegraphics[scale=1.35]{kpot-unpacking-10}
+      \includegraphics[width=14cm]{kpot-unpacking-10}
       \caption{Unpacking KPot - Process Hollowing Functions}
     \end{figure}
   \end{center}
-  NOTE: Looks like process hollowing, let's breakpoint right before the call to
-  NtResumeThread or delegate8!
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x0E}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - Stage 2 Unpacking Process Hollowing
+    with pe-sieve}
   \begin{center}
-    \begin{figure}
-      \includegraphics[scale=.81]{kpot-unpacking-11}
-      \caption{Unpacking KPot - Now we need to extract it with pe-seive!}
-    \end{figure}
+    \includegraphics[width=14cm]{kpot-unpacking-11}
   \end{center}
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x0F}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - Stealer Strings}
   \begin{center}
-    \begin{figure}
-      \includegraphics[scale=0.95]{kpot-unpacking-12}
-      \caption{Open with Cutter and now we can see strings!}
-    \end{figure}
+    \includegraphics[scale=0.95]{kpot-unpacking-12}
   \end{center}
 \end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
 \begin{frame}
-  \frametitle{Unpacking KPot}
-  \framesubtitle{unpacking: 0x10}
-  \begin{columns}
-    \begin{column}{.3\textwidth}
-      \begin{itemize}
-      \item{It's not .NET anymore?}
-      \item{Interesting Let's Look!}
-      \end{itemize}
-    \end{column}
-    \hfill
-    \begin{column}{.7\textwidth}
-      \begin{center}
-        \includegraphics[scale=1.50]{kpot-unpacking-13}
-      \end{center}
-    \end{column}
-  \end{columns}
+  \frametitle{KPot}
+  \framesubtitle{Operation Lawyer Loot - Final Payload C++?}
+  \begin{center}
+    \includegraphics[width=10cm]{kpot-unpacking-13}
+  \end{center}
 \end{frame}
+}
+
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
+\begin{frame}
+  \frametitle{Are we done?}
+  \begin{center}
+    \includegraphics[width=10cm]{frustrated-meme}
+  \end{center}
+\end{frame}
+}
 
 \begin{frame}
   \frametitle{References}
