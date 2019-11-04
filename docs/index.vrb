@@ -1,24 +1,31 @@
-\frametitle{}
-\frametitle{Guess the Calling Convention}
-  \framesubtitle{reverse\_engineering: 0x0f}
-  \begin{center}
-    \begin{tcolorbox}[title=hello.asm,colback=black]
-    \begin{minipage}{0.8\textwidth}
-      \begin{minted}[fontsize=\small]{asm}
-        section     .text                  ; the code section
-        global      _start                 ; tell linker entrypoint
-        _start:
-          mov     edx,len                  ; message length
-          mov     ecx,msg                  ; message to write
-          mov     ebx,1                    ; file descriptor stdout
-          mov     eax,4                    ; syscall number for write
-          int     0x80                     ; linux x86 interrupt
-          mov     eax,1                    ; syscall number for exit
-          int     0x80                     ; linux x86 interrupt
-        section     .data                  ; the data section
-          msg     db  'Hello, world!',0x0  ; null terminated string
-          len     equ \$ - msg             ; message length
-      \end{minted}
-    \end{minipage}
-    \end{tcolorbox}
-  \end{center}
+\frametitle{Operation Lawyer Loot}
+  \framesubtitle{KPot v2.0 - Yara Signature}
+\begin{figure}
+\tiny{
+\begin{verbatim}
+rule kpot_v2{
+     meta:
+        author = "TITAN"
+        company = "GoSecure"
+        description = "KPot v2.0 Operation Lawyer Loot"
+        created = "2019-09-15"
+        reference = "e66ba8277ea31ccb49a1b1ef6d612b9b"
+        type = "malware.stealer"
+        os = "windows"
+    strings:
+        $s0 = "%s\\Outlook.txt" wide
+        $s1 = "POP3 Password" wide
+        $s2 = "IMAP Password" wide
+        $s3 = "HTTP Password" wide
+        $s4 = "SMTP Password" wide
+        $s5 = "password-check"
+        $h0 = { 50 ?? ?? ?? ?? ?? ?? 83 c7 04 83 c4 18 ?? ?? 83 ff ??}
+        $h1 = { b9 19 04 00 00 66 3b c1 }
+    condition:
+    (uint16(0) == 0x5a4d and uint32(uint32(0x3c)) == 0x00004550) and
+    ($h0 and $h1) and ($s0 or $s1 or $s2 or $s3 or $s4 or $s5)
+}
+\end{verbatim}
+}
+\caption{KPot v2.0 - Yara Signature}
+\end{figure}
