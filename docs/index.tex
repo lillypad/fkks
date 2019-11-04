@@ -23,8 +23,6 @@
 \usepackage{tcolorbox}
 \usepackage[absolute,overlay]{textpos}
 
-
-
 \makeatletter
 \newenvironment{myitemize}{%
   \setlength{\topsep}{0pt}
@@ -138,7 +136,7 @@
       \item{Reverse Engineering}
       \item{Tools of the Trade}
       \item{Injection Techniques}
-      \item{Workshop}
+      \item{Operation Lawyer Loot}
       \end{itemize}
     \end{column}
     \hfill
@@ -168,14 +166,13 @@
   \framesubtitle{Don't be a Fool}
   \begin{tcolorbox}[title=disclaimer\_1.log,colback=gray]
     I (the speaker) do not assume any responsibility and shall not be held
-    liable for anyone who infects their machine with the malware supplied for
-    this workshop. \\
+    liable for anyone who infects their machine with the malware discussed in
+    this talk. \\
     \newline
     If you need help on preventing the infection of your host machine please
-    raise your hand during the workshop for assistance before you run anything. \\
+    speak to someone for assistance before you run anything. \\
     \newline
-    The malware used in this workshop can steal your data, shutdown nuclear
-    power plants, encrypt your files and more. \\
+    The malware discussed in this talk can steal your data and more. \\
   \end{tcolorbox}
 \end{frame}
 
@@ -201,7 +198,7 @@
 
 \begin{frame}
   \frametitle{Registers}
-  \framesubtitle{reverse\_engineering: 0x00}
+  \framesubtitle{reverse\_engineering}
   \begin{columns}
     \begin{column}{.50\textwidth}
       \begin{itemize}
@@ -227,7 +224,7 @@
 
 \begin{frame}
   \frametitle{Stack Overview}
-  \framesubtitle{reverse\_engineering: 0x02}
+  \framesubtitle{reverse\_engineering}
   \begin{columns}
     \begin{column}{.40\textwidth}
       \begin{itemize}
@@ -252,7 +249,7 @@
 
 \begin{frame}
   \frametitle{Stack Structure}
-  \framesubtitle{reverse\_engineering: 0x03}
+  \framesubtitle{reverse\_engineering}
   \begin{center}
     \includegraphics[scale=0.42]{the-stack}
   \end{center}
@@ -260,7 +257,7 @@
 
 \begin{frame}
   \frametitle{Control Flow}
-  \framesubtitle{reverse\_engineering: 0x04}
+  \framesubtitle{reverse\_engineering}
   \begin{columns}
     \begin{column}{.5\textwidth}
       \begin{itemize}
@@ -306,7 +303,7 @@
 
 \begin{frame}
   \frametitle{Calling Conventions}
-  \framesubtitle{reverse\_engineering: 0x05}
+  \framesubtitle{reverse\_engineering}
   \begin{columns}
     \begin{column}{.5\textwidth}
       \begin{itemize}
@@ -342,7 +339,7 @@
 
 \begin{frame}
   \frametitle{Windows Memory Structure}
-  \framesubtitle{reverse\_engineering: 0x06}
+  \framesubtitle{reverse\_engineering}
   \begin{columns}
     \begin{column}{.6\textwidth}
       \begin{itemize}
@@ -379,7 +376,7 @@
 
 \begin{frame}
   \frametitle{IAT and IDT}
-  \framesubtitle{reverse\_engineering: 0x07}
+  \framesubtitle{reverse\_engineering}
   \begin{columns}
     \begin{column}{.4\textwidth}
       \begin{itemize}
@@ -404,7 +401,7 @@
 
 \begin{frame}
   \frametitle{Assembly}
-  \framesubtitle{reverse\_engineering: 0x08}
+  \framesubtitle{reverse\_engineering}
   \begin{columns}
     \begin{column}{.35\textwidth}
       \begin{itemize}
@@ -429,7 +426,7 @@
 
 \begin{frame}[fragile]{}
   \frametitle{Assembly CDECL (Linux)}
-  \framesubtitle{reverse\_engineering: 0x09}
+  \framesubtitle{reverse\_engineering}
   \begin{center}
     \begin{tcolorbox}[title=cdecl.c,colback=black]
         \begin{minted}[fontsize=\small]{c}
@@ -444,7 +441,7 @@
 
 \begin{frame}[fragile]{}
   \frametitle{Assembly CDECL (Linux)}
-  \framesubtitle{reverse\_engineering: 0x0a}
+  \framesubtitle{reverse\_engineering}
   \begin{center}
     \begin{tcolorbox}[title=cdecl.asm,colback=black]
         \begin{minted}[fontsize=\small]{asm}
@@ -468,7 +465,7 @@
 
 \begin{frame}[fragile]{}
   \frametitle{Assembly STDCALL (Windows)}
-  \framesubtitle{reverse\_engineering: 0x0b}
+  \framesubtitle{reverse\_engineering}
   \begin{center}
     \begin{tcolorbox}[title=stdcall.c,colback=black]
         \begin{minted}[fontsize=\small]{c}
@@ -483,7 +480,7 @@
 
 \begin{frame}[fragile]{}
   \frametitle{Assembly STDCALL (Windows)}
-  \framesubtitle{reverse\_engineering: 0x0c}
+  \framesubtitle{reverse\_engineering}
   \begin{center}
     \begin{tcolorbox}[title=stdcall.asm,colback=black]
         \begin{minted}[fontsize=\small]{asm}
@@ -508,7 +505,7 @@
 
 \begin{frame}[fragile]{}
   \frametitle{Assembly FASTCALL}
-  \framesubtitle{reverse\_engineering: 0x0d}
+  \framesubtitle{reverse\_engineering}
   \begin{center}
     \begin{tcolorbox}[title=cdecl.c,colback=black]
         \begin{minted}[fontsize=\small]{c}
@@ -525,7 +522,7 @@
 
 \begin{frame}[fragile]{}
   \frametitle{Assembly FASTCALL}
-  \framesubtitle{reverse\_engineering: 0x0e}
+  \framesubtitle{reverse\_engineering}
   \begin{center}
     \begin{tcolorbox}[title=fastcall.asm,colback=black]
         \begin{minted}[fontsize=\small]{asm}
@@ -549,7 +546,7 @@
 
 \begin{frame}[fragile]{}
   \frametitle{Guess the Calling Convention}
-  \framesubtitle{reverse\_engineering: 0x0f}
+  \framesubtitle{reverse\_engineering}
   \begin{center}
     \begin{tcolorbox}[title=hello.asm,colback=black]
     \begin{minipage}{0.8\textwidth}
@@ -575,7 +572,7 @@
 
 \begin{frame}
   \frametitle{Assembler and Linking}
-  \framesubtitle{reverse\_engineering: 0x10}
+  \framesubtitle{reverse\_engineering}
   \begin{center}
     \begin{tcolorbox}[title=terminal,colback=black]
       \begin{minipage}{0.8\textwidth}
@@ -595,7 +592,7 @@
 
 \begin{frame}
   \frametitle{Assembly Flavors}
-  \framesubtitle{reverse\_engineering: 0x11}
+  \framesubtitle{reverse\_engineering}
   \begin{center}
     \includegraphics[scale=0.35]{intel-vs-atnt-meme}
   \end{center}
@@ -610,7 +607,7 @@
 
 \begin{frame}
   \frametitle{VirtualBox}
-  \framesubtitle{tools\_of\_the\_trade: 0x00}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{columns}
     \begin{column}{.3\textwidth}
       \begin{itemize}
@@ -628,7 +625,7 @@
 
 \begin{frame}
   \frametitle{x64dbg}
-  \framesubtitle{tools\_of\_the\_trade: 0x01}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{columns}
     \begin{column}{.3\textwidth}
       \begin{itemize}
@@ -649,7 +646,7 @@
 
 \begin{frame}
   \frametitle{x64dbg}
-  \framesubtitle{tools\_of\_the\_trade: 0x02}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{center}
     \includegraphics[scale=0.75]{x64dbg-overview}
   \end{center}
@@ -657,7 +654,7 @@
 
 \begin{frame}
   \frametitle{x64dbg}
-  \framesubtitle{tools\_of\_the\_trade: 0x03}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{center}
     \includegraphics[scale=0.75]{x64dbg-navigation}
   \end{center}
@@ -665,7 +662,7 @@
 
 \begin{frame}
   \frametitle{x64dbg}
-  \framesubtitle{tools\_of\_the\_trade: 0x04}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{center}
     \includegraphics[scale=0.75]{x64dbg-context-menu}
   \end{center}
@@ -673,7 +670,7 @@
 
 \begin{frame}
   \frametitle{Cutter}
-  \framesubtitle{tools\_of\_the\_trade: 0x05}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{columns}
     \begin{column}{.3\textwidth}
       \begin{itemize}
@@ -693,7 +690,7 @@
 
 \begin{frame}
   \frametitle{Cutter}
-  \framesubtitle{tools\_of\_the\_trade: 0x06}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{center}
     \includegraphics[scale=0.18]{cutter-graph}
   \end{center}
@@ -701,7 +698,7 @@
 
 \begin{frame}
   \frametitle{Cutter}
-  \framesubtitle{tools\_of\_the\_trade: 0x07}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{center}
     \includegraphics[scale=0.75]{cutter-navigation}
   \end{center}
@@ -709,7 +706,7 @@
 
 \begin{frame}
   \frametitle{Radare2}
-  \framesubtitle{tools\_of\_the\_trade: 0x08}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{center}
     \includegraphics[scale=0.18]{radare2}
   \end{center}
@@ -717,7 +714,7 @@
 
 \begin{frame}
   \frametitle{Detect it Easy}
-  \framesubtitle{tools\_of\_the\_trade: 0x09}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{columns}
     \begin{column}{.2\textwidth}
       \begin{itemize}
@@ -736,7 +733,7 @@
 
 \begin{frame}
   \frametitle{DnSpy}
-  \framesubtitle{tools\_of\_the\_trade: 0x0b}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{columns}
     \begin{column}{.3\textwidth}
       \begin{itemize}
@@ -754,7 +751,7 @@
 
 \begin{frame}
   \frametitle{Useful Linux Commads}
-  \framesubtitle{tools\_of\_the\_trade: 0x0c}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{center}
     \begin{tcolorbox}[title=terminal,colback=black]
       \begin{minipage}{0.8\textwidth}
@@ -784,7 +781,7 @@
 
 \begin{frame}
   \frametitle{de4dot}
-  \framesubtitle{tools\_of\_the\_trade: 0xd}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{columns}
     \begin{column}{.3\textwidth}
       \begin{itemize}
@@ -802,7 +799,7 @@
 
 \begin{frame}
   \frametitle{pe-sieve}
-  \framesubtitle{tools\_of\_the\_trade: 0xe}
+  \framesubtitle{tools\_of\_the\_trade}
   \begin{columns}
     \begin{column}{.5\textwidth}
       \begin{itemize}
@@ -827,7 +824,7 @@
 
 \begin{frame}
   \frametitle{DLL Injection}
-  \framesubtitle{injection\_techniques: 0x00}
+  \framesubtitle{injection\_techniques}
   \begin{columns}
     \begin{column}{.3\textwidth}
       \begin{itemize}
@@ -848,7 +845,7 @@
 
 \begin{frame}
   \frametitle{PE (Portable Executable) Injection}
-  \framesubtitle{injection\_techniques: 0x01}
+  \framesubtitle{injection\_techniques}
   \begin{columns}
     \begin{column}{.5\textwidth}
       \begin{itemize}
@@ -870,8 +867,34 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Atom Bombing}
+  \framesubtitle{injection\_techniques}
+  \begin{columns}
+    \begin{column}{.4\textwidth}
+      \begin{itemize}
+        \item{Open Target Process}
+        \item{Get Handle to Alertable Thread}
+        \item{Find Code Cave}
+        \item{Shellcode to Call ZwAllocateVirtualMemory and memcpy}
+        \item{Call GlobalAddAtom}
+        \item {Suspend Target Thread}
+        \item{NtQueueApcThread}
+        \item{Resume Target Thread}
+      \end{itemize}
+    \end{column}
+    \hfill
+    \begin{column}{.6\textwidth}
+      \begin{center}
+        \includegraphics[scale=0.30]{atom-bombing}
+      \end{center}
+    \end{column}
+  \end{columns}
+  % An atom table is a system-defined table that stores strings and corresponding identifiers. An application places a string in an atom table and receives a 16-bit integer, called an atom, that can be used to access the string. A string that has been placed in an atom table is called an atom name.
+\end{frame}
+
+\begin{frame}
   \frametitle{Process Hollowing}
-  \framesubtitle{injection\_techniques: 0x02}
+  \framesubtitle{injection\_techniques}
   \begin{columns}
     \begin{column}{.5\textwidth}
       \begin{itemize}
