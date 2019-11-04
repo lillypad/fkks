@@ -1,0 +1,7 @@
+C:\Users\malware\source\repos\decrypt\decrypt\bin\Debug\decrypt.exe.config
+C:\Users\malware\source\repos\decrypt\decrypt\bin\Debug\decrypt.exe
+C:\Users\malware\source\repos\decrypt\decrypt\bin\Debug\decrypt.pdb
+C:\Users\malware\source\repos\decrypt\decrypt\obj\Debug\decrypt.csprojAssemblyReference.cache
+C:\Users\malware\source\repos\decrypt\decrypt\obj\Debug\decrypt.csproj.CoreCompileInputs.cache
+C:\Users\malware\source\repos\decrypt\decrypt\obj\Debug\decrypt.exe
+C:\Users\malware\source\repos\decrypt\decrypt\obj\Debug\decrypt.pdb

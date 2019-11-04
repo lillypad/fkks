@@ -1,5 +1,8 @@
 \frametitle{Operation Lawyer Loot}
   \framesubtitle{KPot v2.0 - Yara Signature}
+  \AddToShipoutPictureFG*{
+    \makebox(800,118){\includegraphics[width=4cm]{anime-tired}}
+  }
 \begin{figure}
 \tiny{
 \begin{verbatim}
