@@ -8,7 +8,7 @@
 
 # KPot v2.0 String Decryptor
 
-By turning KPot v2.0 against itself with pseudo emulation techniques I was able to decrypt all of it's strings.
+By turning KPot v2.0 against itself with pseudo emulation techniques I was able to decrypt most of it's strings.
 
 ```bash
 cd src/kp2dc/
