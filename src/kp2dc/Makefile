@@ -14,12 +14,15 @@ build:
 	gcc bin/emu.o src/main.c -g -no-pie -masm=intel -m32 -Wno-char-subscripts -o bin/kp2dc
 
 strings-all:
+	bin/kp2dc -h
 	bin/kp2dc -a bin/sample.bin
 
 strings-domain:
-	bin/kp2dc -d bin/sample.bin
+	bin/kp2dc -h
+	bin/kp2dc -d bin/sample.bin | sed 's/http/hxxp/;s/\./\[\.\]/g'
 
 strings-key:
+	bin/kp2dc -h
 	bin/kp2dc -k bin/sample.bin
 
 clean:

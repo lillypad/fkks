@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "b64.h"
+#include "b64/b64.h"
 
 #define MAX_STR_LEN 1024
 
@@ -9,12 +9,13 @@ void help_menu(){
   char menu[] =
 
     "/-------------------------------------------------------\\\n"
-    "|              KPot v2.0 Decryptor                      |\n"
+    "|              KPot v2.0 Decrypt/Encrypt                |\n"
     "|-------------------------------------------------------|\n"
     "|  -h, --help             Print this Help Menu          |\n"
     "|  -a, --all     [sample] Dump All Strings              |\n"
     "|  -k, --key     [sample] Dump C2 Server Decryption Key |\n"
     "|  -d, --domain  [sample] Dump C2 Domain                |\n"
+    "|  -c, --c2      [base64] Decrypt C2 base64             |\n"
     "|-------------------------------------------------------|\n"
     "| Company: GoSecure TITAN                               |\n"
     "| Author : Lilly Chalupowski                            |\n"
@@ -78,6 +79,18 @@ int32_t *read_sample(char* fn){
   return ed0;
 }
 
+int32_t *read_textfile(char* fn){
+  int size;
+  FILE *fp = fopen(fn, "rb");
+  size = fsize(fp);
+  fseek(fp, 0, SEEK_SET);
+  void *ed0 = malloc(size + 1);
+  memset(ed0, 0, size + 1);
+  fread(ed0, 1, size, fp);
+  fclose(fp);
+  return ed0;
+}
+
 // Function Definitions
 int32_t *sd0(int32_t *sb, int32_t sid, int32_t *bin);
 
@@ -112,7 +125,7 @@ int main(int argc, char **argv){
       void *sb = malloc(MAX_STR_LEN);
       memset(sb, 0, MAX_STR_LEN);
       sd0(sb, 0, bin);
-      printf("KPot v2.0 C2 Domain: %s\n", (char *)sb);
+      printf("C2 Domain: %s\n", (char *)sb);
       free(sb);
       free(bin);
       return 0;
@@ -123,9 +136,17 @@ int main(int argc, char **argv){
       void *sb = malloc(MAX_STR_LEN);
       memset(sb, 0, MAX_STR_LEN);
       sd0(sb, 2, bin);
-      printf("KPot v2.0 C2 Server Decryption Key: %s\n", (char *)sb);
+      printf("C2 Server Decrypt/Encrypt Key: %s\n", (char *)sb);
       free(sb);
       free(bin);
+    }
+    if (strcmp(argv[a], "-c") == 0 ||
+        strcmp(argv[a], "--c2") == 0){
+      printf("KPot v2.0 C2 Server Decrypt/Encrypt\n");
+      void *dec = base64_decode(argv[a+1]);
+      hex_dump("base64 decoding stage", dec, base64_output_size(argv[a+1]));
+      free(dec);
+      printf("More coming soon...\n");
     }
   }
   return 0;
