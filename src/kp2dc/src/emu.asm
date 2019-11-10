@@ -4,9 +4,9 @@ section .text
 
 ;; 0x400C00 Image Base Modifier
 
+;; String Decryptor
 sd0:
   push ebp
-	;; push esi
   mov ebp, esp
   mov edi, [ebp + 0x8]           ; Parameter: Pointer to String Buffer
   mov eax, [ebp + 0xc]          ; Parameter: String ID
@@ -14,7 +14,6 @@ sd0:
 	push ebx
   push esi
   mov ebx, ecx
-  ;; mov eax, 0xa7
   movzx eax, ax
   lea eax, [eax*8 + ebx + 0x668] ; Hard-coded Offset
   xor ecx, ecx
@@ -36,13 +35,36 @@ addr_40c985:
   movzx eax, word [eax + 2]
   mov byte [eax + edi], 0
   mov eax, edi
-  ;; pop ebx
-  ;; pop esi
   pop esi
   pop ebx
   pop ebp
   ret
 
-section .data
+;; C2 Server Decryptor / Encryptor
+sd1:
+  push ebp
+  mov ebp, esp
+  push esi
+  xor esi, esi
+  cmp dword [ebp + 0xc], esi
+  jbe addr_403ddd
+addr_403dc2:
+  mov eax, dword [ebp + 0x8]
+  lea ecx, [esi + eax]
+  xor edx, edx
+  mov eax, esi
+  div dword [ebp + 0x14]
+  mov eax, dword [ebp + 0x10]
+  mov al, byte [edx + eax]
+  xor byte [ecx], al
+  inc esi
+  cmp esi, dword [ebp + 0xc]
+  jb addr_403dc2
+addr_403ddd:
+  pop esi
+  pop ebp
+  ret
+
+;; section .data
 
 ;; ed0:  incbin "sample.bin"
