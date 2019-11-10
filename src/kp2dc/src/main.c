@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h>
 #include "b64/b64.h"
 
-#define MAX_STR_LEN 1024
+#define MAX_STR_LEN 2048
 
 void help_menu(){
   char menu[] =
@@ -16,6 +17,7 @@ void help_menu(){
     "|  -k, --key     [sample] Dump C2 Server Decryption Key |\n"
     "|  -d, --domain  [sample] Dump C2 Domain                |\n"
     "|  -c, --c2      [base64] Decrypt C2 base64             |\n"
+    "|  --std-in               Use stdin for -c, --c2        |\n"
     "|-------------------------------------------------------|\n"
     "| Company: GoSecure TITAN                               |\n"
     "| Author : Lilly Chalupowski                            |\n"
@@ -95,9 +97,15 @@ int32_t *read_textfile(char* fn){
 int32_t *sd0(int32_t *sb, int32_t sid, int32_t *bin);
 
 int main(int argc, char **argv){
+  bool bstdin = false;
   if (argc <= 1){
     help_menu();
     return 0;
+  }
+  for (int a = 0; a < argc; a++){
+    if (strcmp(argv[a], "--std-in") == 0){
+      bstdin = true;
+    }
   }
   for (int a = 0; a < argc; a++){
     if (strcmp(argv[a], "-h") == 0 ||
@@ -142,10 +150,29 @@ int main(int argc, char **argv){
     }
     if (strcmp(argv[a], "-c") == 0 ||
         strcmp(argv[a], "--c2") == 0){
-      printf("KPot v2.0 C2 Server Decrypt/Encrypt\n");
-      void *dec = base64_decode(argv[a+1]);
-      hex_dump("base64 decoding stage", dec, base64_output_size(argv[a+1]));
-      free(dec);
+      printf("KPot v2.0 C2 Server Decrypt/Encrypt\n\n");
+      void *dec = NULL;
+      if (bstdin == true){
+        char *txt = malloc(MAX_STR_LEN);
+        memset(txt, 0, MAX_STR_LEN);
+        fgets(txt, MAX_STR_LEN, stdin);
+        printf("C2 Server Base64 String:\n");
+        printf("%s\n", txt);
+        dec = base64_decode(txt);
+        hex_dump("C2 Base64 Decoded String", dec, base64_output_size(txt));
+        free(txt);
+        free(dec);
+        return 0;
+      } else{
+        if (argc < 3){
+          help_menu();
+          fprintf(stderr, "Not enough arguments...\n");
+          return 1;
+        }
+        dec = base64_decode(argv[a+1]);
+        hex_dump("base64 decoding stage", dec, base64_output_size(argv[a+1]));
+        free(dec);
+      }
       printf("More coming soon...\n");
     }
   }
