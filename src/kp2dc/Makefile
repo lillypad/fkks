@@ -11,7 +11,7 @@ demo-key: build extract-sample strings-key clean
 
 build:
 	nasm -f elf32 -o bin/emu.o src/emu.asm
-	gcc bin/emu.o src/main.c -g -no-pie -masm=intel -m32 -o bin/kp2dc
+	gcc bin/emu.o src/main.c -g -no-pie -masm=intel -m32 -Wno-char-subscripts -o bin/kp2dc
 
 strings-all:
 	bin/kp2dc -a bin/sample.bin

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "b64.h"
 
 #define MAX_STR_LEN 1024
 
