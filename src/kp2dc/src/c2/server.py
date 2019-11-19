@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
+import os
+import time
 from flask import Flask
 from flask import Response
+from flask import request
 
 app = Flask(__name__)
 
@@ -13,6 +16,19 @@ def checkin():
 	#resp.headers['Transfer-Encoding'] = 'chunked'
 	#resp.headers['Connection'] = 'close'
 	resp.headers['X-Powered-By'] = 'PHP/7.1.29'
+	return resp
+
+@app.route('/BOH9KGa4jvUsU4jL/gate.php', methods=['POST'])
+def exfiltrate():
+	print(request.headers)
+	date = time.strftime("%Y-%m-%dT%H:%M:%S")
+	fp = open(date + '.bin', 'wb')
+	fp.write(request.data)
+	fp.close()
+	os.system('hexdump -C ' + date + '.bin')
+	resp = Response('OK')
+	resp.headers['Server'] = 'nginx/1.14.1'
+	resp.headers['X-Powered-By'] = 'PHP/7.1.1.29'
 	return resp
 
 if __name__ == '__main__':
