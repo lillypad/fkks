@@ -95,6 +95,7 @@ int32_t *read_textfile(char* fn){
 
 // Function Definitions
 int32_t *sd0(int32_t *sb, int32_t sid, int32_t *bin);
+int32_t *c2dec(int32_t *data, int32_t data_size, int32_t *key, int32_t key_length);
 
 int main(int argc, char **argv){
   bool bstdin = false;
@@ -160,6 +161,7 @@ int main(int argc, char **argv){
         printf("%s\n", txt);
         dec = base64_decode(txt);
         hex_dump("C2 Base64 Decoded String", dec, base64_output_size(txt));
+        //c2dec(dec, 0xfa, (int32_t *)"KIt2h6qJ1XT2jMa0", 0x10);
         free(txt);
         free(dec);
         return 0;
@@ -171,6 +173,7 @@ int main(int argc, char **argv){
         }
         dec = base64_decode(argv[a+1]);
         hex_dump("base64 decoding stage", dec, base64_output_size(argv[a+1]));
+        //c2dec(dec, 0xfa, (int32_t *)"KIt2h6qJ1XT2jMa0", 0x10);
         free(dec);
       }
       printf("More coming soon...\n");

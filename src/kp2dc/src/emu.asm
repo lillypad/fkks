@@ -41,7 +41,11 @@ addr_40c985:
   ret
 
 ;; C2 Server Decryptor / Encryptor
-sd1:
+;; 0: ptr to base64 decoded data
+;; 1: data size
+;; 2: ptr to decryption key
+;; 3: decryption key length
+c2dec:
   push ebp
   mov ebp, esp
   push esi
