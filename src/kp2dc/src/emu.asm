@@ -1,4 +1,5 @@
 global sd0
+global c2dec
 
 section .text
 
