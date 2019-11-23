@@ -6,12 +6,13 @@
 - Code for decoding the strings for the stage 2 loader are in the `src` directory
 - Slides are located in `docs/index.pdf`
 
-# KPot v2.0 Decryptor
+# KPot v2.0 Crypt/Decrypt
 
-By turning KPot v2.0 against itself with pseudo emulation techniques, I was able to decrypt all of its strings.
+By turning KPot v2.0 against itself with pseudo emulation techniques, I was able to decrypt all of its strings and its C2 exfiltration data.
 
 :notebook: Yes, there are two string decryption functions, they are however redundant. :laughing:
 
+__Building and Using the Crypt/Decrypt Tool:__
 ```bash
 malware@work ~$ cd src/kp2dc/
 malware@work ~$ make
@@ -49,9 +50,9 @@ kp2dc --decrypt-sid [SID#] -i sample.bin
 malware@work ~$ make install
 ```
 
-KPot v2.0 uses IDs from `0` to `182` and other hard-coded data to perform the XOR decryption.
+The `src/kp2dc/src/c2/server.py` script can be used to raise your own C2 server, it will write `bin` files to the same folder with the date-time. You can decrypt these files later on using the `kp2dc` tool that you extracted the key with using the `--crypt-file` method. :laughing:
 
-I will create a KPot v2.0 C2 server decryptor as well, though string decryption should help other researchers for now. :smirk_cat:
+KPot v2.0 uses IDs from `0` to `182` and other hard-coded data to perform the XOR decryption.
 
 If you like this research and want to support my work give me a :star:.
 
