@@ -13,15 +13,40 @@ By turning KPot v2.0 against itself with pseudo emulation techniques, I was able
 :notebook: Yes, there are two string decryption functions, they are however redundant. :laughing:
 
 ```bash
-cd src/kp2dc/
-make                             # Build KPot v2.0 Encrypt/Decrypt Tool
-make extract-sample              # Extract KPot v2.0 Sample (password: 'infected')
-cd bin/
-./kp2dc -d sample.bin            # C2 Domain Decryption
-./kp2dc -k sample.bin            # C2 Communication Key Decryption
-./kp2dc -a sample.bin            # Decrypt All Strings
-./kp2dc -c [base64]              # Decrypt C2 Data (incomplete)
-cat c2.b64 | ./kp2dc --std-in -c # Decrypt C2 Data (incomplete)
+malware@work ~$ cd src/kp2dc/
+malware@work ~$ make
+malware@work ~$ make extract-sample
+malware@work ~$ bin/kp2dc --help
+/----------------------------------------------------------\
+|              KPot v2.0 Decrypt/Encrypt                   |
+|----------------------------------------------------------|
+|  -h, --help                Print this Help Menu          |
+|  --decrypt-strings         Dump All Strings              |
+|  -q, --quiet               Silence Output                |
+|  --extract-key             Dump C2 Server Decryption Key |
+|  --extract-domain          Dump C2 Domain                |
+|  --decrypt-sid      [#]    Decrypt String by ID          |
+|  -k, --key        [keystr] Crypt Key String              |
+|  --crypt-file              Crypt File                    |
+|  -o, --output     [_file_] Output to File                |
+|  -i, --input      [_file_] Input File                    |
+|  --crypt-stdin             StdIn (base64 only)           |
+|  --examples                Show Examples                 |
+|  -v, --version             Show Version                  |
+|----------------------------------------------------------|
+| Company: GoSecure TITAN                                  |
+| Author : Lilly Chalupowski                               |
+\----------------------------------------------------------/
+malware@work ~$ bin/kp2dc --examples
+kp2dc --extract-key -i sample.bin
+kp2dc --extract-domain -i sample.bin
+kp2dc --decrypt-strings -i sample.bin
+kp2dc --examples
+kp2dc --crypt-file -i data.bin --key [KEY] -o out.bin
+cat c2.b64 | kp2dc --crypt-stdin --key [KEY] -o out.bin
+kp2dc --decrypt-strings --sid-low 0 --sid-high 182 -i sample.bin
+kp2dc --decrypt-sid [SID#] -i sample.bin
+malware@work ~$ make install
 ```
 
 KPot v2.0 uses IDs from `0` to `182` and other hard-coded data to perform the XOR decryption.
