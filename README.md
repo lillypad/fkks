@@ -6,7 +6,7 @@
 - Code for decoding the strings for the stage 2 loader are in the `src` directory
 - Slides are located in `docs/index.pdf`
 
-# KPot v2.0 Crypt/Decrypt
+# KPot v2.0 Encrypt/Decrypt Strings and C2 Exiltrated Data
 
 By turning KPot v2.0 against itself with pseudo emulation techniques, I was able to decrypt all of its strings and its C2 exfiltration data.
 
