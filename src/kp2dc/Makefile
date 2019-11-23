@@ -33,10 +33,16 @@ strings-exfil:
 		--key $(shell bin/kp2dc --extract-key -i bin/sample.bin) \
 		-i bin/data/exfil.bin
 
-install:
+install-local:
 	cp bin/kp2dc ~/.local/bin/
 
+install:
+	cp bin/kp2dc /usr/bin/
+
 uninstall:
+	rm -f /usr/bin/kp2dc
+
+uninstall-local:
 	rm -f ~/.local/bin/kp2dc
 
 clean:

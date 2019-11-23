@@ -7,8 +7,6 @@ from flask import Flask
 from flask import Response
 from flask import request
 
-config = "enhFA1kHQHsAaWUDW3xQARQWMHckfzwHbgdlBVhjWAhlf0McWmkuDnQUHX8nEj5ROzkQUxxXLhV2ChVwKAgzbxRjWl4HUV1gHywsRkYSPncZCDZwLWQuFRQ5JEIOLBVRbhYrdTp3Mwh0CgttWhI+dxkINnAtZC4VAGhmBjUSJXUHADl/N2kVL0IzIF0aEhVIPxYrdTp3Mwh0CgttQGMVSD9lK20vZDAIcx0GbTVoFEMuOwRAB1AYJlR9CHYPPgpEJDkrbS9kMAhzHQZtNX0+bwwbNXAqcyMVbmlhAjUSJXUHADl/N2kuFXUdGHsnAD5vFBYwdyR/PAduBw=="
-
 parser = argparse.ArgumentParser()
 parser.add_argument("--path",
                     type=str,
@@ -51,8 +49,10 @@ args = parser.parse_args()
 
 if os.path.isdir(args.output) != True:
         print("Error: Output Folder for Loot does not exist...")
+        exit()
 
 def main():
+        config = "enhFA1kHQHsAaWUDW3xQARQWMHckfzwHbgdlBVhjWAhlf0McWmkuDnQUHX8nEj5ROzkQUxxXLhV2ChVwKAgzbxRjWl4HUV1gHywsRkYSPncZCDZwLWQuFRQ5JEIOLBVRbhYrdTp3Mwh0CgttWhI+dxkINnAtZC4VAGhmBjUSJXUHADl/N2kVL0IzIF0aEhVIPxYrdTp3Mwh0CgttQGMVSD9lK20vZDAIcx0GbTVoFEMuOwRAB1AYJlR9CHYPPgpEJDkrbS9kMAhzHQZtNX0+bwwbNXAqcyMVbmlhAjUSJXUHADl/N2kuFXUdGHsnAD5vFBYwdyR/PAduBw=="
         if args.config != None:
                 f = open(args.config, 'r')
                 config = f.read()
@@ -80,6 +80,7 @@ def main():
                 encrypted_filepath = os.path.join(args.output, encrypted_filename)
                 decrypted_filename = 'decrypted-' + date + '.bin'
                 decrypted_filepath = os.path.join(args.output, decrypted_filename)
+                print(decrypted_filepath)
                 fp = open(encrypted_filepath, 'wb')
                 fp.write(request.
                          data)
@@ -87,7 +88,7 @@ def main():
                 if args.debug == True:
                         os.system('kp2dc --crypt-file -k ' + args.key + ' -i ' + encrypted_filepath + ' -o ' + decrypted_filepath)
                 else:
-                        os.system('kp2dc --crypt-file -k ' + args.key + ' -i ' + encrypted_filepath + ' -o ' + decrypted_filepath)
+                        os.system('kp2dc --crypt-file -q -k ' + args.key + ' -i ' + encrypted_filepath + ' -o ' + decrypted_filepath)
                 # if args.debug == True:
                 #         os.system('hexdump -C decrypted-' + date + '.bin')
                 resp = Response('OK')
