@@ -7,6 +7,9 @@
 
 #define MAX_STR_LEN 1024
 #define VERSION "v1.0"
+#define MODULE_SUCCESS 0
+#define MODULE_FAIL 1
+#define MODULE_SKIP 2
 
 void help_menu(){
   char menu[] =
@@ -141,6 +144,7 @@ struct args_t{
   bool bQuiet;
 };
 
+
 struct args_t *pArgsInit(){
   struct args_t *args = malloc(sizeof(struct args_t));
   args->bStdIn = false;
@@ -164,6 +168,22 @@ void ArgsCleanup(struct args_t *pArgs){
     free(pArgs->pInputFile);
   }
   free(pArgs);
+}
+
+int iModuleCheck(int iModuleStatus, struct args_t *pArgs){
+  switch (iModuleStatus){
+  case MODULE_SUCCESS:
+    ArgsCleanup(pArgs);
+    exit(EXIT_SUCCESS);
+    break;
+  case MODULE_FAIL:
+    ArgsCleanup(pArgs);
+    exit(EXIT_FAILURE);
+    break;
+  case MODULE_SKIP:
+    break;
+  }
+  return MODULE_SKIP;
 }
 
 int iArgsParse(int argc, char **argv, struct args_t *pArgs){
@@ -239,7 +259,7 @@ int iArgsParse(int argc, char **argv, struct args_t *pArgs){
 int32_t *sd0(int32_t *sb, int32_t sid, int32_t *bin);
 int32_t *c2dec(int32_t *data, int32_t data_size, int32_t *key, int32_t key_length);
 
-int iModuleAllStrings(struct args_t *pArgs){
+void iModuleAllStrings(struct args_t *pArgs){
   if (pArgs->bAllStrings == true && pArgs->pInputFile!= NULL){
     void *sb = malloc(MAX_STR_LEN);
     for (int i = pArgs->iSidLow; i < pArgs->iSidHigh; i++){
@@ -249,12 +269,12 @@ int iModuleAllStrings(struct args_t *pArgs){
       hex_dump("", sb, strlen(sb) + 1);
     }
     free(sb);
-    return 0;
+    iModuleCheck(MODULE_SUCCESS, pArgs);
   }
-  return 1;
+  iModuleCheck(MODULE_SKIP, pArgs);
 }
 
-int iModuleExtractKey(struct args_t *pArgs){
+void iModuleExtractKey(struct args_t *pArgs){
   if (pArgs->bExtractKey == true && pArgs->pInputFile != NULL){
     void *sb = malloc(MAX_STR_LEN);
     memset(sb, 0, MAX_STR_LEN);
@@ -264,16 +284,16 @@ int iModuleExtractKey(struct args_t *pArgs){
     }
     if (pArgs->pOutputFile != NULL){
       if (bWriteFile(pArgs->pOutputFile, sb, strlen(sb)) == false){
-        return 1;
+        iModuleCheck(MODULE_FAIL, pArgs);
       }
     }
     free(sb);
-    return 0;
+    iModuleCheck(MODULE_SUCCESS, pArgs);
   }
-  return 1;
+  iModuleCheck(MODULE_SKIP, pArgs);
 }
 
-int iModuleExtractDomain(struct args_t *pArgs){
+void iModuleExtractDomain(struct args_t *pArgs){
   if (pArgs->bDomain == true && pArgs->pInputFile != NULL){
     void *sb = malloc(MAX_STR_LEN);
     memset(sb, 0, MAX_STR_LEN);
@@ -283,16 +303,16 @@ int iModuleExtractDomain(struct args_t *pArgs){
     }
     if (pArgs->pOutputFile != NULL){
       if (bWriteFile(pArgs->pOutputFile, sb, strlen(sb)) == false){
-        return 1;
+        iModuleCheck(MODULE_FAIL, pArgs);
       }
     }
     free(sb);
-    return 0;
+    iModuleCheck(MODULE_SUCCESS, pArgs);
   }
-  return 1;
+  iModuleCheck(MODULE_SKIP, pArgs);
 }
 
-int iModuleStdIn(struct args_t *pArgs){
+void iModuleStdIn(struct args_t *pArgs){
   if (pArgs->bStdIn == true && pArgs->pKey != NULL){
     char *txt = malloc(MAX_STR_LEN);
     memset(txt, 0, MAX_STR_LEN);
@@ -311,17 +331,17 @@ int iModuleStdIn(struct args_t *pArgs){
     }
     if (pArgs->pOutputFile != NULL){
       if (bWriteFile(pArgs->pOutputFile, dec, base64_output_size(txt)) == false){
-        return 1;
+        iModuleCheck(MODULE_FAIL, pArgs);
       }
     }
     free(txt);
     free(dec);
-    return 0;
+    iModuleCheck(MODULE_SUCCESS, pArgs);
   }
-  return 1;
+  iModuleCheck(MODULE_SKIP, pArgs);
 }
 
-int iModuleSID(struct args_t *pArgs){
+void iModuleSID(struct args_t *pArgs){
   if (pArgs->iSid != -1 && pArgs->iSid >= 0 && pArgs->pInputFile != NULL){
     void *sb = malloc(MAX_STR_LEN);
     memset(sb, 0, MAX_STR_LEN);
@@ -330,12 +350,12 @@ int iModuleSID(struct args_t *pArgs){
       printf("%s\n", (char *)sb);
     }
     free(sb);
-    return 0;
+    iModuleCheck(MODULE_SUCCESS, pArgs);
   }
-  return 1;
+  iModuleCheck(MODULE_SKIP, pArgs);
 }
 
-int iModuleCryptFile(struct args_t *pArgs){
+void iModuleCryptFile(struct args_t *pArgs){
   if (pArgs->bDecryptFile == true && pArgs->pInputFile != NULL && pArgs->pKey != NULL){
     if (pArgs->bQuiet != true){
       hex_dump("encrypted", pArgs->pInputFile, pArgs->iInputFileSize);
@@ -346,13 +366,14 @@ int iModuleCryptFile(struct args_t *pArgs){
     }
     if (pArgs->pOutputFile != NULL){
       if (bWriteFile(pArgs->pOutputFile, pArgs->pInputFile, pArgs->iInputFileSize) == false){
-        return 1;
+        iModuleCheck(MODULE_FAIL, pArgs);
       }
     }
-    return 0;
+    iModuleCheck(MODULE_SUCCESS, pArgs);
   }
-  return 1;
+  iModuleCheck(MODULE_SKIP, pArgs);
 }
+
 
 int main(int argc, char **argv){
   struct args_t *pArgs = pArgsInit();
@@ -365,6 +386,5 @@ int main(int argc, char **argv){
   iModuleStdIn(pArgs);
   iModuleSID(pArgs);
   iModuleCryptFile(pArgs);
-  ArgsCleanup(pArgs);
   return 0;
 }

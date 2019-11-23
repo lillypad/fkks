@@ -14,7 +14,8 @@ By turning KPot v2.0 against itself with pseudo emulation techniques, I was able
 
 __Building and Using the Encrypt/Decrypt Tool:__
 ```bash
-malware@work ~$ cd src/kp2dc/
+malware@work ~$ git clone https://github.com/lillypad/fkks.git
+malware@work ~$ cd fkks/src/kp2dc/
 malware@work ~$ make
 malware@work ~$ make extract-sample
 malware@work ~$ bin/kp2dc --help
@@ -51,6 +52,11 @@ malware@work ~$ make install
 ```
 
 The `src/kp2dc/src/c2/server.py` script can be used to raise your own C2 server, it will write `bin` files to the same folder with the date-time. You can decrypt these files later on using the `kp2dc` tool that you extracted the key with using the `--crypt-file` method. :laughing:
+
+__Decrypt and Extract Stolen Data:__
+```bash
+malware@work ~$ kp2dc --crypt-file -i data/exfil.bin -k (kp2dc --extract-key -i sample.bin) -o out.bin -q
+```
 
 KPot v2.0 uses IDs from `0` to `182` and other hard-coded data to perform the XOR decryption.
 
