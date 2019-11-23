@@ -12,7 +12,7 @@ By turning KPot v2.0 against itself with pseudo emulation techniques, I was able
 
 :notebook: Yes, there are two string decryption functions, they are however redundant. :laughing:
 
-__Building and Using the Crypt/Decrypt Tool:__
+__Building and Using the Encrypt/Decrypt Tool:__
 ```bash
 malware@work ~$ cd src/kp2dc/
 malware@work ~$ make
