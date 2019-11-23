@@ -51,7 +51,37 @@ kp2dc --decrypt-sid [SID#] -i sample.bin
 malware@work ~$ make install
 ```
 
-The `src/kp2dc/src/c2/server.py` script can be used to raise your own C2 server, it will write `bin` files to the same folder with the date-time. You can decrypt these files later on using the `kp2dc` tool that you extracted the key with using the `--crypt-file` method. :laughing:
+__Spawning Your C2 Server:__
+```bash
+malware@work ~$ cd src/kp2dc/bin/
+malware@work ~$ ./kp2dc --extract-key -i sample.bin
+malware@work ~$ ./kp2c2.py --help
+usage: kp2c2.py [-h] --path PATH -k KEY [-d] [-p PORT]
+                [--header-server HEADER_SERVER]
+                [--header-x-powered-by HEADER_X_POWERED_BY] [-c CONFIG]
+                [-o OUTPUT]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --path PATH           C2 File Path
+  -k KEY, --key KEY     C2 Crypt Key
+  -d, --debug           Debug Mode
+  -p PORT, --port PORT  C2 Port
+  --header-server HEADER_SERVER
+                        C2 Server Response Header
+  --header-x-powered-by HEADER_X_POWERED_BY
+                        C2 Server Default X-Powered-By Header
+  -c CONFIG, --config CONFIG
+                        C2 Server Command Configuration File (Encrypted /
+                        Base64)
+  -o OUTPUT, --output OUTPUT
+                        Output Folder for Loot
+malware@work ~$ mkdir -p loot/
+malware@work ~$ ./kp2dc --crypt-file data/cmd.conf --key [KEY] -o cmd.bin && base64 cmd.bin > cmd.b64
+malware@work ~$ ./kp2c2 --path /example/gate.php --key [KEY] -p 8080 -o loot/ --debug --config data/cmd.b64
+```
+
+The `src/kp2dc/bin/kp2c2.py` script can be used to raise your own C2 server, it will write `bin` files to a folder you choose with the date-time. It will decrypt the data using the `kp2dc` tool that you extracted the key with using the `--crypt-file` method. :laughing:
 
 __Decrypt and Extract Stolen Data:__
 ```bash
