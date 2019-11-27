@@ -12,7 +12,7 @@ sd0:
   mov edi, [ebp + 0x8]           ; Parameter: Pointer to String Buffer
   mov eax, [ebp + 0xc]          ; Parameter: String ID
   mov ecx, [ebp + 0x10]
-	push ebx
+  push ebx
   push esi
   mov ebx, ecx
   movzx eax, ax
