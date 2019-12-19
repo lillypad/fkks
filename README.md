@@ -88,7 +88,7 @@ __Decrypt and Extract Stolen Data:__
 malware@work ~$ kp2dc --crypt-file -i data/exfil.bin -k (kp2dc --extract-key -i sample.bin) -o out.bin -q
 ```
 
-KPot v2.0 uses IDs from `0` to `182` and other hard-coded data to perform the XOR decryption.
+KPot v2.0 uses IDs from `0` to `182` and other hardcoded data to perform the XOR decryption.
 
 If you like this research and want to support my work give me a :star:.
 
