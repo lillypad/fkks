@@ -1,6 +1,6 @@
 # Finders Keepers (KPot Stealers)
 
-![anime credit card](docs/img/anime-credit-card.gif)
+![anime credit card](docs/artintoscience/img/anime-credit-card.gif)
 
 - Samples in the file `samples.zip` the password is `infected`.
 - Code for decoding the strings for the stage 2 loader are in the `src` directory
