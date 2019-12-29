@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+      \PYG{n+nf}{global} \PYG{n+no}{sd0}
+      \PYG{n+nf}{section} \PYG{n+no}{.text}
+      \PYG{c}{;; 0x400C00 Image Base Modifier}
+      \PYG{n+nl}{sd0:}
+        \PYG{n+nf}{push} \PYG{n+no}{ebp}
+        \PYG{n+nf}{mov} \PYG{n+no}{ebp}\PYG{p}{,} \PYG{n+no}{esp}
+        \PYG{n+nf}{mov} \PYG{n+no}{edi}\PYG{p}{,} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{0x8}\PYG{p}{]}            \PYG{c}{; Parameter: Pointer to String Buffer}
+        \PYG{n+nf}{mov} \PYG{n+no}{eax}\PYG{p}{,} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{0xc}\PYG{p}{]}            \PYG{c}{; Parameter: String ID}
+        \PYG{n+nf}{mov} \PYG{n+no}{ecx}\PYG{p}{,} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{0x10}\PYG{p}{]}           \PYG{c}{; Parameter: Pointer to sample data}
+        \PYG{n+nf}{push} \PYG{n+no}{ebx}
+        \PYG{n+nf}{push} \PYG{n+no}{esi}
+        \PYG{n+nf}{mov} \PYG{n+no}{ebx}\PYG{p}{,} \PYG{n+no}{ecx}
+        \PYG{n+nf}{movzx} \PYG{n+no}{eax}\PYG{p}{,} \PYG{n+no}{ax}
+        \PYG{n+nf}{lea} \PYG{n+no}{eax}\PYG{p}{,} \PYG{p}{[}\PYG{n+no}{eax}\PYG{p}{*}\PYG{l+m+mi}{8} \PYG{err}{+} \PYG{n+no}{ebx} \PYG{err}{+} \PYG{l+m+mi}{0x668}\PYG{p}{]} \PYG{c}{; Hard\PYGZhy{}coded Offset}
+        \PYG{n+nf}{xor} \PYG{n+no}{ecx}\PYG{p}{,} \PYG{n+no}{ecx}
+        \PYG{n+nf}{xor} \PYG{n+no}{esi}\PYG{p}{,} \PYG{n+no}{esi}
+        \PYG{n+nf}{cmp} \PYG{n+no}{cx}\PYG{p}{,} \PYG{n+no}{word} \PYG{p}{[}\PYG{n+no}{eax} \PYG{err}{+} \PYG{l+m+mi}{2}\PYG{p}{]}
+        \PYG{n+nf}{jae} \PYG{n+no}{addr\PYGZus{}40c985}
+        \PYG{c}{;; [...]}
+\end{Verbatim}

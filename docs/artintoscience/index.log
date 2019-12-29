@@ -1,0 +1,2347 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019 Gentoo Linux) (preloaded format=pdflatex 2019.12.2)  28 DEC 2019 22:57
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**index.tex
+(./index.tex
+LaTeX2e <2018-12-01>
+(/usr/share/texmf-site/tex/latex/beamer/base/beamer.cls
+Document Class: beamer 2019/07/23 v3.56 A class for typesetting presentations
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasemodes.sty
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count80
+)
+\beamer@tempbox=\box27
+\beamer@tempcount=\count81
+\c@beamerpauses=\count82
+
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasedecode.sty
+\beamer@slideinframe=\count83
+\beamer@minimum=\count84
+\beamer@decode@box=\box28
+)
+\beamer@commentbox=\box29
+\beamer@modecount=\count85
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+\headdp=\dimen102
+\footheight=\dimen103
+\sidebarheight=\dimen104
+\beamer@tempdim=\dimen105
+\beamer@finalheight=\dimen106
+\beamer@animht=\dimen107
+\beamer@animdp=\dimen108
+\beamer@animwd=\dimen109
+\beamer@leftmargin=\dimen110
+\beamer@rightmargin=\dimen111
+\beamer@leftsidebar=\dimen112
+\beamer@rightsidebar=\dimen113
+\beamer@boxsize=\dimen114
+\beamer@vboxoffset=\dimen115
+\beamer@descdefault=\dimen116
+\beamer@descriptionwidth=\dimen117
+\beamer@lastskip=\skip41
+\beamer@areabox=\box30
+\beamer@animcurrent=\box31
+\beamer@animshowbox=\box32
+\beamer@sectionbox=\box33
+\beamer@logobox=\box34
+\beamer@linebox=\box35
+\beamer@sectioncount=\count86
+\beamer@subsubsectionmax=\count87
+\beamer@subsectionmax=\count88
+\beamer@sectionmax=\count89
+\beamer@totalheads=\count90
+\beamer@headcounter=\count91
+\beamer@partstartpage=\count92
+\beamer@sectionstartpage=\count93
+\beamer@subsectionstartpage=\count94
+\beamer@animationtempa=\count95
+\beamer@animationtempb=\count96
+\beamer@xpos=\count97
+\beamer@ypos=\count98
+\beamer@ypos@offset=\count99
+\beamer@showpartnumber=\count100
+\beamer@currentsubsection=\count101
+\beamer@coveringdepth=\count102
+\beamer@sectionadjust=\count103
+\beamer@tocsectionnumber=\count104
+
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseoptions.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+(/usr/share/texmf-site/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(/usr/share/texmf-site/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-site/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-site/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
+
+(/usr/share/texmf-site/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/usr/share/texmf-site/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box36
+
+(/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-site/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texmf-site/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
+))
+(/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
+
+(/usr/share/texmf-site/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/share/texmf-site/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen130
+\pgf@y=\dimen131
+\pgf@xa=\dimen132
+\pgf@ya=\dimen133
+\pgf@xb=\dimen134
+\pgf@yb=\dimen135
+\pgf@xc=\dimen136
+\pgf@yc=\dimen137
+\pgf@xd=\dimen138
+\pgf@yd=\dimen139
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count108
+\c@pgf@countb=\count109
+\c@pgf@countc=\count110
+\c@pgf@countd=\count111
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+\pgf@sys@id@count=\count112
+
+(/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2019/08/03 v3.1.4b (3.1.4b)
+
+(/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
+)))
+(/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfsyssoftpath@smallbuffer@items=\count113
+\pgfsyssoftpath@bigbuffer@items=\count114
+)
+(/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
+
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen140
+\pgfmath@count=\count115
+\pgfmath@box=\box37
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-site/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-site/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex))) (/usr/share/texmf-site/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count116
+)) (/usr/share/texmf-site/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@picminx=\dimen141
+\pgf@picmaxx=\dimen142
+\pgf@picminy=\dimen143
+\pgf@picmaxy=\dimen144
+\pgf@pathminx=\dimen145
+\pgf@pathmaxx=\dimen146
+\pgf@pathminy=\dimen147
+\pgf@pathmaxy=\dimen148
+\pgf@xx=\dimen149
+\pgf@xy=\dimen150
+\pgf@yx=\dimen151
+\pgf@yy=\dimen152
+\pgf@zx=\dimen153
+\pgf@zy=\dimen154
+)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@path@lastx=\dimen155
+\pgf@path@lasty=\dimen156
+) (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@shorten@end@additional=\dimen157
+\pgf@shorten@start@additional=\dimen158
+)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
+\pgf@picture@serial@count=\count117
+)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgflinewidth=\dimen159
+)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex
+File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@pt@x=\dimen160
+\pgf@pt@y=\dimen161
+\pgf@pt@temp=\dimen162
+) (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x
+File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+) (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfarrowsep=\dimen163
+)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@max=\dimen164
+\pgf@sys@shading@range@num=\count118
+\pgf@shadingcount=\count119
+)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfexternal@startupbox=\box41
+))
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+) (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+(/usr/share/texmf-site/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count120
+\XC@countmixins=\count121
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen165
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count124
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4393.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4393.
+Package hyperref Info: Option `implicit' set `false' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count125
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen166
+\Fld@menulength=\count126
+\Field@Width=\dimen167
+\Fld@charsize=\dimen168
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count127
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count128
+\c@bookmark@seq@number=\count129
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbaserequires.sty
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasecompatibility.sty)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasefont.sty
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)))
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetranslator.sty
+(/usr/share/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+))
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasemisc.sty)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetwoscreens.sty)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseoverlay.sty
+\beamer@argscount=\count130
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count131
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetitle.sty)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasesection.sty
+\c@lecture=\count132
+\c@part=\count133
+\c@section=\count134
+\c@subsection=\count135
+\c@subsubsection=\count136
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseframe.sty
+\beamer@framebox=\box42
+\beamer@frametitlebox=\box43
+\beamer@zoombox=\box44
+\beamer@zoomcount=\count137
+\beamer@zoomframecount=\count138
+\beamer@frametextheight=\dimen169
+\c@subsectionslide=\count139
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen170
+\c@framenumber=\count140
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseframesize.sty
+\beamer@splitbox=\box45
+\beamer@autobreakcount=\count141
+\beamer@autobreaklastheight=\dimen171
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseframecomponents.sty
+\beamer@footins=\box46
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasecolor.sty)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasenotes.sty
+\beamer@frameboxcopy=\box47
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetoc.sty)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetemplates.sty
+\beamer@sbttoks=\toks30
+
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseauxtemplates.sty
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseboxes.sty
+\bmb@box=\box48
+\bmb@colorbox=\box49
+\bmb@boxshadow=\box50
+\bmb@boxshadowball=\box51
+\bmb@boxshadowballlarge=\box52
+\bmb@temp=\dimen172
+\bmb@dima=\dimen173
+\bmb@dimb=\dimen174
+\bmb@prevheight=\dimen175
+)
+\beamer@blockheadheight=\dimen176
+))
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbaselocalstructure.sty
+(/usr/share/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count142
+\c@table=\count143
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen177
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetheorems.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen178
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen179
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count144
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count145
+\leftroot@=\count146
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count147
+\DOTSCASE@=\count148
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen180
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count149
+\c@MaxMatrixCols=\count150
+\dotsspace@=\muskip11
+\c@parentequation=\count151
+\dspbrk@lvl=\count152
+\tag@help=\toks33
+\row@=\count153
+\column@=\count154
+\maxfields@=\count155
+\andhelp@=\toks34
+\eqnshift@=\dimen181
+\alignsep@=\dimen182
+\tagshift@=\dimen183
+\tagwidth@=\dimen184
+\totwidth@=\dimen185
+\lineht@=\dimen186
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+)
+\c@theorem=\count156
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/beamerbasethemes.sty))
+(/usr/share/texmf-site/tex/latex/beamer/base/themes/theme/beamerthemedefault.st
+y
+(/usr/share/texmf-site/tex/latex/beamer/base/themes/font/beamerfontthemedefault
+.sty)
+(/usr/share/texmf-site/tex/latex/beamer/base/themes/color/beamercolorthemedefau
+lt.sty)
+(/usr/share/texmf-site/tex/latex/beamer/base/themes/inner/beamerinnerthemedefau
+lt.sty
+\beamer@dima=\dimen187
+\beamer@dimb=\dimen188
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/themes/outer/beamerouterthemedefau
+lt.sty))) (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen189
+\ar@mcellbox=\box55
+\extrarowheight=\dimen190
+\NC@list=\toks43
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box56
+)
+\TX@col@width=\dimen191
+\TX@old@table=\dimen192
+\TX@old@col=\dimen193
+\TX@target=\dimen194
+\TX@delta=\dimen195
+\TX@cols=\count157
+\TX@ftn=\toks44
+)
+(/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+(/usr/share/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(/usr/share/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2019/01/15
+
+Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+\FV@CodeLineNo=\count158
+\FV@InFile=\read2
+\FV@TabBox=\box57
+\c@FancyVerbLine=\count159
+\FV@StepNumber=\count160
+\FV@OutFile=\write5
+)
+(/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count161
+\output=\toks45
+\linenoprevgraf=\count162
+\linenumbersep=\dimen196
+\linenumberwidth=\dimen197
+\c@linenumber=\count163
+\c@pagewiselinenumber=\count164
+\c@LN@truepage=\count165
+\c@internallinenumber=\count166
+\c@internallinenumbers=\count167
+\quotelinenumbersep=\dimen198
+\bframerule=\dimen199
+\bframesep=\dimen256
+\bframebox=\box58
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count168
+\c@FV@TrueTabCounter=\count169
+\FV@TabBox@Group=\box59
+\FV@TmpLength=\skip59
+\c@FV@HighlightLinesStart=\count170
+\c@FV@HighlightLinesStop=\count171
+\FV@LoopCount=\count172
+\FV@NCharsBox=\box60
+\FV@BreakIndent=\dimen257
+\FV@BreakIndentNChars=\count173
+\FV@BreakSymbolSepLeft=\dimen258
+\FV@BreakSymbolSepLeftNChars=\count174
+\FV@BreakSymbolSepRight=\dimen259
+\FV@BreakSymbolSepRightNChars=\count175
+\FV@BreakSymbolIndentLeft=\dimen260
+\FV@BreakSymbolIndentLeftNChars=\count176
+\FV@BreakSymbolIndentRight=\dimen261
+\FV@BreakSymbolIndentRightNChars=\count177
+\c@FancyVerbLineBreakLast=\count178
+\FV@LineBox=\box61
+\FV@LineIndentBox=\box62
+\FV@LineWidth=\dimen262
+)
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count179
+\calc@Bcount=\count180
+\calc@Adimen=\dimen263
+\calc@Bdimen=\dimen264
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count181
+\calc@Cskip=\skip62
+)
+(/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+)
+(/usr/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+)
+runsystem(uname -s > "index.w18")...executed.
+
+ (./index.w18)
+runsystem(rm -- "index.w18")...executed.
+
+)
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count182
+\decimalpart=\count183
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/usr/share/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip63
+\fb@frw=\dimen265
+\fb@frh=\dimen266
+\FrameRule=\dimen267
+\FrameSep=\dimen268
+)
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count184
+\float@exts=\toks46
+\float@box=\box63
+\@float@everytoks=\toks47
+\@floatcapt=\box64
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box65
+\minted@code=\write6
+\c@minted@FancyVerbLineTemp=\count185
+\c@minted@pygmentizecounter=\count186
+\@float@every@listing=\toks48
+\c@listing=\count187
+)
+runsystem(mkdir -p _minted-index)...executed.
+
+
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2019/03/02 version 4.20 text color boxes
+
+(/usr/share/texmf-site/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
+
+(/usr/share/texmf-site/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfnodeparttextbox=\box66
+)
+(/usr/share/texmf-site/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/usr/share/texmf-site/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@nodesepstart=\dimen269
+\pgf@nodesepend=\dimen270
+)
+(/usr/share/texmf-site/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
+))
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks49
+\verbatim@line=\toks50
+\verbatim@in@stream=\read4
+)
+(/usr/share/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box67
+\tcb@upperbox=\box68
+\tcb@lowerbox=\box69
+\tcb@phantombox=\box70
+\c@tcbbreakpart=\count188
+\c@tcblayer=\count189
+\tcolorbox@number=\count190
+\tcb@temp=\box71
+\tcb@temp=\box72
+\tcb@temp=\box73
+\tcb@temp=\box74
+\tcb@out=\write7
+\tcb@record@out=\write8
+)
+(/usr/share/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2019/04/15 v1.9.1
+
+Package: textpos 2019/04/15 1.9.1, absolute positioning of text on the page
+\TP@textbox=\box75
+\TP@holdbox=\box76
+\TPHorizModule=\dimen271
+\TPVertModule=\dimen272
+\TP@margin=\dimen273
+\TP@absmargin=\dimen274
+Grid set 16 x 16 = 28.45274pt x 16.00467pt
+\TPboxrulesize=\dimen275
+\TP@ox=\dimen276
+\TP@oy=\dimen277
+\TP@tbargs=\toks51
+\TP@prevdepth=\dimen278
+TextBlockOrigin set to 0pt x 0pt
+)
+(/usr/share/texmf-site/tex/latex/beamer/base/themes/theme/beamerthemeWarsaw.sty
+
+(/usr/share/texmf-site/tex/latex/beamer/base/themes/inner/beamerinnerthemeround
+ed.sty)
+(/usr/share/texmf-site/tex/latex/beamer/base/themes/outer/beamerouterthemeshado
+w.sty
+(/usr/share/texmf-site/tex/latex/beamer/base/themes/outer/beamerouterthemesplit
+.sty))
+(/usr/share/texmf-site/tex/latex/beamer/base/themes/color/beamercolorthemeorchi
+d.sty)
+(/usr/share/texmf-site/tex/latex/beamer/base/themes/color/beamercolorthemewhale
+.sty))
+runsystem(which pygmentize && touch index.aex)...executed.
+
+runsystem(rm index.aex)...executed.
+
+ (./index.aux)
+\openout1 = `index.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=398.3386pt
+* \textheight=227.62207pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count191
+\scratchdimen=\dimen279
+\scratchbox=\box77
+\nofMPsegments=\count192
+\nofMParguments=\count193
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count194
+\MPscratchDim=\dimen280
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
+\everyMPtoPDFconversion=\toks53
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box78
+Package hyperref Info: Link coloring OFF on input line 94.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count197
+)
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
+ (./index.out)
+(./index.out)
+\@outlinefile=\write9
+\openout9 = `index.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 94.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 94.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 94.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 94.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 94.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 94.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 94.
+
+(/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
+.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-
+English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/share/texmf-dist/tex/latex/translator/translator-environment-dictionary-E
+nglish.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/share/texmf-dist/tex/latex/translator/translator-months-dictionary-Englis
+h.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/share/texmf-dist/tex/latex/translator/translator-numbers-dictionary-Engli
+sh.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-Engli
+sh.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+) (./index.nav)
+<img/finder-keepers-background.png, id=16, 462.528pt x 260.172pt>
+File: img/finder-keepers-background.png Graphic file (type png)
+<use img/finder-keepers-background.png>
+Package pdftex.def Info: img/finder-keepers-background.png  used on input line 
+104.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/finder-keepers-backg
+round.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 159.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 159.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<img/agenda-meme.png, id=28, 119.9682pt x 95.1555pt>
+File: img/agenda-meme.png Graphic file (type png)
+<use img/agenda-meme.png>
+Package pdftex.def Info: img/agenda-meme.png  used on input line 159.
+(pdftex.def)             Requested size: 215.94257pt x 171.27972pt.
+
+Overfull \hbox (16.77327pt too wide) in paragraph at lines 159--159
+ [] 
+ []
+
+<img/gosecure-logo.png, id=32, 250.9375pt x 44.165pt>
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 159.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[2
+
+ <./img/agenda-meme.png> <./img/gosecure-logo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+
+ []
+
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 172.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+
+ []
+
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 187.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+
+ []
+
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 200.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[5
+
+]
+<img/reverse-engineering.jpg, id=62, 501.875pt x 501.875pt>
+File: img/reverse-engineering.jpg Graphic file (type jpg)
+<use img/reverse-engineering.jpg>
+Package pdftex.def Info: img/reverse-engineering.jpg  used on input line 207.
+(pdftex.def)             Requested size: 200.74643pt x 200.74643pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 207.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [6
+
+ <./img/reverse-engineering.jpg>]
+<img/jmp-meme.jpg, id=69, 513.92pt x 489.83pt>
+File: img/jmp-meme.jpg Graphic file (type jpg)
+<use img/jmp-meme.jpg>
+Package pdftex.def Info: img/jmp-meme.jpg  used on input line 214.
+(pdftex.def)             Requested size: 199.16928pt x 189.83705pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 214.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [7
+
+ <./img/jmp-meme.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
+
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 245--245
+\OT1/cmss/m/n/10.95 Kindly find at-tached the con-fir-ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
+
+ []
+
+<img/malspam-background.png, id=77, 462.528pt x 258.9675pt>
+File: img/malspam-background.png Graphic file (type png)
+<use img/malspam-background.png>
+Package pdftex.def Info: img/malspam-background.png  used on input line 245.
+(pdftex.def)             Requested size: 455.24408pt x 254.90073pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 245.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[8
+
+ <./img/malspam-background.png>]
+<img/anime-sniper-background.png, id=86, 1445.4pt x 903.375pt>
+File: img/anime-sniper-background.png Graphic file (type png)
+<use img/anime-sniper-background.png>
+Package pdftex.def Info: img/anime-sniper-background.png  used on input line 25
+9.
+(pdftex.def)             Requested size: 455.24408pt x 284.52328pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 259.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [9
+
+ <./img/anime-sniper-background.png>]
+<img/digital-background.jpg, id=94, 462.528pt x 260.172pt>
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 294.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 294.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-computer-clipart.png, id=96, 293.095pt x 291.0875pt>
+File: img/anime-computer-clipart.png Graphic file (type png)
+<use img/anime-computer-clipart.png>
+Package pdftex.def Info: img/anime-computer-clipart.png  used on input line 294
+.
+(pdftex.def)             Requested size: 85.35826pt x 84.77298pt.
+
+[10
+
+ <./img/digital-background.jpg> <./img/anime-computer-clipart.png>]
+<img/kpot-portex-analyzer-stage-1.png, id=103, 971.63pt x 803.0pt>
+File: img/kpot-portex-analyzer-stage-1.png Graphic file (type png)
+<use img/kpot-portex-analyzer-stage-1.png>
+Package pdftex.def Info: img/kpot-portex-analyzer-stage-1.png  used on input li
+ne 307.
+(pdftex.def)             Requested size: 227.62204pt x 188.1169pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 307.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 307.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-wink.png, id=105, 501.875pt x 446.66875pt>
+File: img/anime-wink.png Graphic file (type png)
+<use img/anime-wink.png>
+Package pdftex.def Info: img/anime-wink.png  used on input line 307.
+(pdftex.def)             Requested size: 170.71652pt x 151.94032pt.
+ [11
+
+ <./img/kpot-portex-analyzer-stage-1.png (PNG copy)> <./img/anime-wink.png>]
+<img/kpot-unpacking-2.png, id=112, 224.7597pt x 108.6459pt>
+File: img/kpot-unpacking-2.png Graphic file (type png)
+<use img/kpot-unpacking-2.png>
+Package pdftex.def Info: img/kpot-unpacking-2.png  used on input line 328.
+(pdftex.def)             Requested size: 280.94891pt x 135.807pt.
+
+Overfull \hbox (2.11313pt too wide) in paragraph at lines 328--328
+ [] 
+ []
+
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 328.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 328.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[12
+
+ <./img/kpot-unpacking-2.png (PNG copy)>]
+<img/kpot-unpacking-3.png, id=119, 159.4758pt x 95.8782pt>
+File: img/kpot-unpacking-3.png Graphic file (type png)
+<use img/kpot-unpacking-3.png>
+Package pdftex.def Info: img/kpot-unpacking-3.png  used on input line 349.
+(pdftex.def)             Requested size: 279.08195pt x 167.78639pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 349.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 349.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [13
+
+ <./img/kpot-unpacking-3.png (PNG copy)>]
+<img/kpot-unpacking-4.png, id=127, 346.1733pt x 160.1985pt>
+File: img/kpot-unpacking-4.png Graphic file (type png)
+<use img/kpot-unpacking-4.png>
+Package pdftex.def Info: img/kpot-unpacking-4.png  used on input line 362.
+(pdftex.def)             Requested size: 398.33858pt x 184.34662pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 362.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 362.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-thinking.png, id=129, 452.69125pt x 621.32124pt>
+File: img/anime-thinking.png Graphic file (type png)
+<use img/anime-thinking.png>
+Package pdftex.def Info: img/anime-thinking.png  used on input line 362.
+(pdftex.def)             Requested size: 56.9055pt x 78.10106pt.
+ [14
+
+ <./img/kpot-unpacking-4.png> <./img/anime-thinking.png>]
+<img/kpot-unpacking-5.png, id=137, 200.4288pt x 92.2647pt>
+File: img/kpot-unpacking-5.png Graphic file (type png)
+<use img/kpot-unpacking-5.png>
+Package pdftex.def Info: img/kpot-unpacking-5.png  used on input line 383.
+(pdftex.def)             Requested size: 260.55739pt x 119.94408pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 383.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 383.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+
+[15
+
+ <./img/kpot-unpacking-5.png (PNG copy)>]
+\openout4 = `index.vrb'.
+
+ (./index.vrb
+Overfull \hbox (11.15784pt too wide) in paragraph at lines 9--9
+[]\OT1/cmtt/m/n/10 00000000  98 00 17 89 1f f6 7c f8  a2 0f 00 00 00 00 00 98  
+|......|.........| 
+ []
+
+
+Overfull \hbox (11.15784pt too wide) in paragraph at lines 10--10
+[]\OT1/cmtt/m/n/10 00000010  00 17 89 1f f6 7c f8 a2  0f 00 00 00 00 00 00 00  
+|.....|..........|[] 
+ []
+
+)
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 402.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 402.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-arms-out.png, id=145, 544.0325pt x 210.7875pt>
+File: img/anime-arms-out.png Graphic file (type png)
+<use img/anime-arms-out.png>
+Package pdftex.def Info: img/anime-arms-out.png  used on input line 402.
+(pdftex.def)             Requested size: 312.9803pt x 121.26941pt.
+ [16
+
+ <./img/anime-arms-out.png>]
+<img/kpot-unpacking-6.png, id=153, 206.6922pt x 107.9232pt>
+File: img/kpot-unpacking-6.png Graphic file (type png)
+<use img/kpot-unpacking-6.png>
+Package pdftex.def Info: img/kpot-unpacking-6.png  used on input line 412.
+(pdftex.def)             Requested size: 369.88582pt x 193.13684pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 412.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 412.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [17
+
+ <./img/kpot-unpacking-6.png (PNG copy)>]
+<img/stage-2-unpacking-key.png, id=160, 307.8702pt x 69.3792pt>
+File: img/stage-2-unpacking-key.png Graphic file (type png)
+<use img/stage-2-unpacking-key.png>
+Package pdftex.def Info: img/stage-2-unpacking-key.png  used on input line 425.
+
+(pdftex.def)             Requested size: 398.33858pt x 89.7737pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 425.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 425.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+
+[18
+
+ <./img/stage-2-unpacking-key.png>]
+<img/stage-2-unpacking-routine.png, id=167, 293.898pt x 169.1118pt>
+File: img/stage-2-unpacking-routine.png Graphic file (type png)
+<use img/stage-2-unpacking-routine.png>
+Package pdftex.def Info: img/stage-2-unpacking-routine.png  used on input line 
+439.
+(pdftex.def)             Requested size: 284.52756pt x 163.73116pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 439.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 439.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-lean.png, id=169, 144.54pt x 185.493pt>
+File: img/anime-lean.png Graphic file (type png)
+<use img/anime-lean.png>
+Package pdftex.def Info: img/anime-lean.png  used on input line 439.
+(pdftex.def)             Requested size: 170.71652pt x 219.09776pt.
+ [19
+
+ <./img/stage-2-unpacking-routine.png> <./img/anime-lean.png>]
+<img/injection-attempts.png, id=177, 173.2071pt x 103.3461pt>
+File: img/injection-attempts.png Graphic file (type png)
+<use img/injection-attempts.png>
+Package pdftex.def Info: img/injection-attempts.png  used on input line 450.
+(pdftex.def)             Requested size: 284.52756pt x 169.78514pt.
+
+Overfull \vbox (1.85901pt too high) detected at line 450
+ []
+
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 450.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 450.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[20
+
+ <./img/injection-attempts.png>]
+<img/kpot-unpacking-8.png, id=185, 315.3381pt x 104.0688pt>
+File: img/kpot-unpacking-8.png Graphic file (type png)
+<use img/kpot-unpacking-8.png>
+Package pdftex.def Info: img/kpot-unpacking-8.png  used on input line 464.
+(pdftex.def)             Requested size: 403.63138pt x 133.2076pt.
+
+Overfull \hbox (5.29279pt too wide) in paragraph at lines 464--464
+ [] 
+ []
+
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 464.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 464.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[21
+
+ <./img/kpot-unpacking-8.png (PNG copy)>]
+<img/kpot-unpacking-9.png, id=192, 172.4844pt x 83.8332pt>
+File: img/kpot-unpacking-9.png Graphic file (type png)
+<use img/kpot-unpacking-9.png>
+Package pdftex.def Info: img/kpot-unpacking-9.png  used on input line 477.
+(pdftex.def)             Requested size: 341.43306pt x 165.96207pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 477.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 477.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [22
+
+ <./img/kpot-unpacking-9.png (PNG copy)>]
+\openout4 = `index.vrb'.
+
+ (./index.vrb
+Overfull \hbox (11.15784pt too wide) in paragraph at lines 10--10
+[]\OT1/cmtt/m/n/10 00000000  ee 77 8a 97 5f 56 f8 56  fa 18 82 54 d8 f3 a6 91  
+|.w.._V.V...T....| 
+ []
+
+
+Overfull \hbox (11.15784pt too wide) in paragraph at lines 11--11
+[]\OT1/cmtt/m/n/10 00000010  d0 ef 76 2a 21 b3 ab 1c  eb 8d 61 04 ec c7 50 96  
+|..v*!.....a...P.|[] 
+ []
+
+)
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 497.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 497.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-peace.png, id=200, 240.9pt x 191.0337pt>
+File: img/anime-peace.png Graphic file (type png)
+<use img/anime-peace.png>
+Package pdftex.def Info: img/anime-peace.png  used on input line 497.
+(pdftex.def)             Requested size: 170.71652pt x 135.38126pt.
+ [23
+
+ <./img/anime-peace.png>]
+<img/kpot-unpacking-10.png, id=207, 295.8252pt x 93.4692pt>
+File: img/kpot-unpacking-10.png Graphic file (type png)
+<use img/kpot-unpacking-10.png>
+Package pdftex.def Info: img/kpot-unpacking-10.png  used on input line 512.
+(pdftex.def)             Requested size: 398.33858pt x 125.8642pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 512.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 512.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [24
+
+ <./img/kpot-unpacking-10.png (PNG copy)>]
+<img/kpot-unpacking-11.png, id=214, 443.0151pt x 218.7372pt>
+File: img/kpot-unpacking-11.png Graphic file (type png)
+<use img/kpot-unpacking-11.png>
+Package pdftex.def Info: img/kpot-unpacking-11.png  used on input line 523.
+(pdftex.def)             Requested size: 398.33858pt x 196.68141pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 523.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 523.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+
+[25
+
+ <./img/kpot-unpacking-11.png>]
+<img/kpot-unpacking-12.png, id=223, 225.0006pt x 183.3249pt>
+File: img/kpot-unpacking-12.png Graphic file (type png)
+<use img/kpot-unpacking-12.png>
+Package pdftex.def Info: img/kpot-unpacking-12.png  used on input line 533.
+(pdftex.def)             Requested size: 213.74933pt x 174.15765pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 533.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 533.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [26
+
+ <./img/kpot-unpacking-12.png (PNG copy)>]
+<img/kpot-unpacking-13.png, id=230, 150.8034pt x 96.6009pt>
+File: img/kpot-unpacking-13.png Graphic file (type png)
+<use img/kpot-unpacking-13.png>
+Package pdftex.def Info: img/kpot-unpacking-13.png  used on input line 543.
+(pdftex.def)             Requested size: 284.52756pt x 182.28625pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 543.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 543.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [27
+
+ <./img/kpot-unpacking-13.png (PNG copy)>]
+<img/unpacked-portex-analyzer.png, id=237, 971.63pt x 630.355pt>
+File: img/unpacked-portex-analyzer.png Graphic file (type png)
+<use img/unpacked-portex-analyzer.png>
+Package pdftex.def Info: img/unpacked-portex-analyzer.png  used on input line 5
+53.
+(pdftex.def)             Requested size: 284.52756pt x 184.5873pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 553.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 553.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [28
+
+ <./img/unpacked-portex-analyzer.png (PNG copy)>]
+<img/frustrated-meme.jpg, id=244, 591.20876pt x 425.59pt>
+File: img/frustrated-meme.jpg Graphic file (type jpg)
+<use img/frustrated-meme.jpg>
+Package pdftex.def Info: img/frustrated-meme.jpg  used on input line 562.
+(pdftex.def)             Requested size: 284.52756pt x 204.82635pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 562.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 562.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [29
+
+ <./img/frustrated-meme.jpg>]
+<img/kpot-entry0.png, id=251, 214.401pt x 155.3805pt>
+File: img/kpot-entry0.png Graphic file (type png)
+<use img/kpot-entry0.png>
+Package pdftex.def Info: img/kpot-entry0.png  used on input line 573.
+(pdftex.def)             Requested size: 227.62204pt x 164.96806pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 573.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 573.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [30
+
+ <./img/kpot-entry0.png>]
+<img/kpot-disable-aslr.png, id=259, 323.70938pt x 214.401pt>
+File: img/kpot-disable-aslr.png Graphic file (type png)
+<use img/kpot-disable-aslr.png>
+Package pdftex.def Info: img/kpot-disable-aslr.png  used on input line 586.
+(pdftex.def)             Requested size: 284.52756pt x 188.4608pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 586.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 586.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-headphones.png, id=261, 712.6625pt x 752.8125pt>
+File: img/anime-headphones.png Graphic file (type png)
+<use img/anime-headphones.png>
+Package pdftex.def Info: img/anime-headphones.png  used on input line 586.
+(pdftex.def)             Requested size: 113.81102pt x 120.22272pt.
+ [31
+
+ <./img/kpot-disable-aslr.png> <./img/anime-headphones.png>]
+<img/kpot-resolve-apis-debug.png, id=270, 247.82588pt x 44.5665pt>
+File: img/kpot-resolve-apis-debug.png Graphic file (type png)
+<use img/kpot-resolve-apis-debug.png>
+Package pdftex.def Info: img/kpot-resolve-apis-debug.png  used on input line 59
+7.
+(pdftex.def)             Requested size: 398.33858pt x 71.63628pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 597.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 597.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [32
+
+ <./img/kpot-resolve-apis-debug.png>]
+<img/kpot-resolve-apis-sylica.png, id=278, 251.7405pt x 91.24088pt>
+File: img/kpot-resolve-apis-sylica.png Graphic file (type png)
+<use img/kpot-resolve-apis-sylica.png>
+Package pdftex.def Info: img/kpot-resolve-apis-sylica.png  used on input line 6
+10.
+(pdftex.def)             Requested size: 341.43306pt x 123.75874pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 610.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 610.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [33
+
+ <./img/kpot-resolve-apis-sylica.png>]
+<img/anime-programming.png, id=286, 239.6955pt x 248.127pt>
+File: img/anime-programming.png Graphic file (type png)
+<use img/anime-programming.png>
+Package pdftex.def Info: img/anime-programming.png  used on input line 620.
+(pdftex.def)             Requested size: 227.62204pt x 235.636pt.
+
+Overfull \vbox (38.16542pt too high) detected at line 620
+ []
+
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 620.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 620.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[34
+
+ <./img/anime-programming.png>]
+<img/kpot-cnc-init.png, id=294, 235.47975pt x 113.52412pt>
+File: img/kpot-cnc-init.png Graphic file (type png)
+<use img/kpot-cnc-init.png>
+Package pdftex.def Info: img/kpot-cnc-init.png  used on input line 631.
+(pdftex.def)             Requested size: 284.52756pt x 137.17578pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 631.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 631.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [35
+
+ <./img/kpot-cnc-init.png>]
+<img/kpot-cnc-init-com.png, id=302, 205.66838pt x 114.4275pt>
+File: img/kpot-cnc-init-com.png Graphic file (type png)
+<use img/kpot-cnc-init-com.png>
+Package pdftex.def Info: img/kpot-cnc-init-com.png  used on input line 642.
+(pdftex.def)             Requested size: 284.52756pt x 158.30995pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 642.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 642.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [36
+
+ <./img/kpot-cnc-init-com.png>]
+<img/kpot-cnc-init-server.png, id=310, 165.31763pt x 136.71075pt>
+File: img/kpot-cnc-init-server.png Graphic file (type png)
+<use img/kpot-cnc-init-server.png>
+Package pdftex.def Info: img/kpot-cnc-init-server.png  used on input line 656.
+(pdftex.def)             Requested size: 199.16928pt x 164.70917pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 656.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 656.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-upside-down.png, id=312, 702.625pt x 1039.885pt>
+File: img/anime-upside-down.png Graphic file (type png)
+<use img/anime-upside-down.png>
+Package pdftex.def Info: img/anime-upside-down.png  used on input line 656.
+(pdftex.def)             Requested size: 142.26378pt x 210.54382pt.
+ [37
+
+ <./img/kpot-cnc-init-server.png> <./img/anime-upside-down.png>]
+<img/kpot-cnc-checkin-routine.png, id=321, 233.37187pt x 147.85237pt>
+File: img/kpot-cnc-checkin-routine.png Graphic file (type png)
+<use img/kpot-cnc-checkin-routine.png>
+Package pdftex.def Info: img/kpot-cnc-checkin-routine.png  used on input line 6
+67.
+(pdftex.def)             Requested size: 256.0748pt x 162.25458pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 667.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 667.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [38
+
+ <./img/kpot-cnc-checkin-routine.png>]
+<img/kpot-cnc-checkin-routine-uri-setup.png, id=329, 281.25075pt x 162.6075pt>
+File: img/kpot-cnc-checkin-routine-uri-setup.png Graphic file (type png)
+<use img/kpot-cnc-checkin-routine-uri-setup.png>
+Package pdftex.def Info: img/kpot-cnc-checkin-routine-uri-setup.png  used on in
+put line 680.
+(pdftex.def)             Requested size: 312.9803pt x 180.95052pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 680.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 680.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-fairy.png, id=331, 511.9125pt x 602.25pt>
+File: img/anime-fairy.png Graphic file (type png)
+<use img/anime-fairy.png>
+Package pdftex.def Info: img/anime-fairy.png  used on input line 680.
+(pdftex.def)             Requested size: 113.81102pt x 133.89221pt.
+ [39
+
+ <./img/kpot-cnc-checkin-routine-uri-setup.png> <./img/anime-fairy.png>]
+<img/kpot-cnc-checkin-attempts.png, id=339, 232.7094pt x 154.6578pt>
+File: img/kpot-cnc-checkin-attempts.png Graphic file (type png)
+<use img/kpot-cnc-checkin-attempts.png>
+Package pdftex.def Info: img/kpot-cnc-checkin-attempts.png  used on input line 
+693.
+(pdftex.def)             Requested size: 284.52756pt x 189.11172pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 693.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 693.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-cat.png, id=341, 615.29875pt x 845.1575pt>
+File: img/anime-cat.png Graphic file (type png)
+<use img/anime-cat.png>
+Package pdftex.def Info: img/anime-cat.png  used on input line 693.
+(pdftex.def)             Requested size: 113.81102pt x 156.3259pt.
+ [40
+
+ <./img/kpot-cnc-checkin-attempts.png> <./img/anime-cat.png>]
+\openout4 = `index.vrb'.
+
+ (./index.vrb)
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 714.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 714.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-music.png, id=350, 285.065pt x 388.45125pt>
+File: img/anime-music.png Graphic file (type png)
+<use img/anime-music.png>
+Package pdftex.def Info: img/anime-music.png  used on input line 714.
+(pdftex.def)             Requested size: 113.81102pt x 155.0873pt.
+ [41
+
+ <./img/anime-music.png>]
+\openout4 = `index.vrb'.
+
+
+(./index.vrb)
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 740.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 740.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [42
+
+]
+<img/kpot-cnc-checkin-decoding.png, id=364, 217.2918pt x 149.8398pt>
+File: img/kpot-cnc-checkin-decoding.png Graphic file (type png)
+<use img/kpot-cnc-checkin-decoding.png>
+Package pdftex.def Info: img/kpot-cnc-checkin-decoding.png  used on input line 
+754.
+(pdftex.def)             Requested size: 227.62204pt x 156.9683pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 754.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 754.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-cold.png, id=366, 281.90425pt x 410.04256pt>
+File: img/anime-cold.png Graphic file (type png)
+<use img/anime-cold.png>
+Package pdftex.def Info: img/anime-cold.png  used on input line 754.
+(pdftex.def)             Requested size: 113.81102pt x 165.54076pt.
+ [43
+
+ <./img/kpot-cnc-checkin-decoding.png> <./img/anime-cold.png>]
+\openout4 = `index.vrb'.
+
+ (./index.vrb)
+Overfull \vbox (4.47386pt too high) detected at line 784
+ []
+
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 784.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 784.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[44
+
+]
+\openout4 = `index.vrb'.
+
+ (./index.vrb)
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 805.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 805.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-suprise.png, id=381, 722.7pt x 562.1pt>
+File: img/anime-suprise.png Graphic file (type png)
+<use img/anime-suprise.png>
+Package pdftex.def Info: img/anime-suprise.png  used on input line 805.
+(pdftex.def)             Requested size: 170.71652pt x 132.77966pt.
+ [45
+
+ <./img/anime-suprise.png>]
+<img/kpot-cnc-checkin-lang-check.png, id=389, 194.1654pt x 98.2872pt>
+File: img/kpot-cnc-checkin-lang-check.png Graphic file (type png)
+<use img/kpot-cnc-checkin-lang-check.png>
+Package pdftex.def Info: img/kpot-cnc-checkin-lang-check.png  used on input lin
+e 819.
+(pdftex.def)             Requested size: 312.9803pt x 158.43849pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 819.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 819.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-worried.png, id=391, 673.01437pt x 673.01437pt>
+File: img/anime-worried.png Graphic file (type png)
+<use img/anime-worried.png>
+Package pdftex.def Info: img/anime-worried.png  used on input line 819.
+(pdftex.def)             Requested size: 113.81102pt x 113.80504pt.
+ [46
+
+ <./img/kpot-cnc-checkin-lang-check.png> <./img/anime-worried.png>]
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 840.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 840.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-point-left.png, id=399, 965.6075pt x 722.7pt>
+File: img/anime-point-left.png Graphic file (type png)
+<use img/anime-point-left.png>
+Package pdftex.def Info: img/anime-point-left.png  used on input line 840.
+(pdftex.def)             Requested size: 256.0748pt x 191.65794pt.
+ [47
+
+ <./img/anime-point-left.png>]
+<img/kpot-ping-delete-0.png, id=406, 131.7723pt x 74.9199pt>
+File: img/kpot-ping-delete-0.png Graphic file (type png)
+<use img/kpot-ping-delete-0.png>
+Package pdftex.def Info: img/kpot-ping-delete-0.png  used on input line 855.
+(pdftex.def)             Requested size: 284.52756pt x 161.79597pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 855.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 855.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-delete.png, id=408, 1028.84375pt x 848.16875pt>
+File: img/anime-delete.png Graphic file (type png)
+<use img/anime-delete.png>
+Package pdftex.def Info: img/anime-delete.png  used on input line 855.
+(pdftex.def)             Requested size: 113.81102pt x 93.81653pt.
+
+[48
+
+ <./img/kpot-ping-delete-0.png> <./img/anime-delete.png>]
+<img/kpot-ping-delete-1.png, id=415, 179.9523pt x 125.5089pt>
+File: img/kpot-ping-delete-1.png Graphic file (type png)
+<use img/kpot-ping-delete-1.png>
+Package pdftex.def Info: img/kpot-ping-delete-1.png  used on input line 868.
+(pdftex.def)             Requested size: 284.52756pt x 198.46082pt.
+
+Overfull \vbox (0.99023pt too high) detected at line 868
+ []
+
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 868.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 868.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-scared.png, id=417, 4015.0pt x 4015.0pt>
+File: img/anime-scared.png Graphic file (type png)
+<use img/anime-scared.png>
+Package pdftex.def Info: img/anime-scared.png  used on input line 868.
+(pdftex.def)             Requested size: 142.26378pt x 142.25475pt.
+[49
+
+ <./img/kpot-ping-delete-1.png> <./img/anime-scared.png>]
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 906.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 906.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-money.png, id=426, 422.57875pt x 372.39125pt>
+File: img/anime-money.png Graphic file (type png)
+<use img/anime-money.png>
+Package pdftex.def Info: img/anime-money.png  used on input line 906.
+(pdftex.def)             Requested size: 85.35826pt x 75.2213pt.
+ [50
+
+ <./img/anime-money.png>]
+<img/kpot-stealer-modules-check-lang.png, id=433, 145.2627pt x 68.8974pt>
+File: img/kpot-stealer-modules-check-lang.png Graphic file (type png)
+<use img/kpot-stealer-modules-check-lang.png>
+Package pdftex.def Info: img/kpot-stealer-modules-check-lang.png  used on input
+ line 920.
+(pdftex.def)             Requested size: 312.9803pt x 148.45659pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 920.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 920.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+File: img/anime-computer-clipart.png Graphic file (type png)
+<use img/anime-computer-clipart.png>
+Package pdftex.def Info: img/anime-computer-clipart.png  used on input line 920
+.
+(pdftex.def)             Requested size: 85.35826pt x 84.77298pt.
+ [51
+
+ <./img/kpot-stealer-modules-check-lang.png (PNG copy)>]
+<img/kpot-cnc-exfiltration.png, id=440, 153.6942pt x 82.6287pt>
+File: img/kpot-cnc-exfiltration.png Graphic file (type png)
+<use img/kpot-cnc-exfiltration.png>
+Package pdftex.def Info: img/kpot-cnc-exfiltration.png  used on input line 934.
+
+(pdftex.def)             Requested size: 284.52756pt x 152.97284pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 934.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 934.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-gun.png, id=442, 830.10126pt x 1084.05pt>
+File: img/anime-gun.png Graphic file (type png)
+<use img/anime-gun.png>
+Package pdftex.def Info: img/anime-gun.png  used on input line 934.
+(pdftex.def)             Requested size: 142.26378pt x 185.77477pt.
+ [52
+
+ <./img/kpot-cnc-exfiltration.png (PNG copy)> <./img/anime-gun.png>]
+\openout4 = `index.vrb'.
+
+ (./index.vrb)
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 958.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 958.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-peek.png, id=450, 120.45pt x 120.45pt>
+File: img/anime-peek.png Graphic file (type png)
+<use img/anime-peek.png>
+Package pdftex.def Info: img/anime-peek.png  used on input line 958.
+(pdftex.def)             Requested size: 227.62204pt x 227.64432pt.
+
+[53
+
+ <./img/anime-peek.png>]
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 968.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 968.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/kpot-string-decryption-sids-anime-hand-over.png, id=458, 336.7782pt x 143.
+0946pt>
+File: img/kpot-string-decryption-sids-anime-hand-over.png Graphic file (type pn
+g)
+<use img/kpot-string-decryption-sids-anime-hand-over.png>
+Package pdftex.def Info: img/kpot-string-decryption-sids-anime-hand-over.png  u
+sed on input line 968.
+(pdftex.def)             Requested size: 503.61368pt x 213.99724pt.
+ [54
+
+ <./img/kpot-string-decryption-sids-anime-hand-over.png>]
+<img/kpot-string-decryption.png, id=465, 102.3825pt x 149.8398pt>
+File: img/kpot-string-decryption.png Graphic file (type png)
+<use img/kpot-string-decryption.png>
+Package pdftex.def Info: img/kpot-string-decryption.png  used on input line 981
+.
+(pdftex.def)             Requested size: 136.5733pt x 199.89258pt.
+
+Overfull \vbox (2.422pt too high) detected at line 981
+ []
+
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 981.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 981.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-meh.png, id=467, 577.1964pt x 389.2944pt>
+File: img/anime-meh.png Graphic file (type png)
+<use img/anime-meh.png>
+Package pdftex.def Info: img/anime-meh.png  used on input line 981.
+(pdftex.def)             Requested size: 199.16928pt x 134.33046pt.
+[55
+
+ <./img/kpot-string-decryption.png (PNG copy)> <./img/anime-meh.png>]
+\openout4 = `index.vrb'.
+
+
+(./index.vrb
+\openout5 = `index.pyg'.
+
+ (./_minted-index/default-pyg-prefix.pygstyle)
+(./_minted-index/monokai.pygstyle)
+(./_minted-index/CC6B146237DDEA0B3F8BA9290514D1D5671173B54E95CC1589E7305F147D79
+DF.pygtex))
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1014.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1014.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-blow-kiss.png, id=476, 702.625pt x 922.44624pt>
+File: img/anime-blow-kiss.png Graphic file (type png)
+<use img/anime-blow-kiss.png>
+Package pdftex.def Info: img/anime-blow-kiss.png  used on input line 1014.
+(pdftex.def)             Requested size: 170.71652pt x 224.12224pt.
+ [56
+
+ <./img/anime-blow-kiss.png>]
+\openout4 = `index.vrb'.
+
+ (./index.vrb
+\openout5 = `index.pyg'.
+
+
+(./_minted-index/F2F9D713FE7203FE01DECF2E4D5305AA671173B54E95CC1589E7305F147D79
+DF.pygtex))
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1047.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1047.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-standing.png, id=484, 758.835pt x 1060.96375pt>
+File: img/anime-standing.png Graphic file (type png)
+<use img/anime-standing.png>
+Package pdftex.def Info: img/anime-standing.png  used on input line 1047.
+(pdftex.def)             Requested size: 165.02606pt x 230.72537pt.
+ [57
+
+ <./img/anime-standing.png>]
+\openout4 = `index.vrb'.
+
+ (./index.vrb
+\openout5 = `index.pyg'.
+
+
+(./_minted-index/C41CB3F1BCE563855640D8C6DC1F93A9671173B54E95CC1589E7305F147D79
+DF.pygtex))
+Overfull \vbox (31.72049pt too high) detected at line 1087
+ []
+
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1087.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1087.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-cheeks.png, id=492, 702.625pt x 953.5625pt>
+File: img/anime-cheeks.png Graphic file (type png)
+<use img/anime-cheeks.png>
+Package pdftex.def Info: img/anime-cheeks.png  used on input line 1087.
+(pdftex.def)             Requested size: 142.26378pt x 193.06625pt.
+[58
+
+ <./img/anime-cheeks.png>]
+<img/anime-threat-actor.png, id=499, 1061.9675pt x 1084.05pt>
+File: img/anime-threat-actor.png Graphic file (type png)
+<use img/anime-threat-actor.png>
+Package pdftex.def Info: img/anime-threat-actor.png  used on input line 1097.
+(pdftex.def)             Requested size: 199.16928pt x 203.3085pt.
+
+Overfull \vbox (5.83792pt too high) detected at line 1097
+ []
+
+<img/anime-city-background.jpg, id=500, 2015.53pt x 1134.2375pt>
+File: img/anime-city-background.jpg Graphic file (type jpg)
+<use img/anime-city-background.jpg>
+Package pdftex.def Info: img/anime-city-background.jpg  used on input line 1097
+.
+(pdftex.def)             Requested size: 455.24408pt x 256.17892pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1097.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[59
+
+ <./img/anime-city-background.jpg> <./img/anime-threat-actor.png>]
+<img/validcc-website-kpot-relationship.png, id=508, 301.3659pt x 166.4619pt>
+File: img/validcc-website-kpot-relationship.png Graphic file (type png)
+<use img/validcc-website-kpot-relationship.png>
+Package pdftex.def Info: img/validcc-website-kpot-relationship.png  used on inp
+ut line 1107.
+(pdftex.def)             Requested size: 312.9803pt x 172.88766pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1107.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1107.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [60
+
+ <./img/validcc-website-kpot-relationship.png (PNG copy)>]
+<img/validcc-website.png, id=516, 251.4996pt x 132.7359pt>
+File: img/validcc-website.png Graphic file (type png)
+<use img/validcc-website.png>
+Package pdftex.def Info: img/validcc-website.png  used on input line 1120.
+(pdftex.def)             Requested size: 341.43306pt x 180.22069pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1120.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1120.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-gun-new.png, id=518, 1491.5725pt x 1676.2625pt>
+File: img/anime-gun-new.png Graphic file (type png)
+<use img/anime-gun-new.png>
+Package pdftex.def Info: img/anime-gun-new.png  used on input line 1120.
+(pdftex.def)             Requested size: 184.9429pt x 207.81859pt.
+ [61
+
+ <./img/validcc-website.png (PNG copy)> <./img/anime-gun-new.png>]
+\openout4 = `index.vrb'.
+
+ (./index.vrb)
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1159.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1159.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-tired.png, id=527, 169.8345pt x 168.63pt>
+File: img/anime-tired.png Graphic file (type png)
+<use img/anime-tired.png>
+Package pdftex.def Info: img/anime-tired.png  used on input line 1159.
+(pdftex.def)             Requested size: 113.81102pt x 113.00723pt.
+ [62
+
+ <./img/anime-tired.png>]
+<img/anime-confused.png, id=534, 283.0575pt x 301.125pt>
+File: img/anime-confused.png Graphic file (type png)
+<use img/anime-confused.png>
+Package pdftex.def Info: img/anime-confused.png  used on input line 1168.
+(pdftex.def)             Requested size: 227.62204pt x 242.15929pt.
+
+Overfull \vbox (32.6887pt too high) detected at line 1168
+ []
+
+<img/anime-classroom-background.jpg, id=535, 1927.2pt x 1084.05pt>
+File: img/anime-classroom-background.jpg Graphic file (type jpg)
+<use img/anime-classroom-background.jpg>
+Package pdftex.def Info: img/anime-classroom-background.jpg  used on input line
+ 1168.
+(pdftex.def)             Requested size: 455.24408pt x 256.07509pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1168.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[63
+
+ <./img/anime-classroom-background.jpg> <./img/anime-confused.png>]
+File: img/anime-classroom-background.jpg Graphic file (type jpg)
+<use img/anime-classroom-background.jpg>
+Package pdftex.def Info: img/anime-classroom-background.jpg  used on input line
+ 1195.
+(pdftex.def)             Requested size: 455.24408pt x 256.07509pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1195.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-point.png, id=544, 2194.599pt x 2265.263pt>
+File: img/anime-point.png Graphic file (type png)
+<use img/anime-point.png>
+Package pdftex.def Info: img/anime-point.png  used on input line 1195.
+(pdftex.def)             Requested size: 142.26378pt x 146.83247pt.
+ [64
+
+ <./img/anime-point.png>]
+<img/anime-thank-you.png, id=551, 451.6875pt x 451.6875pt>
+File: img/anime-thank-you.png Graphic file (type png)
+<use img/anime-thank-you.png>
+Package pdftex.def Info: img/anime-thank-you.png  used on input line 1203.
+(pdftex.def)             Requested size: 284.52756pt x 284.54395pt.
+
+Overfull \vbox (75.07336pt too high) detected at line 1203
+ []
+
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1203.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[65
+
+ <./img/anime-thank-you.png>]
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1215.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [66
+
+]
+\tf@nav=\write10
+\openout10 = `index.nav'.
+
+\tf@toc=\write11
+\openout11 = `index.toc'.
+
+\tf@snm=\write12
+\openout12 = `index.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1217.
+ (./index.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1217.
+
+Package rerunfilecheck Info: File `index.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+runsystem(rm index.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 23091 strings out of 494553
+ 457208 string characters out of 6177841
+ 578878 words of memory out of 5000000
+ 26012 multiletter control sequences out of 15000+600000
+ 12590 words of font info for 48 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 48i,15n,73p,793b,724s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt9.pfb>
+Output written on index.pdf (66 pages, 21756100 bytes).
+PDF statistics:
+ 627 PDF objects out of 1000 (max. 8388607)
+ 409 compressed objects within 5 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 451 words of extra memory for PDF output out of 10000 (max. 10000000)
+

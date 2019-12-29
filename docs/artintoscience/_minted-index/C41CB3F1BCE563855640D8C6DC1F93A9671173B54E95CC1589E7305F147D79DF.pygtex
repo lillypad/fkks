@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+      \PYG{n+nl}{c2dec:}
+        \PYG{n+nf}{push} \PYG{n+no}{ebp}
+        \PYG{n+nf}{mov} \PYG{n+no}{ebp}\PYG{p}{,} \PYG{n+no}{esp}
+        \PYG{n+nf}{push} \PYG{n+no}{esi}
+        \PYG{n+nf}{xor} \PYG{n+no}{esi}\PYG{p}{,} \PYG{n+no}{esi}
+        \PYG{n+nf}{cmp} \PYG{n+no}{dword} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{0xc}\PYG{p}{],} \PYG{n+no}{esi}
+        \PYG{n+nf}{jbe} \PYG{n+no}{addr\PYGZus{}403ddd}
+      \PYG{n+nl}{addr\PYGZus{}403dc2:}
+        \PYG{n+nf}{mov} \PYG{n+no}{eax}\PYG{p}{,} \PYG{n+no}{dword} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{0x8}\PYG{p}{]}
+        \PYG{n+nf}{lea} \PYG{n+no}{ecx}\PYG{p}{,} \PYG{p}{[}\PYG{n+no}{esi} \PYG{err}{+} \PYG{n+no}{eax}\PYG{p}{]}
+        \PYG{n+nf}{xor} \PYG{n+no}{edx}\PYG{p}{,} \PYG{n+no}{edx}
+        \PYG{n+nf}{mov} \PYG{n+no}{eax}\PYG{p}{,} \PYG{n+no}{esi}
+        \PYG{n+nf}{div} \PYG{n+no}{dword} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{0x14}\PYG{p}{]}
+        \PYG{n+nf}{mov} \PYG{n+no}{eax}\PYG{p}{,} \PYG{n+no}{dword} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{0x10}\PYG{p}{]}
+        \PYG{n+nf}{mov} \PYG{n+no}{al}\PYG{p}{,} \PYG{n+no}{byte} \PYG{p}{[}\PYG{n+no}{edx} \PYG{err}{+} \PYG{n+no}{eax}\PYG{p}{]}
+        \PYG{n+nf}{xor} \PYG{n+no}{byte} \PYG{p}{[}\PYG{n+no}{ecx}\PYG{p}{],} \PYG{n+no}{al}
+        \PYG{n+nf}{inc} \PYG{n+no}{esi}
+        \PYG{n+nf}{cmp} \PYG{n+no}{esi}\PYG{p}{,} \PYG{n+no}{dword} \PYG{p}{[}\PYG{n+no}{ebp} \PYG{err}{+} \PYG{l+m+mi}{0xc}\PYG{p}{]}
+        \PYG{n+nf}{jb} \PYG{n+no}{addr\PYGZus{}403dc2}
+      \PYG{n+nl}{addr\PYGZus{}403ddd:}
+        \PYG{n+nf}{pop} \PYG{n+no}{esi}
+        \PYG{n+nf}{pop} \PYG{n+no}{ebp}
+        \PYG{n+nf}{ret}
+\end{Verbatim}
