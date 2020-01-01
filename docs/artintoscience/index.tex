@@ -89,7 +89,7 @@
 
 \institute{GoSecure}
 \author{Lilly Chalupowski}
-\date{November 15, 2019}
+\date{January 14, 2020}
 
 \begin{document}
 
@@ -112,51 +112,49 @@
   \AtPagemyUpperLeft{{\includegraphics[width=4cm,keepaspectratio]{gosecure-logo}}}
 }%
 
-% {\usebackgroundtemplate{\includegraphics[width=\paperwidth]{question-mark-background.png}}%
-% \begin{frame}
-%   \frametitle{whois lilly.chalupowski}
-%   \begin{table}
-%     \caption{\textit{who.is results}}
-%     \begin{tabularx}{\textwidth}{|X|X|}
-%       \hline
-%       Name & Lilly Chalupowski \\
-%       \hline
-%       Status & Employed \\
-%       \hline
-%       Creation Date & 1986 \\
-%       \hline
-%       Expiry & A Long Time from Now (Hopefully)\\
-%       \hline
-%       Registrant Name & GoSecure \\
-%       \hline
-%       Administrative Contact & Travis Barlow \\
-%       \hline
-%       Job & TITAN Malware Research Lead \\
-%       \hline
-%     \end{tabularx}
-%   \end{table}
-% \end{frame}
-% }
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{whoami-background.jpg}}%
+\begin{frame}[fragile]
+  \frametitle{whois}
+\begin{verbatim}
+malware@work ~$ whois lilly.chalupowski
+{
+  'name'         : 'Lilly Chalupowski',
+  'company'      : 'GoSecure',
+  'position'     : 'TITAN Malware Research Lead',
+  'expiry'       : 'Long time from now',
+  'admin_contact': 'Travis Barlow'
+}
+malware@work ~$ 
+\end{verbatim}
+\end{frame}
+}
 
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{anime-computer-background.png}}
 \begin{frame}
   \frametitle{Agenda}
   \framesubtitle{What will we cover?}
-  \begin{columns}[onlytextwidth]
-    \begin{column}{.50\textwidth}
-      \begin{itemize}
-      \item{Disclaimer}
-      \item{Operation Lawyer Loot}
-      \end{itemize}
-
-    \end{column}
-    \hfill
-    \begin{column}{.50\textwidth}
-      \begin{center}
-        \includegraphics[scale=1.8]{agenda-meme}
-      \end{center}
-    \end{column}
-  \end{columns}
+  \begin{itemize}
+  \item{Disclaimer}
+  \item{Inspiration}
+  \item{Operation Lawyer Loot}
+    \begin{itemize}
+      \item{Initial Infection Vector}
+      \item{Campaign Targets}
+      \item{Defeating Stage 1 and 2 Packer / Loader}
+      \item{KPot v2.0}
+        \begin{itemize}
+        \item{Initialization}
+        \item{Checkin}
+        \item{Stealer Modules}
+        \item{Exfiltration}
+        \item{Defeating CnC and String Encryption}
+        \end{itemize}
+      \item{Threat Actor Hypothesis}
+    \end{itemize}
+  \item{Questions}
+  \end{itemize}
 \end{frame}
+}
 
 \begin{frame}
   \frametitle{Disclaimer}
@@ -529,6 +527,9 @@
   \frametitle{Operation Lawyer Loot}
   \framesubtitle{Stage 2 Loader Unpacking Process Hollowing
     with pe-sieve}
+  \AddToShipoutPictureFG*{
+    \makebox(450,125){\includegraphics[width=4cm]{anime-shrug}}
+  }
   \begin{center}
     \includegraphics[width=14cm]{kpot-unpacking-11}
   \end{center}
@@ -539,6 +540,9 @@
 \begin{frame}
   \frametitle{Operation Lawyer Loot}
   \framesubtitle{KPot v2.0 Strings}
+  \AddToShipoutPictureFG*{
+    \makebox(750,190){\includegraphics[width=4cm]{anime-cop}}
+  }
   \begin{center}
     \includegraphics[scale=0.95]{kpot-unpacking-12}
   \end{center}
@@ -578,6 +582,9 @@
 \begin{frame}
   \frametitle{Operation Lawyer Loot}
   \framesubtitle{KPot v2.0 - Initialization}
+  \AddToShipoutPictureFG*{
+    \makebox(715,260){\includegraphics[width=6cm]{anime-dark}}
+  }
   \begin{figure}
     \includegraphics[width=8cm]{kpot-entry0}
     \caption{KPot v2.0 - Initialization}
@@ -675,6 +682,9 @@
 \begin{frame}
   \frametitle{Operation Lawyer Loot}
   \framesubtitle{KPot v2.0 - CnC Checkin}
+  \AddToShipoutPictureFG*{
+    \makebox(750,190){\includegraphics[width=6cm]{anime-sword}}
+  }
   \begin{figure}
     \includegraphics[width=9cm]{kpot-cnc-checkin-routine}
     \caption{KPot v2.0 - Checkin Routine}
@@ -1101,6 +1111,22 @@ Cache-Control: no-cache
 \end{figure}
 \end{frame}
 }
+
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
+  \begin{frame}[fragile]{}
+    \frametitle{Operation Lawyer Loot}
+    \framesubtitle{KPot v2.0 - Defeating KPot v2.0 Demo w/ CnC Server and
+      Decryption Tool}
+    \AddToShipoutPictureFG*{
+      \makebox(675,245){\includegraphics[width=5.5cm]{anime-yay}}
+    }
+    \begin{figure}[hp]
+      \centering
+      \includegraphics[width=10cm]{kpot-decryption-tool}
+    \end{figure}
+\end{frame}
+}
+
 
 {\usebackgroundtemplate{\includegraphics[width=\paperwidth]{anime-city-background.jpg}}
 \begin{frame}
