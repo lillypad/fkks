@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019 Gentoo Linux) (preloaded format=pdflatex 2019.12.2)  4 JAN 2020 10:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019 Gentoo Linux) (preloaded format=pdflatex 2019.12.2)  4 JAN 2020 14:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2338,82 +2338,112 @@ Package pdftex.def Info: img/anime-gun-new.png  used on input line 1185.
 \openout4 = `index.vrb'.
 
  (./index.vrb)
-File: img/digital-background.jpg Graphic file (type jpg)
-<use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 1224.
+<img/anime-gun-background.jpg, id=579, 1445.4pt x 813.0375pt>
+File: img/anime-gun-background.jpg Graphic file (type jpg)
+<use img/anime-gun-background.jpg>
+Package pdftex.def Info: img/anime-gun-background.jpg  used on input line 1218.
+
+(pdftex.def)             Requested size: 455.24408pt x 256.07095pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1218.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [65
+
+ <./img/anime-gun-background.jpg>]
+\openout4 = `index.vrb'.
+
+ (./index.vrb)
+<img/anime-gun-background-2.jpg, id=586, 462.528pt x 260.172pt>
+File: img/anime-gun-background-2.jpg Graphic file (type jpg)
+<use img/anime-gun-background-2.jpg>
+Package pdftex.def Info: img/anime-gun-background-2.jpg  used on input line 125
+6.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1224.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1256.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-tired.png, id=580, 169.8345pt x 168.63pt>
-File: img/anime-tired.png Graphic file (type png)
-<use img/anime-tired.png>
-Package pdftex.def Info: img/anime-tired.png  used on input line 1224.
-(pdftex.def)             Requested size: 113.81102pt x 113.00723pt.
- [65
+ [66
 
- <./img/anime-tired.png>]
-<img/anime-confused.png, id=587, 283.0575pt x 301.125pt>
+ <./img/anime-gun-background-2.jpg>]
+\openout4 = `index.vrb'.
+
+
+(./index.vrb)
+<img/anime-gun-background-3.jpg, id=593, 462.528pt x 260.172pt>
+File: img/anime-gun-background-3.jpg Graphic file (type jpg)
+<use img/anime-gun-background-3.jpg>
+Package pdftex.def Info: img/anime-gun-background-3.jpg  used on input line 129
+4.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1294.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+ [67
+
+ <./img/anime-gun-background-3.jpg>]
+<img/anime-confused.png, id=601, 283.0575pt x 301.125pt>
 File: img/anime-confused.png Graphic file (type png)
 <use img/anime-confused.png>
-Package pdftex.def Info: img/anime-confused.png  used on input line 1233.
+Package pdftex.def Info: img/anime-confused.png  used on input line 1303.
 (pdftex.def)             Requested size: 227.62204pt x 242.15929pt.
 
-Overfull \vbox (32.6887pt too high) detected at line 1233
+Overfull \vbox (32.6887pt too high) detected at line 1303
  []
 
-<img/anime-classroom-background.jpg, id=588, 1927.2pt x 1084.05pt>
+<img/anime-classroom-background.jpg, id=602, 1927.2pt x 1084.05pt>
 File: img/anime-classroom-background.jpg Graphic file (type jpg)
 <use img/anime-classroom-background.jpg>
 Package pdftex.def Info: img/anime-classroom-background.jpg  used on input line
- 1233.
+ 1303.
 (pdftex.def)             Requested size: 455.24408pt x 256.07509pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1233.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1303.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-[66
+[68
 
  <./img/anime-classroom-background.jpg> <./img/anime-confused.png>]
 File: img/anime-classroom-background.jpg Graphic file (type jpg)
 <use img/anime-classroom-background.jpg>
 Package pdftex.def Info: img/anime-classroom-background.jpg  used on input line
- 1260.
+ 1330.
 (pdftex.def)             Requested size: 455.24408pt x 256.07509pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1260.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1330.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-point.png, id=597, 2194.599pt x 2265.263pt>
+<img/anime-point.png, id=611, 2194.599pt x 2265.263pt>
 File: img/anime-point.png Graphic file (type png)
 <use img/anime-point.png>
-Package pdftex.def Info: img/anime-point.png  used on input line 1260.
+Package pdftex.def Info: img/anime-point.png  used on input line 1330.
 (pdftex.def)             Requested size: 142.26378pt x 146.83247pt.
- [67
+ [69
 
  <./img/anime-point.png>]
-<img/anime-thank-you.png, id=605, 451.6875pt x 451.6875pt>
+<img/anime-thank-you.png, id=618, 451.6875pt x 451.6875pt>
 File: img/anime-thank-you.png Graphic file (type png)
 <use img/anime-thank-you.png>
-Package pdftex.def Info: img/anime-thank-you.png  used on input line 1268.
+Package pdftex.def Info: img/anime-thank-you.png  used on input line 1338.
 (pdftex.def)             Requested size: 284.52756pt x 284.54395pt.
 
-Overfull \vbox (75.07336pt too high) detected at line 1268
+Overfull \vbox (75.07336pt too high) detected at line 1338
  []
 
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1268.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1338.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-[68
+[70
 
  <./img/anime-thank-you.png>]
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1280.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1350.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
- [69
+ [71
 
 ]
 \tf@nav=\write10
@@ -2425,11 +2455,11 @@ Package pdftex.def Info: img/gosecure-logo.png  used on input line 1280.
 \tf@snm=\write12
 \openout12 = `index.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1282.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1282.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1352.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1352.
  (./index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1282.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1282.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1352.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1352.
 
 Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -2437,10 +2467,10 @@ runsystem(rm index.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 23261 strings out of 494553
- 461616 string characters out of 6177841
- 580215 words of memory out of 5000000
- 26154 multiletter control sequences out of 15000+600000
+ 23283 strings out of 494553
+ 462105 string characters out of 6177841
+ 580287 words of memory out of 5000000
+ 26166 multiletter control sequences out of 15000+600000
  12590 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  48i,15n,73p,793b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2452,10 +2482,10 @@ mss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmtt9.pfb>
-Output written on index.pdf (69 pages, 32828625 bytes).
+Output written on index.pdf (71 pages, 32998367 bytes).
 PDF statistics:
- 682 PDF objects out of 1000 (max. 8388607)
- 427 compressed objects within 5 object streams
- 139 named destinations out of 1000 (max. 500000)
- 547 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 695 PDF objects out of 1000 (max. 8388607)
+ 437 compressed objects within 5 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 557 words of extra memory for PDF output out of 10000 (max. 10000000)
 

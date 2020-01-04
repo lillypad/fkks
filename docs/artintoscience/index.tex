@@ -1185,14 +1185,10 @@ Cache-Control: no-cache
 \end{frame}
 }
 
-{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{digital-background.jpg}}
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{anime-gun-background.jpg}}
 \begin{frame}[fragile]
   \frametitle{Operation Lawyer Loot}
   \framesubtitle{KPot v2.0 - Yara Signature}
-  \AddToShipoutPictureFG*{
-    \makebox(800,118){\includegraphics[width=4cm]{anime-tired}}
-  }
-\begin{figure}
 \tiny{
 \begin{verbatim}
 rule kpot_v2{
@@ -1219,8 +1215,82 @@ rule kpot_v2{
 }
 \end{verbatim}
 }
-\caption{KPot v2.0 - Yara Signature}
-\end{figure}
+\end{frame}
+}
+
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{anime-gun-background-2.jpg}}
+\begin{frame}[fragile]
+  \frametitle{Operation Lawyer Loot}
+  \framesubtitle{KPot v2.0 - Suricata Signatures}
+\tiny{
+\begin{verbatim}
+alert http $HOME_NET any -> $EXTERNAL_NET any (
+    msg:"GS MALWARE KPot v2.0 CnC Checkin";
+    content:"GET"; http_method;
+    content:"gate.php"; nocase; http_uri; fast_pattern;
+    pcre:"/^\/[a-z0-9]{16}\/gate\.php$/iU";
+    content:"Content-Type|3a 20|application/x-www-form-urlencoded"; http_header;
+    content:!"User-Agent"; http_header;
+    flow:to_server, established;
+    flowbits:set, http.malware.stealer.kpot_0;
+    metadata:created 2019-07-12, type malware.stealer, os windows;
+    reference:url, https://github.com/lillypad/fkks;
+    classtype:trojan-activity;
+    sid:2000000;
+    rev:1;
+)
+alert http $EXTERNAL_NET any -> $HOME_NET any (
+    msg:"GS MALWARE KPot v2.0 CnC Checkin Response";
+    content:"200"; http_stat_code;
+    flowbits:isset, http.malware.stealer.kpot_0
+    pcre:"/^[a-z0-9\/+]+(?:=+)?/iQ";
+    flow:to_client, established;
+    metadata:created 2019-07-12, type malware.stealer, os windows;
+    reference:url, https://github.com/lillypad/fkks;
+    classtype:trojan-activity;
+    sid:2000001;
+    rev:1;
+)
+\end{verbatim}
+}
+\end{frame}
+}
+
+{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{anime-gun-background-3.jpg}}
+\begin{frame}[fragile]
+  \frametitle{Operation Lawyer Loot}
+  \framesubtitle{KPot v2.0 - Suricata Signatures cont...}
+\tiny{
+\begin{verbatim}
+alert http $HOME_NET any -> $EXTERNAL_NET any (
+    msg:"GS MALWARE KPot v2.0 Data Exfiltration";
+    content:"POST"; http_method;
+    content:"gate.php"; nocase; http_uri; fast_pattern;
+    pcre:"/^\/[a-z0-9]{16}\/gate\.php$/iU";
+    content:"Content-Type|3a 20|application/octet-stream"; http_header;
+    content:"Content-Encoding|3a 20|binary"; http_header;
+    flow:to_server, established;
+    flowbits:set, http.malware.stealer.kpot_1;
+    metadata:created 2019-07-12, type malware.stealer, os windows;
+    reference:url, https://github.com/lillypad/fkks;
+    classtype:trojan-activity;
+    sid:2000002;
+    rev:1;
+)
+alert $EXTERNAL_NET any -> $HOME_NET any (
+    msg:"GS MALWARE KPot v2.0 Data Exfiltration Response";
+    content:"200"; http_stat_code;
+    content:"OK"; nocase; http_server_body; depth:2;
+    flow:to_client, established;
+    flowbits:isset, http.malware.stealer.kpot_1;
+    metadata:created 2019-07-12, type malware.stealer, os windows;
+    reference:url, http://github.com/lillypad/fkks;
+    classtype:trojan-activity;
+    sid:2000002;
+    rev:1;
+)
+\end{verbatim}
+}
 \end{frame}
 }
 

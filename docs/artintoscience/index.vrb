@@ -1,34 +1,33 @@
 \frametitle{Operation Lawyer Loot}
-  \framesubtitle{KPot v2.0 - Yara Signature}
-  \AddToShipoutPictureFG*{
-    \makebox(800,118){\includegraphics[width=4cm]{anime-tired}}
-  }
-\begin{figure}
+  \framesubtitle{KPot v2.0 - Suricata Signatures cont...}
 \tiny{
 \begin{verbatim}
-rule kpot_v2{
-     meta:
-        author = "TITAN"
-        company = "GoSecure"
-        description = "KPot v2.0 Operation Lawyer Loot"
-        created = "2019-09-15"
-        reference = "e66ba8277ea31ccb49a1b1ef6d612b9b"
-        type = "malware.stealer"
-        os = "windows"
-    strings:
-        $s0 = "%s\\Outlook.txt" wide
-        $s1 = "POP3 Password" wide
-        $s2 = "IMAP Password" wide
-        $s3 = "HTTP Password" wide
-        $s4 = "SMTP Password" wide
-        $s5 = "password-check"
-        $h0 = { 50 ?? ?? ?? ?? ?? ?? 83 c7 04 83 c4 18 ?? ?? 83 ff ??}
-        $h1 = { b9 19 04 00 00 66 3b c1 }
-    condition:
-    (uint16(0) == 0x5a4d and uint32(uint32(0x3c)) == 0x00004550) and
-    ($h0 and $h1) and ($s0 or $s1 or $s2 or $s3 or $s4 or $s5)
-}
+alert http $HOME_NET any -> $EXTERNAL_NET any (
+    msg:"GS MALWARE KPot v2.0 Data Exfiltration";
+    content:"POST"; http_method;
+    content:"gate.php"; nocase; http_uri; fast_pattern;
+    pcre:"/^\/[a-z0-9]{16}\/gate\.php$/iU";
+    content:"Content-Type|3a 20|application/octet-stream"; http_header;
+    content:"Content-Encoding|3a 20|binary"; http_header;
+    flow:to_server, established;
+    flowbits:set, http.malware.stealer.kpot_1;
+    metadata:created 2019-07-12, type malware.stealer, os windows;
+    reference:url, https://github.com/lillypad/fkks;
+    classtype:trojan-activity;
+    sid:2000002;
+    rev:1;
+)
+alert $EXTERNAL_NET any -> $HOME_NET any (
+    msg:"GS MALWARE KPot v2.0 Data Exfiltration Response";
+    content:"200"; http_stat_code;
+    content:"OK"; nocase; http_server_body; depth:2;
+    flow:to_client, established;
+    flowbits:isset, http.malware.stealer.kpot_1;
+    metadata:created 2019-07-12, type malware.stealer, os windows;
+    reference:url, http://github.com/lillypad/fkks;
+    classtype:trojan-activity;
+    sid:2000002;
+    rev:1;
+)
 \end{verbatim}
 }
-\caption{KPot v2.0 - Yara Signature}
-\end{figure}
