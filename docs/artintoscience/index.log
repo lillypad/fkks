@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019 Gentoo Linux) (preloaded format=pdflatex 2019.12.2)  1 JAN 2020 21:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019 Gentoo Linux) (preloaded format=pdflatex 2019.12.2)  4 JAN 2020 10:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1142,174 +1142,195 @@ Package pdftex.def Info: img/gosecure-logo.png  used on input line 212.
  <./img/jmp-meme.jpg>]
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 243--243
+Underfull \hbox (badness 5878) in paragraph at lines 246--246
 \OT1/cmss/m/n/10.95 Kindly find at-tached the con-fir-ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 
  []
 
 <img/malspam-background.png, id=87, 462.528pt x 258.9675pt>
 File: img/malspam-background.png Graphic file (type png)
 <use img/malspam-background.png>
-Package pdftex.def Info: img/malspam-background.png  used on input line 243.
+Package pdftex.def Info: img/malspam-background.png  used on input line 246.
 (pdftex.def)             Requested size: 455.24408pt x 254.90073pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 243.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 246.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-letter.png, id=89, 235.88126pt x 332.24126pt>
+File: img/anime-letter.png Graphic file (type png)
+<use img/anime-letter.png>
+Package pdftex.def Info: img/anime-letter.png  used on input line 246.
+(pdftex.def)             Requested size: 85.35826pt x 120.23032pt.
 [9
 
- <./img/malspam-background.png>]
-<img/anime-sniper-background.png, id=96, 1445.4pt x 903.375pt>
+ <./img/malspam-background.png> <./img/anime-letter.png>]
+<img/sidneymorris.png, id=98, 349.7868pt x 204.0423pt>
+File: img/sidneymorris.png Graphic file (type png)
+<use img/sidneymorris.png>
+Package pdftex.def Info: img/sidneymorris.png  used on input line 255.
+(pdftex.def)             Requested size: 341.43306pt x 199.16925pt.
+
+Overfull \vbox (1.69867pt too high) detected at line 255
+ []
+
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 255.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+[10
+
+ <./img/sidneymorris.png (PNG copy)>]
+<img/anime-sniper-background.png, id=105, 1445.4pt x 903.375pt>
 File: img/anime-sniper-background.png Graphic file (type png)
 <use img/anime-sniper-background.png>
-Package pdftex.def Info: img/anime-sniper-background.png  used on input line 25
-7.
+Package pdftex.def Info: img/anime-sniper-background.png  used on input line 26
+8.
 (pdftex.def)             Requested size: 455.24408pt x 284.52328pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 257.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 268.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
- [10
+ [11
 
  <./img/anime-sniper-background.png>]
-<img/digital-background.jpg, id=104, 462.528pt x 260.172pt>
+<img/digital-background.jpg, id=113, 462.528pt x 260.172pt>
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 292.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 303.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 292.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 303.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-computer-clipart.png, id=106, 293.095pt x 291.0875pt>
+<img/anime-computer-clipart.png, id=115, 293.095pt x 291.0875pt>
 File: img/anime-computer-clipart.png Graphic file (type png)
 <use img/anime-computer-clipart.png>
-Package pdftex.def Info: img/anime-computer-clipart.png  used on input line 292
+Package pdftex.def Info: img/anime-computer-clipart.png  used on input line 303
 .
 (pdftex.def)             Requested size: 85.35826pt x 84.77298pt.
-
-[11
+ [12
 
  <./img/digital-background.jpg> <./img/anime-computer-clipart.png>]
-<img/kpot-portex-analyzer-stage-1.png, id=113, 971.63pt x 803.0pt>
+<img/kpot-portex-analyzer-stage-1.png, id=122, 971.63pt x 803.0pt>
 File: img/kpot-portex-analyzer-stage-1.png Graphic file (type png)
 <use img/kpot-portex-analyzer-stage-1.png>
 Package pdftex.def Info: img/kpot-portex-analyzer-stage-1.png  used on input li
-ne 305.
+ne 316.
 (pdftex.def)             Requested size: 227.62204pt x 188.1169pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 305.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 316.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 305.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 316.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-wink.png, id=115, 501.875pt x 446.66875pt>
+<img/anime-wink.png, id=124, 501.875pt x 446.66875pt>
 File: img/anime-wink.png Graphic file (type png)
 <use img/anime-wink.png>
-Package pdftex.def Info: img/anime-wink.png  used on input line 305.
+Package pdftex.def Info: img/anime-wink.png  used on input line 316.
 (pdftex.def)             Requested size: 170.71652pt x 151.94032pt.
- [12
+
+[13
 
  <./img/kpot-portex-analyzer-stage-1.png (PNG copy)> <./img/anime-wink.png>]
-<img/kpot-unpacking-2.png, id=122, 224.7597pt x 108.6459pt>
+<img/kpot-unpacking-2.png, id=132, 224.7597pt x 108.6459pt>
 File: img/kpot-unpacking-2.png Graphic file (type png)
 <use img/kpot-unpacking-2.png>
-Package pdftex.def Info: img/kpot-unpacking-2.png  used on input line 326.
+Package pdftex.def Info: img/kpot-unpacking-2.png  used on input line 337.
 (pdftex.def)             Requested size: 280.94891pt x 135.807pt.
 
-Overfull \hbox (2.11313pt too wide) in paragraph at lines 326--326
+Overfull \hbox (2.11313pt too wide) in paragraph at lines 337--337
  [] 
  []
 
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 326.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 337.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 326.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 337.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-[13
+[14
 
  <./img/kpot-unpacking-2.png (PNG copy)>]
-<img/kpot-unpacking-3.png, id=130, 159.4758pt x 95.8782pt>
+<img/kpot-unpacking-3.png, id=139, 159.4758pt x 95.8782pt>
 File: img/kpot-unpacking-3.png Graphic file (type png)
 <use img/kpot-unpacking-3.png>
-Package pdftex.def Info: img/kpot-unpacking-3.png  used on input line 347.
+Package pdftex.def Info: img/kpot-unpacking-3.png  used on input line 358.
 (pdftex.def)             Requested size: 279.08195pt x 167.78639pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 347.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 358.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 347.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 358.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
- [14
+ [15
 
  <./img/kpot-unpacking-3.png (PNG copy)>]
-<img/kpot-unpacking-4.png, id=137, 346.1733pt x 160.1985pt>
+<img/kpot-unpacking-4.png, id=146, 346.1733pt x 160.1985pt>
 File: img/kpot-unpacking-4.png Graphic file (type png)
 <use img/kpot-unpacking-4.png>
-Package pdftex.def Info: img/kpot-unpacking-4.png  used on input line 360.
+Package pdftex.def Info: img/kpot-unpacking-4.png  used on input line 371.
 (pdftex.def)             Requested size: 398.33858pt x 184.34662pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 360.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 371.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 360.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 371.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-thinking.png, id=139, 452.69125pt x 621.32124pt>
+<img/anime-thinking.png, id=148, 452.69125pt x 621.32124pt>
 File: img/anime-thinking.png Graphic file (type png)
 <use img/anime-thinking.png>
-Package pdftex.def Info: img/anime-thinking.png  used on input line 360.
+Package pdftex.def Info: img/anime-thinking.png  used on input line 371.
 (pdftex.def)             Requested size: 56.9055pt x 78.10106pt.
- [15
+ [16
 
  <./img/kpot-unpacking-4.png> <./img/anime-thinking.png>]
-<img/kpot-unpacking-5.png, id=147, 200.4288pt x 92.2647pt>
+<img/kpot-unpacking-5.png, id=156, 200.4288pt x 92.2647pt>
 File: img/kpot-unpacking-5.png Graphic file (type png)
 <use img/kpot-unpacking-5.png>
-Package pdftex.def Info: img/kpot-unpacking-5.png  used on input line 384.
+Package pdftex.def Info: img/kpot-unpacking-5.png  used on input line 395.
 (pdftex.def)             Requested size: 260.55739pt x 119.94408pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 384.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 395.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 384.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 395.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-thumbs-up.png, id=149, 532.23843pt x 525.46312pt>
+<img/anime-thumbs-up.png, id=158, 532.23843pt x 525.46312pt>
 File: img/anime-thumbs-up.png Graphic file (type png)
 <use img/anime-thumbs-up.png>
-Package pdftex.def Info: img/anime-thumbs-up.png  used on input line 384.
+Package pdftex.def Info: img/anime-thumbs-up.png  used on input line 395.
 (pdftex.def)             Requested size: 85.35826pt x 84.26823pt.
 
-[16
+[17
 
  <./img/kpot-unpacking-5.png (PNG copy)> <./img/anime-thumbs-up.png>]
 \openout4 = `index.vrb'.
@@ -1330,150 +1351,150 @@ Overfull \hbox (11.15784pt too wide) in paragraph at lines 10--10
 )
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 403.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 414.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 403.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 414.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-arms-out.png, id=157, 544.0325pt x 210.7875pt>
+<img/anime-arms-out.png, id=166, 544.0325pt x 210.7875pt>
 File: img/anime-arms-out.png Graphic file (type png)
 <use img/anime-arms-out.png>
-Package pdftex.def Info: img/anime-arms-out.png  used on input line 403.
+Package pdftex.def Info: img/anime-arms-out.png  used on input line 414.
 (pdftex.def)             Requested size: 312.9803pt x 121.26941pt.
- [17
+ [18
 
  <./img/anime-arms-out.png>]
-<img/kpot-unpacking-6.png, id=164, 206.6922pt x 107.9232pt>
+<img/kpot-unpacking-6.png, id=173, 206.6922pt x 107.9232pt>
 File: img/kpot-unpacking-6.png Graphic file (type png)
 <use img/kpot-unpacking-6.png>
-Package pdftex.def Info: img/kpot-unpacking-6.png  used on input line 416.
+Package pdftex.def Info: img/kpot-unpacking-6.png  used on input line 427.
 (pdftex.def)             Requested size: 369.88582pt x 193.13684pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 416.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 427.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 416.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 427.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-gun-2.png, id=166, 501.875pt x 501.875pt>
+<img/anime-gun-2.png, id=175, 501.875pt x 501.875pt>
 File: img/anime-gun-2.png Graphic file (type png)
 <use img/anime-gun-2.png>
-Package pdftex.def Info: img/anime-gun-2.png  used on input line 416.
+Package pdftex.def Info: img/anime-gun-2.png  used on input line 427.
 (pdftex.def)             Requested size: 142.26378pt x 142.26239pt.
- [18
+ [19
 
  <./img/kpot-unpacking-6.png (PNG copy)> <./img/anime-gun-2.png>]
-<img/stage-2-unpacking-key.png, id=173, 307.8702pt x 69.3792pt>
+<img/stage-2-unpacking-key.png, id=184, 307.8702pt x 69.3792pt>
 File: img/stage-2-unpacking-key.png Graphic file (type png)
 <use img/stage-2-unpacking-key.png>
-Package pdftex.def Info: img/stage-2-unpacking-key.png  used on input line 432.
+Package pdftex.def Info: img/stage-2-unpacking-key.png  used on input line 443.
 
 (pdftex.def)             Requested size: 398.33858pt x 89.7737pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 432.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 443.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 432.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 443.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-smirk.png, id=175, 501.875pt x 640.3925pt>
+<img/anime-smirk.png, id=186, 501.875pt x 640.3925pt>
 File: img/anime-smirk.png Graphic file (type png)
 <use img/anime-smirk.png>
-Package pdftex.def Info: img/anime-smirk.png  used on input line 432.
+Package pdftex.def Info: img/anime-smirk.png  used on input line 443.
 (pdftex.def)             Requested size: 85.35826pt x 108.91414pt.
- [19
+ [20
 
  <./img/stage-2-unpacking-key.png> <./img/anime-smirk.png>]
-<img/stage-2-unpacking-routine.png, id=184, 293.898pt x 169.1118pt>
+<img/stage-2-unpacking-routine.png, id=193, 293.898pt x 169.1118pt>
 File: img/stage-2-unpacking-routine.png Graphic file (type png)
 <use img/stage-2-unpacking-routine.png>
 Package pdftex.def Info: img/stage-2-unpacking-routine.png  used on input line 
-446.
+457.
 (pdftex.def)             Requested size: 284.52756pt x 163.73116pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 446.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 457.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 446.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 457.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-lean.png, id=186, 144.54pt x 185.493pt>
+<img/anime-lean.png, id=195, 144.54pt x 185.493pt>
 File: img/anime-lean.png Graphic file (type png)
 <use img/anime-lean.png>
-Package pdftex.def Info: img/anime-lean.png  used on input line 446.
+Package pdftex.def Info: img/anime-lean.png  used on input line 457.
 (pdftex.def)             Requested size: 170.71652pt x 219.09776pt.
- [20
+ [21
 
  <./img/stage-2-unpacking-routine.png> <./img/anime-lean.png>]
-<img/injection-attempts.png, id=193, 173.2071pt x 103.3461pt>
+<img/injection-attempts.png, id=202, 173.2071pt x 103.3461pt>
 File: img/injection-attempts.png Graphic file (type png)
 <use img/injection-attempts.png>
-Package pdftex.def Info: img/injection-attempts.png  used on input line 460.
+Package pdftex.def Info: img/injection-attempts.png  used on input line 471.
 (pdftex.def)             Requested size: 284.52756pt x 169.78514pt.
 
-Overfull \vbox (1.85901pt too high) detected at line 460
+Overfull \vbox (1.85901pt too high) detected at line 471
  []
 
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 460.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 471.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 460.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 471.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-cat-costume.png, id=195, 714.7503pt x 1766.5197pt>
+<img/anime-cat-costume.png, id=204, 714.7503pt x 1766.5197pt>
 File: img/anime-cat-costume.png Graphic file (type png)
 <use img/anime-cat-costume.png>
-Package pdftex.def Info: img/anime-cat-costume.png  used on input line 460.
+Package pdftex.def Info: img/anime-cat-costume.png  used on input line 471.
 (pdftex.def)             Requested size: 85.35826pt x 210.94893pt.
-[21
+[22
 
  <./img/injection-attempts.png> <./img/anime-cat-costume.png>]
-<img/kpot-unpacking-8.png, id=202, 315.3381pt x 104.0688pt>
+<img/kpot-unpacking-8.png, id=211, 315.3381pt x 104.0688pt>
 File: img/kpot-unpacking-8.png Graphic file (type png)
 <use img/kpot-unpacking-8.png>
-Package pdftex.def Info: img/kpot-unpacking-8.png  used on input line 476.
+Package pdftex.def Info: img/kpot-unpacking-8.png  used on input line 487.
 (pdftex.def)             Requested size: 403.63138pt x 133.2076pt.
 
-Overfull \hbox (5.29279pt too wide) in paragraph at lines 476--476
+Overfull \hbox (5.29279pt too wide) in paragraph at lines 487--487
  [] 
  []
 
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 476.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 487.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 476.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 487.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-success.png, id=204, 519.9425pt x 722.7pt>
+<img/anime-success.png, id=213, 519.9425pt x 722.7pt>
 File: img/anime-success.png Graphic file (type png)
 <use img/anime-success.png>
-Package pdftex.def Info: img/anime-success.png  used on input line 476.
+Package pdftex.def Info: img/anime-success.png  used on input line 487.
 (pdftex.def)             Requested size: 128.0374pt x 177.96178pt.
-[22
+[23
 
  <./img/kpot-unpacking-8.png (PNG copy)> <./img/anime-success.png>]
-<img/kpot-unpacking-9.png, id=211, 172.4844pt x 83.8332pt>
+<img/kpot-unpacking-9.png, id=220, 172.4844pt x 83.8332pt>
 File: img/kpot-unpacking-9.png Graphic file (type png)
 <use img/kpot-unpacking-9.png>
-Package pdftex.def Info: img/kpot-unpacking-9.png  used on input line 489.
+Package pdftex.def Info: img/kpot-unpacking-9.png  used on input line 500.
 (pdftex.def)             Requested size: 341.43306pt x 165.96207pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 489.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 500.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 489.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 500.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
- [23
+ [24
 
  <./img/kpot-unpacking-9.png (PNG copy)>]
 \openout4 = `index.vrb'.
@@ -1493,361 +1514,361 @@ Overfull \hbox (11.15784pt too wide) in paragraph at lines 11--11
 )
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 509.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 520.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 509.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 520.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-peace.png, id=219, 240.9pt x 191.0337pt>
+<img/anime-peace.png, id=228, 240.9pt x 191.0337pt>
 File: img/anime-peace.png Graphic file (type png)
 <use img/anime-peace.png>
-Package pdftex.def Info: img/anime-peace.png  used on input line 509.
+Package pdftex.def Info: img/anime-peace.png  used on input line 520.
 (pdftex.def)             Requested size: 170.71652pt x 135.38126pt.
- [24
+ [25
 
  <./img/anime-peace.png>]
-<img/kpot-unpacking-10.png, id=226, 295.8252pt x 93.4692pt>
+<img/kpot-unpacking-10.png, id=236, 295.8252pt x 93.4692pt>
 File: img/kpot-unpacking-10.png Graphic file (type png)
 <use img/kpot-unpacking-10.png>
-Package pdftex.def Info: img/kpot-unpacking-10.png  used on input line 524.
+Package pdftex.def Info: img/kpot-unpacking-10.png  used on input line 535.
 (pdftex.def)             Requested size: 398.33858pt x 125.8642pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 524.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 535.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 524.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 535.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
- [25
+ [26
 
  <./img/kpot-unpacking-10.png (PNG copy)>]
-<img/kpot-unpacking-11.png, id=234, 443.0151pt x 218.7372pt>
+<img/kpot-unpacking-11.png, id=243, 443.0151pt x 218.7372pt>
 File: img/kpot-unpacking-11.png Graphic file (type png)
 <use img/kpot-unpacking-11.png>
-Package pdftex.def Info: img/kpot-unpacking-11.png  used on input line 538.
+Package pdftex.def Info: img/kpot-unpacking-11.png  used on input line 549.
 (pdftex.def)             Requested size: 398.33858pt x 196.68141pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 538.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 549.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 538.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 549.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-shrug.png, id=236, 1505.625pt x 1435.3625pt>
+<img/anime-shrug.png, id=245, 1505.625pt x 1435.3625pt>
 File: img/anime-shrug.png Graphic file (type png)
 <use img/anime-shrug.png>
-Package pdftex.def Info: img/anime-shrug.png  used on input line 538.
+Package pdftex.def Info: img/anime-shrug.png  used on input line 549.
 (pdftex.def)             Requested size: 113.81102pt x 108.47981pt.
 
-[26
+[27
 
  <./img/kpot-unpacking-11.png> <./img/anime-shrug.png>]
-<img/kpot-unpacking-12.png, id=244, 225.0006pt x 183.3249pt>
+<img/kpot-unpacking-12.png, id=253, 225.0006pt x 183.3249pt>
 File: img/kpot-unpacking-12.png Graphic file (type png)
 <use img/kpot-unpacking-12.png>
-Package pdftex.def Info: img/kpot-unpacking-12.png  used on input line 551.
+Package pdftex.def Info: img/kpot-unpacking-12.png  used on input line 562.
 (pdftex.def)             Requested size: 213.74933pt x 174.15765pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 551.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 562.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 551.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 562.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-cop.png, id=246, 1367.1075pt x 2081.376pt>
+<img/anime-cop.png, id=255, 1367.1075pt x 2081.376pt>
 File: img/anime-cop.png Graphic file (type png)
 <use img/anime-cop.png>
-Package pdftex.def Info: img/anime-cop.png  used on input line 551.
+Package pdftex.def Info: img/anime-cop.png  used on input line 562.
 (pdftex.def)             Requested size: 113.81102pt x 173.24643pt.
- [27
+ [28
 
  <./img/kpot-unpacking-12.png (PNG copy)> <./img/anime-cop.png>]
-<img/kpot-unpacking-13.png, id=253, 150.8034pt x 96.6009pt>
+<img/kpot-unpacking-13.png, id=262, 150.8034pt x 96.6009pt>
 File: img/kpot-unpacking-13.png Graphic file (type png)
 <use img/kpot-unpacking-13.png>
-Package pdftex.def Info: img/kpot-unpacking-13.png  used on input line 561.
+Package pdftex.def Info: img/kpot-unpacking-13.png  used on input line 572.
 (pdftex.def)             Requested size: 284.52756pt x 182.28625pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 561.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 572.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 561.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 572.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
- [28
+ [29
 
  <./img/kpot-unpacking-13.png (PNG copy)>]
-<img/unpacked-portex-analyzer.png, id=260, 971.63pt x 630.355pt>
+<img/unpacked-portex-analyzer.png, id=269, 971.63pt x 630.355pt>
 File: img/unpacked-portex-analyzer.png Graphic file (type png)
 <use img/unpacked-portex-analyzer.png>
 Package pdftex.def Info: img/unpacked-portex-analyzer.png  used on input line 5
-74.
+85.
 (pdftex.def)             Requested size: 284.52756pt x 184.5873pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 574.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 585.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 574.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 585.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-singer.png, id=262, 1027.84pt x 1451.4225pt>
+<img/anime-singer.png, id=271, 1027.84pt x 1451.4225pt>
 File: img/anime-singer.png Graphic file (type png)
 <use img/anime-singer.png>
-Package pdftex.def Info: img/anime-singer.png  used on input line 574.
+Package pdftex.def Info: img/anime-singer.png  used on input line 585.
 (pdftex.def)             Requested size: 142.26378pt x 200.87234pt.
- [29
+ [30
 
  <./img/unpacked-portex-analyzer.png (PNG copy)> <./img/anime-singer.png>]
-<img/frustrated-meme.jpg, id=269, 591.20876pt x 425.59pt>
+<img/frustrated-meme.jpg, id=278, 591.20876pt x 425.59pt>
 File: img/frustrated-meme.jpg Graphic file (type jpg)
 <use img/frustrated-meme.jpg>
-Package pdftex.def Info: img/frustrated-meme.jpg  used on input line 583.
+Package pdftex.def Info: img/frustrated-meme.jpg  used on input line 594.
 (pdftex.def)             Requested size: 284.52756pt x 204.82635pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 583.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 594.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 583.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 594.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
- [30
+ [31
 
  <./img/frustrated-meme.jpg>]
-<img/kpot-entry0.png, id=276, 214.401pt x 155.3805pt>
+<img/kpot-entry0.png, id=286, 214.401pt x 155.3805pt>
 File: img/kpot-entry0.png Graphic file (type png)
 <use img/kpot-entry0.png>
-Package pdftex.def Info: img/kpot-entry0.png  used on input line 597.
+Package pdftex.def Info: img/kpot-entry0.png  used on input line 608.
 (pdftex.def)             Requested size: 227.62204pt x 164.96806pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 597.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 608.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 597.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 608.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-dark.png, id=278, 702.625pt x 1003.75pt>
+<img/anime-dark.png, id=288, 702.625pt x 1003.75pt>
 File: img/anime-dark.png Graphic file (type png)
 <use img/anime-dark.png>
-Package pdftex.def Info: img/anime-dark.png  used on input line 597.
+Package pdftex.def Info: img/anime-dark.png  used on input line 608.
 (pdftex.def)             Requested size: 170.71652pt x 243.87622pt.
- [31
+ [32
 
  <./img/kpot-entry0.png> <./img/anime-dark.png>]
-<img/kpot-disable-aslr.png, id=287, 323.70938pt x 214.401pt>
+<img/kpot-disable-aslr.png, id=296, 323.70938pt x 214.401pt>
 File: img/kpot-disable-aslr.png Graphic file (type png)
 <use img/kpot-disable-aslr.png>
-Package pdftex.def Info: img/kpot-disable-aslr.png  used on input line 610.
+Package pdftex.def Info: img/kpot-disable-aslr.png  used on input line 621.
 (pdftex.def)             Requested size: 284.52756pt x 188.4608pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 610.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 621.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 610.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 621.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-headphones.png, id=289, 712.6625pt x 752.8125pt>
+<img/anime-headphones.png, id=298, 712.6625pt x 752.8125pt>
 File: img/anime-headphones.png Graphic file (type png)
 <use img/anime-headphones.png>
-Package pdftex.def Info: img/anime-headphones.png  used on input line 610.
+Package pdftex.def Info: img/anime-headphones.png  used on input line 621.
 (pdftex.def)             Requested size: 113.81102pt x 120.22272pt.
- [32
+ [33
 
  <./img/kpot-disable-aslr.png> <./img/anime-headphones.png>]
-<img/kpot-resolve-apis-debug.png, id=297, 247.82588pt x 44.5665pt>
+<img/kpot-resolve-apis-debug.png, id=306, 247.82588pt x 44.5665pt>
 File: img/kpot-resolve-apis-debug.png Graphic file (type png)
 <use img/kpot-resolve-apis-debug.png>
-Package pdftex.def Info: img/kpot-resolve-apis-debug.png  used on input line 62
-4.
+Package pdftex.def Info: img/kpot-resolve-apis-debug.png  used on input line 63
+5.
 (pdftex.def)             Requested size: 398.33858pt x 71.63628pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 624.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 635.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 624.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 635.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-stop.png, id=299, 1478.52374pt x 1392.20125pt>
+<img/anime-stop.png, id=308, 1478.52374pt x 1392.20125pt>
 File: img/anime-stop.png Graphic file (type png)
 <use img/anime-stop.png>
-Package pdftex.def Info: img/anime-stop.png  used on input line 624.
+Package pdftex.def Info: img/anime-stop.png  used on input line 635.
 (pdftex.def)             Requested size: 113.81102pt x 107.15097pt.
- [33
+ [34
 
  <./img/kpot-resolve-apis-debug.png> <./img/anime-stop.png>]
-<img/kpot-resolve-apis-sylica.png, id=307, 251.7405pt x 91.24088pt>
+<img/kpot-resolve-apis-sylica.png, id=316, 251.7405pt x 91.24088pt>
 File: img/kpot-resolve-apis-sylica.png Graphic file (type png)
 <use img/kpot-resolve-apis-sylica.png>
 Package pdftex.def Info: img/kpot-resolve-apis-sylica.png  used on input line 6
-37.
+48.
 (pdftex.def)             Requested size: 341.43306pt x 123.75874pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 637.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 648.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 637.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 648.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
- [34
+ [35
 
  <./img/kpot-resolve-apis-sylica.png>]
-<img/anime-programming.png, id=315, 239.6955pt x 248.127pt>
+<img/anime-programming.png, id=324, 239.6955pt x 248.127pt>
 File: img/anime-programming.png Graphic file (type png)
 <use img/anime-programming.png>
-Package pdftex.def Info: img/anime-programming.png  used on input line 647.
+Package pdftex.def Info: img/anime-programming.png  used on input line 658.
 (pdftex.def)             Requested size: 227.62204pt x 235.636pt.
 
-Overfull \vbox (38.16542pt too high) detected at line 647
+Overfull \vbox (38.16542pt too high) detected at line 658
  []
 
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 647.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 658.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 647.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 658.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-[35
+[36
 
  <./img/anime-programming.png>]
-<img/kpot-cnc-init.png, id=323, 235.47975pt x 113.52412pt>
+<img/kpot-cnc-init.png, id=332, 235.47975pt x 113.52412pt>
 File: img/kpot-cnc-init.png Graphic file (type png)
 <use img/kpot-cnc-init.png>
-Package pdftex.def Info: img/kpot-cnc-init.png  used on input line 661.
+Package pdftex.def Info: img/kpot-cnc-init.png  used on input line 672.
 (pdftex.def)             Requested size: 284.52756pt x 137.17578pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 661.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 672.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 661.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 672.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-oh.png, id=325, 801.394pt x 642.4pt>
+<img/anime-oh.png, id=334, 801.394pt x 642.4pt>
 File: img/anime-oh.png Graphic file (type png)
 <use img/anime-oh.png>
-Package pdftex.def Info: img/anime-oh.png  used on input line 661.
+Package pdftex.def Info: img/anime-oh.png  used on input line 672.
 (pdftex.def)             Requested size: 113.81102pt x 91.22928pt.
- [36
+ [37
 
  <./img/kpot-cnc-init.png> <./img/anime-oh.png>]
-<img/kpot-cnc-init-com.png, id=333, 205.66838pt x 114.4275pt>
+<img/kpot-cnc-init-com.png, id=343, 205.66838pt x 114.4275pt>
 File: img/kpot-cnc-init-com.png Graphic file (type png)
 <use img/kpot-cnc-init-com.png>
-Package pdftex.def Info: img/kpot-cnc-init-com.png  used on input line 675.
+Package pdftex.def Info: img/kpot-cnc-init-com.png  used on input line 686.
 (pdftex.def)             Requested size: 284.52756pt x 158.30995pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 675.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 686.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 675.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 686.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-sword-2.png, id=335, 738.76pt x 1412.27625pt>
+<img/anime-sword-2.png, id=345, 738.76pt x 1412.27625pt>
 File: img/anime-sword-2.png Graphic file (type png)
 <use img/anime-sword-2.png>
-Package pdftex.def Info: img/anime-sword-2.png  used on input line 675.
+Package pdftex.def Info: img/anime-sword-2.png  used on input line 686.
 (pdftex.def)             Requested size: 113.81102pt x 217.56448pt.
- [37
+ [38
 
  <./img/kpot-cnc-init-com.png> <./img/anime-sword-2.png>]
-<img/kpot-cnc-init-server.png, id=344, 165.31763pt x 136.71075pt>
+<img/kpot-cnc-init-server.png, id=353, 165.31763pt x 136.71075pt>
 File: img/kpot-cnc-init-server.png Graphic file (type png)
 <use img/kpot-cnc-init-server.png>
-Package pdftex.def Info: img/kpot-cnc-init-server.png  used on input line 689.
+Package pdftex.def Info: img/kpot-cnc-init-server.png  used on input line 700.
 (pdftex.def)             Requested size: 199.16928pt x 164.70917pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 689.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 700.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 689.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 700.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-upside-down.png, id=346, 702.625pt x 1039.885pt>
+<img/anime-upside-down.png, id=355, 702.625pt x 1039.885pt>
 File: img/anime-upside-down.png Graphic file (type png)
 <use img/anime-upside-down.png>
-Package pdftex.def Info: img/anime-upside-down.png  used on input line 689.
+Package pdftex.def Info: img/anime-upside-down.png  used on input line 700.
 (pdftex.def)             Requested size: 142.26378pt x 210.54382pt.
- [38
+ [39
 
  <./img/kpot-cnc-init-server.png> <./img/anime-upside-down.png>]
-<img/kpot-cnc-checkin-routine.png, id=354, 233.37187pt x 147.85237pt>
+<img/kpot-cnc-checkin-routine.png, id=364, 233.37187pt x 147.85237pt>
 File: img/kpot-cnc-checkin-routine.png Graphic file (type png)
 <use img/kpot-cnc-checkin-routine.png>
 Package pdftex.def Info: img/kpot-cnc-checkin-routine.png  used on input line 7
-03.
+14.
 (pdftex.def)             Requested size: 256.0748pt x 162.25458pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 703.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 714.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 703.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 714.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-sword.png, id=356, 601.24625pt x 602.25pt>
+<img/anime-sword.png, id=366, 601.24625pt x 602.25pt>
 File: img/anime-sword.png Graphic file (type png)
 <use img/anime-sword.png>
-Package pdftex.def Info: img/anime-sword.png  used on input line 703.
+Package pdftex.def Info: img/anime-sword.png  used on input line 714.
 (pdftex.def)             Requested size: 170.71652pt x 170.99976pt.
- [39
+ [40
 
  <./img/kpot-cnc-checkin-routine.png> <./img/anime-sword.png>]
-<img/kpot-cnc-checkin-routine-uri-setup.png, id=365, 281.25075pt x 162.6075pt>
+<img/kpot-cnc-checkin-routine-uri-setup.png, id=374, 281.25075pt x 162.6075pt>
 File: img/kpot-cnc-checkin-routine-uri-setup.png Graphic file (type png)
 <use img/kpot-cnc-checkin-routine-uri-setup.png>
 Package pdftex.def Info: img/kpot-cnc-checkin-routine-uri-setup.png  used on in
-put line 716.
+put line 727.
 (pdftex.def)             Requested size: 312.9803pt x 180.95052pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 716.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 727.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 716.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 727.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-fairy.png, id=367, 511.9125pt x 602.25pt>
+<img/anime-fairy.png, id=376, 511.9125pt x 602.25pt>
 File: img/anime-fairy.png Graphic file (type png)
 <use img/anime-fairy.png>
-Package pdftex.def Info: img/anime-fairy.png  used on input line 716.
+Package pdftex.def Info: img/anime-fairy.png  used on input line 727.
 (pdftex.def)             Requested size: 113.81102pt x 133.89221pt.
- [40
+ [41
 
  <./img/kpot-cnc-checkin-routine-uri-setup.png> <./img/anime-fairy.png>]
-<img/kpot-cnc-checkin-attempts.png, id=375, 232.7094pt x 154.6578pt>
+<img/kpot-cnc-checkin-attempts.png, id=384, 232.7094pt x 154.6578pt>
 File: img/kpot-cnc-checkin-attempts.png Graphic file (type png)
 <use img/kpot-cnc-checkin-attempts.png>
 Package pdftex.def Info: img/kpot-cnc-checkin-attempts.png  used on input line 
-729.
+740.
 (pdftex.def)             Requested size: 284.52756pt x 189.11172pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 729.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 740.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 729.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 740.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-cat.png, id=377, 615.29875pt x 845.1575pt>
+<img/anime-cat.png, id=386, 615.29875pt x 845.1575pt>
 File: img/anime-cat.png Graphic file (type png)
 <use img/anime-cat.png>
-Package pdftex.def Info: img/anime-cat.png  used on input line 729.
+Package pdftex.def Info: img/anime-cat.png  used on input line 740.
 (pdftex.def)             Requested size: 113.81102pt x 156.3259pt.
- [41
+ [42
 
  <./img/kpot-cnc-checkin-attempts.png> <./img/anime-cat.png>]
 \openout4 = `index.vrb'.
@@ -1855,18 +1876,18 @@ Package pdftex.def Info: img/anime-cat.png  used on input line 729.
  (./index.vrb)
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 750.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 761.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 750.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 761.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-music.png, id=385, 285.065pt x 388.45125pt>
+<img/anime-music.png, id=394, 285.065pt x 388.45125pt>
 File: img/anime-music.png Graphic file (type png)
 <use img/anime-music.png>
-Package pdftex.def Info: img/anime-music.png  used on input line 750.
+Package pdftex.def Info: img/anime-music.png  used on input line 761.
 (pdftex.def)             Requested size: 113.81102pt x 155.0873pt.
- [42
+ [43
 
  <./img/anime-music.png>]
 \openout4 = `index.vrb'.
@@ -1875,52 +1896,52 @@ Package pdftex.def Info: img/anime-music.png  used on input line 750.
 (./index.vrb)
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 776.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 787.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 776.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 787.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
- [43
+ [44
 
 ]
-<img/kpot-cnc-checkin-decoding.png, id=400, 217.2918pt x 149.8398pt>
+<img/kpot-cnc-checkin-decoding.png, id=409, 217.2918pt x 149.8398pt>
 File: img/kpot-cnc-checkin-decoding.png Graphic file (type png)
 <use img/kpot-cnc-checkin-decoding.png>
 Package pdftex.def Info: img/kpot-cnc-checkin-decoding.png  used on input line 
-790.
+801.
 (pdftex.def)             Requested size: 227.62204pt x 156.9683pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 790.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 801.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 790.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 801.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-cold.png, id=402, 281.90425pt x 410.04256pt>
+<img/anime-cold.png, id=411, 281.90425pt x 410.04256pt>
 File: img/anime-cold.png Graphic file (type png)
 <use img/anime-cold.png>
-Package pdftex.def Info: img/anime-cold.png  used on input line 790.
+Package pdftex.def Info: img/anime-cold.png  used on input line 801.
 (pdftex.def)             Requested size: 113.81102pt x 165.54076pt.
- [44
+ [45
 
  <./img/kpot-cnc-checkin-decoding.png> <./img/anime-cold.png>]
 \openout4 = `index.vrb'.
 
  (./index.vrb)
-Overfull \vbox (4.47386pt too high) detected at line 820
+Overfull \vbox (4.47386pt too high) detected at line 831
  []
 
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 820.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 831.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 820.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 831.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-[45
+[46
 
 ]
 \openout4 = `index.vrb'.
@@ -1928,163 +1949,163 @@ Package pdftex.def Info: img/gosecure-logo.png  used on input line 820.
  (./index.vrb)
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 841.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 852.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 841.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 852.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-suprise.png, id=416, 722.7pt x 562.1pt>
+<img/anime-suprise.png, id=425, 722.7pt x 562.1pt>
 File: img/anime-suprise.png Graphic file (type png)
 <use img/anime-suprise.png>
-Package pdftex.def Info: img/anime-suprise.png  used on input line 841.
+Package pdftex.def Info: img/anime-suprise.png  used on input line 852.
 (pdftex.def)             Requested size: 170.71652pt x 132.77966pt.
- [46
+ [47
 
  <./img/anime-suprise.png>]
-<img/kpot-cnc-checkin-lang-check.png, id=424, 194.1654pt x 98.2872pt>
+<img/kpot-cnc-checkin-lang-check.png, id=433, 194.1654pt x 98.2872pt>
 File: img/kpot-cnc-checkin-lang-check.png Graphic file (type png)
 <use img/kpot-cnc-checkin-lang-check.png>
 Package pdftex.def Info: img/kpot-cnc-checkin-lang-check.png  used on input lin
-e 855.
+e 866.
 (pdftex.def)             Requested size: 312.9803pt x 158.43849pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 855.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 866.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 855.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 866.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-worried.png, id=426, 673.01437pt x 673.01437pt>
+<img/anime-worried.png, id=435, 673.01437pt x 673.01437pt>
 File: img/anime-worried.png Graphic file (type png)
 <use img/anime-worried.png>
-Package pdftex.def Info: img/anime-worried.png  used on input line 855.
+Package pdftex.def Info: img/anime-worried.png  used on input line 866.
 (pdftex.def)             Requested size: 113.81102pt x 113.80504pt.
- [47
+ [48
 
  <./img/kpot-cnc-checkin-lang-check.png> <./img/anime-worried.png>]
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 876.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 887.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 876.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 887.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-point-left.png, id=434, 965.6075pt x 722.7pt>
+<img/anime-point-left.png, id=443, 965.6075pt x 722.7pt>
 File: img/anime-point-left.png Graphic file (type png)
 <use img/anime-point-left.png>
-Package pdftex.def Info: img/anime-point-left.png  used on input line 876.
+Package pdftex.def Info: img/anime-point-left.png  used on input line 887.
 (pdftex.def)             Requested size: 256.0748pt x 191.65794pt.
- [48
+ [49
 
  <./img/anime-point-left.png>]
-<img/kpot-ping-delete-0.png, id=441, 131.7723pt x 74.9199pt>
+<img/kpot-ping-delete-0.png, id=451, 131.7723pt x 74.9199pt>
 File: img/kpot-ping-delete-0.png Graphic file (type png)
 <use img/kpot-ping-delete-0.png>
-Package pdftex.def Info: img/kpot-ping-delete-0.png  used on input line 891.
+Package pdftex.def Info: img/kpot-ping-delete-0.png  used on input line 902.
 (pdftex.def)             Requested size: 284.52756pt x 161.79597pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 891.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 902.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 891.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 902.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-delete.png, id=443, 1028.84375pt x 848.16875pt>
+<img/anime-delete.png, id=453, 1028.84375pt x 848.16875pt>
 File: img/anime-delete.png Graphic file (type png)
 <use img/anime-delete.png>
-Package pdftex.def Info: img/anime-delete.png  used on input line 891.
+Package pdftex.def Info: img/anime-delete.png  used on input line 902.
 (pdftex.def)             Requested size: 113.81102pt x 93.81653pt.
 
-[49
+[50
 
  <./img/kpot-ping-delete-0.png> <./img/anime-delete.png>]
-<img/kpot-ping-delete-1.png, id=451, 179.9523pt x 125.5089pt>
+<img/kpot-ping-delete-1.png, id=460, 179.9523pt x 125.5089pt>
 File: img/kpot-ping-delete-1.png Graphic file (type png)
 <use img/kpot-ping-delete-1.png>
-Package pdftex.def Info: img/kpot-ping-delete-1.png  used on input line 904.
+Package pdftex.def Info: img/kpot-ping-delete-1.png  used on input line 915.
 (pdftex.def)             Requested size: 284.52756pt x 198.46082pt.
 
-Overfull \vbox (0.99023pt too high) detected at line 904
+Overfull \vbox (0.99023pt too high) detected at line 915
  []
 
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 904.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 915.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 904.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 915.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-scared.png, id=453, 4015.0pt x 4015.0pt>
+<img/anime-scared.png, id=462, 4015.0pt x 4015.0pt>
 File: img/anime-scared.png Graphic file (type png)
 <use img/anime-scared.png>
-Package pdftex.def Info: img/anime-scared.png  used on input line 904.
+Package pdftex.def Info: img/anime-scared.png  used on input line 915.
 (pdftex.def)             Requested size: 142.26378pt x 142.25475pt.
-[50
+[51
 
  <./img/kpot-ping-delete-1.png> <./img/anime-scared.png>]
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 942.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 953.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 942.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 953.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-money.png, id=461, 422.57875pt x 372.39125pt>
+<img/anime-money.png, id=470, 422.57875pt x 372.39125pt>
 File: img/anime-money.png Graphic file (type png)
 <use img/anime-money.png>
-Package pdftex.def Info: img/anime-money.png  used on input line 942.
+Package pdftex.def Info: img/anime-money.png  used on input line 953.
 (pdftex.def)             Requested size: 85.35826pt x 75.2213pt.
- [51
+ [52
 
  <./img/anime-money.png>]
-<img/kpot-stealer-modules-check-lang.png, id=468, 145.2627pt x 68.8974pt>
+<img/kpot-stealer-modules-check-lang.png, id=477, 145.2627pt x 68.8974pt>
 File: img/kpot-stealer-modules-check-lang.png Graphic file (type png)
 <use img/kpot-stealer-modules-check-lang.png>
 Package pdftex.def Info: img/kpot-stealer-modules-check-lang.png  used on input
- line 956.
+ line 967.
 (pdftex.def)             Requested size: 312.9803pt x 148.45659pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 956.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 967.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 956.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 967.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
 File: img/anime-computer-clipart.png Graphic file (type png)
 <use img/anime-computer-clipart.png>
-Package pdftex.def Info: img/anime-computer-clipart.png  used on input line 956
+Package pdftex.def Info: img/anime-computer-clipart.png  used on input line 967
 .
 (pdftex.def)             Requested size: 85.35826pt x 84.77298pt.
- [52
+ [53
 
  <./img/kpot-stealer-modules-check-lang.png (PNG copy)>]
-<img/kpot-cnc-exfiltration.png, id=475, 153.6942pt x 82.6287pt>
+<img/kpot-cnc-exfiltration.png, id=484, 153.6942pt x 82.6287pt>
 File: img/kpot-cnc-exfiltration.png Graphic file (type png)
 <use img/kpot-cnc-exfiltration.png>
-Package pdftex.def Info: img/kpot-cnc-exfiltration.png  used on input line 970.
+Package pdftex.def Info: img/kpot-cnc-exfiltration.png  used on input line 981.
 
 (pdftex.def)             Requested size: 284.52756pt x 152.97284pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 970.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 981.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 970.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 981.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-gun.png, id=477, 830.10126pt x 1084.05pt>
+<img/anime-gun.png, id=486, 830.10126pt x 1084.05pt>
 File: img/anime-gun.png Graphic file (type png)
 <use img/anime-gun.png>
-Package pdftex.def Info: img/anime-gun.png  used on input line 970.
+Package pdftex.def Info: img/anime-gun.png  used on input line 981.
 (pdftex.def)             Requested size: 142.26378pt x 185.77477pt.
- [53
+ [54
 
  <./img/kpot-cnc-exfiltration.png (PNG copy)> <./img/anime-gun.png>]
 \openout4 = `index.vrb'.
@@ -2092,64 +2113,64 @@ Package pdftex.def Info: img/anime-gun.png  used on input line 970.
  (./index.vrb)
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 994.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1005.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 994.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1005.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-peek.png, id=485, 120.45pt x 120.45pt>
+<img/anime-peek.png, id=494, 120.45pt x 120.45pt>
 File: img/anime-peek.png Graphic file (type png)
 <use img/anime-peek.png>
-Package pdftex.def Info: img/anime-peek.png  used on input line 994.
+Package pdftex.def Info: img/anime-peek.png  used on input line 1005.
 (pdftex.def)             Requested size: 227.62204pt x 227.64432pt.
 
-[54
+[55
 
  <./img/anime-peek.png>]
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 1004.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1015.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1004.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1015.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/kpot-string-decryption-sids-anime-hand-over.png, id=493, 336.7782pt x 143.
+<img/kpot-string-decryption-sids-anime-hand-over.png, id=503, 336.7782pt x 143.
 0946pt>
 File: img/kpot-string-decryption-sids-anime-hand-over.png Graphic file (type pn
 g)
 <use img/kpot-string-decryption-sids-anime-hand-over.png>
 Package pdftex.def Info: img/kpot-string-decryption-sids-anime-hand-over.png  u
-sed on input line 1004.
+sed on input line 1015.
 (pdftex.def)             Requested size: 503.61368pt x 213.99724pt.
- [55
+ [56
 
  <./img/kpot-string-decryption-sids-anime-hand-over.png>]
-<img/kpot-string-decryption.png, id=501, 102.3825pt x 149.8398pt>
+<img/kpot-string-decryption.png, id=510, 102.3825pt x 149.8398pt>
 File: img/kpot-string-decryption.png Graphic file (type png)
 <use img/kpot-string-decryption.png>
-Package pdftex.def Info: img/kpot-string-decryption.png  used on input line 101
-7.
+Package pdftex.def Info: img/kpot-string-decryption.png  used on input line 102
+8.
 (pdftex.def)             Requested size: 136.5733pt x 199.89258pt.
 
-Overfull \vbox (2.422pt too high) detected at line 1017
+Overfull \vbox (2.422pt too high) detected at line 1028
  []
 
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 1017.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1028.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1017.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1028.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-meh.png, id=503, 577.1964pt x 389.2944pt>
+<img/anime-meh.png, id=512, 577.1964pt x 389.2944pt>
 File: img/anime-meh.png Graphic file (type png)
 <use img/anime-meh.png>
-Package pdftex.def Info: img/anime-meh.png  used on input line 1017.
+Package pdftex.def Info: img/anime-meh.png  used on input line 1028.
 (pdftex.def)             Requested size: 199.16928pt x 134.33046pt.
-[56
+[57
 
  <./img/kpot-string-decryption.png (PNG copy)> <./img/anime-meh.png>]
 \openout4 = `index.vrb'.
@@ -2164,18 +2185,18 @@ Package pdftex.def Info: img/anime-meh.png  used on input line 1017.
 DF.pygtex))
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 1050.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1061.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1050.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1061.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-blow-kiss.png, id=511, 702.625pt x 922.44624pt>
+<img/anime-blow-kiss.png, id=520, 702.625pt x 922.44624pt>
 File: img/anime-blow-kiss.png Graphic file (type png)
 <use img/anime-blow-kiss.png>
-Package pdftex.def Info: img/anime-blow-kiss.png  used on input line 1050.
+Package pdftex.def Info: img/anime-blow-kiss.png  used on input line 1061.
 (pdftex.def)             Requested size: 170.71652pt x 224.12224pt.
- [57
+ [58
 
  <./img/anime-blow-kiss.png>]
 \openout4 = `index.vrb'.
@@ -2188,18 +2209,18 @@ Package pdftex.def Info: img/anime-blow-kiss.png  used on input line 1050.
 DF.pygtex))
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 1083.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1094.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1083.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1094.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-standing.png, id=519, 758.835pt x 1060.96375pt>
+<img/anime-standing.png, id=528, 758.835pt x 1060.96375pt>
 File: img/anime-standing.png Graphic file (type png)
 <use img/anime-standing.png>
-Package pdftex.def Info: img/anime-standing.png  used on input line 1083.
+Package pdftex.def Info: img/anime-standing.png  used on input line 1094.
 (pdftex.def)             Requested size: 165.02606pt x 230.72537pt.
- [58
+ [59
 
  <./img/anime-standing.png>]
 \openout4 = `index.vrb'.
@@ -2208,31 +2229,31 @@ Package pdftex.def Info: img/anime-standing.png  used on input line 1083.
 \openout5 = `index.pyg'.
 
 
-(./_minted-index/C41CB3F1BCE563855640D8C6DC1F93A9671173B54E95CC1589E7305F147D79
+(./_minted-index/206FB97AEE5ACB7BF70554AE285FBA20671173B54E95CC1589E7305F147D79
 DF.pygtex))
-Overfull \vbox (31.72049pt too high) detected at line 1123
+Overfull \vbox (45.72049pt too high) detected at line 1136
  []
 
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 1123.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1136.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1123.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1136.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-cheeks.png, id=527, 702.625pt x 953.5625pt>
+<img/anime-cheeks.png, id=537, 702.625pt x 953.5625pt>
 File: img/anime-cheeks.png Graphic file (type png)
 <use img/anime-cheeks.png>
-Package pdftex.def Info: img/anime-cheeks.png  used on input line 1123.
+Package pdftex.def Info: img/anime-cheeks.png  used on input line 1136.
 (pdftex.def)             Requested size: 142.26378pt x 193.06625pt.
-[59
+[60
 
  <./img/anime-cheeks.png>]
 \openout4 = `index.vrb'.
 
  (./index.vrb
-<img/kpot-decryption-tool.png, id=535, 225.2415pt x 154.8987pt>
+<img/kpot-decryption-tool.png, id=544, 225.2415pt x 154.8987pt>
 File: img/kpot-decryption-tool.png Graphic file (type png)
 <use img/kpot-decryption-tool.png>
 Package pdftex.def Info: img/kpot-decryption-tool.png  used on input line 10.
@@ -2240,64 +2261,48 @@ Package pdftex.def Info: img/kpot-decryption-tool.png  used on input line 10.
 )
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 1138.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1151.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1138.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1151.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-yay.png, id=537, 88.6512pt x 130.68825pt>
+<img/anime-yay.png, id=546, 88.6512pt x 130.68825pt>
 File: img/anime-yay.png Graphic file (type png)
 <use img/anime-yay.png>
-Package pdftex.def Info: img/anime-yay.png  used on input line 1138.
+Package pdftex.def Info: img/anime-yay.png  used on input line 1151.
 (pdftex.def)             Requested size: 156.49014pt x 230.72191pt.
- [60
+ [61
 
  <./img/kpot-decryption-tool.png (PNG copy)> <./img/anime-yay.png>]
-<img/anime-threat-actor.png, id=544, 1061.9675pt x 1084.05pt>
+<img/anime-threat-actor.png, id=554, 1061.9675pt x 1084.05pt>
 File: img/anime-threat-actor.png Graphic file (type png)
 <use img/anime-threat-actor.png>
-Package pdftex.def Info: img/anime-threat-actor.png  used on input line 1149.
+Package pdftex.def Info: img/anime-threat-actor.png  used on input line 1162.
 (pdftex.def)             Requested size: 199.16928pt x 203.3085pt.
 
-Overfull \vbox (5.83792pt too high) detected at line 1149
+Overfull \vbox (5.83792pt too high) detected at line 1162
  []
 
-<img/anime-city-background.jpg, id=545, 2015.53pt x 1134.2375pt>
+<img/anime-city-background.jpg, id=555, 2015.53pt x 1134.2375pt>
 File: img/anime-city-background.jpg Graphic file (type jpg)
 <use img/anime-city-background.jpg>
-Package pdftex.def Info: img/anime-city-background.jpg  used on input line 1149
+Package pdftex.def Info: img/anime-city-background.jpg  used on input line 1162
 .
 (pdftex.def)             Requested size: 455.24408pt x 256.17892pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1149.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1162.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-[61
+[62
 
  <./img/anime-city-background.jpg> <./img/anime-threat-actor.png>]
-<img/validcc-website-kpot-relationship.png, id=554, 301.3659pt x 166.4619pt>
+<img/validcc-website-kpot-relationship.png, id=563, 301.3659pt x 166.4619pt>
 File: img/validcc-website-kpot-relationship.png Graphic file (type png)
 <use img/validcc-website-kpot-relationship.png>
 Package pdftex.def Info: img/validcc-website-kpot-relationship.png  used on inp
-ut line 1159.
+ut line 1172.
 (pdftex.def)             Requested size: 312.9803pt x 172.88766pt.
-File: img/digital-background.jpg Graphic file (type jpg)
-<use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 1159.
-(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
-File: img/gosecure-logo.png Graphic file (type png)
-<use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1159.
-(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
- [62
-
- <./img/validcc-website-kpot-relationship.png (PNG copy)>]
-<img/validcc-website.png, id=561, 251.4996pt x 132.7359pt>
-File: img/validcc-website.png Graphic file (type png)
-<use img/validcc-website.png>
-Package pdftex.def Info: img/validcc-website.png  used on input line 1172.
-(pdftex.def)             Requested size: 341.43306pt x 180.22069pt.
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
 Package pdftex.def Info: img/digital-background.jpg  used on input line 1172.
@@ -2306,12 +2311,28 @@ File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
 Package pdftex.def Info: img/gosecure-logo.png  used on input line 1172.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-gun-new.png, id=563, 1491.5725pt x 1676.2625pt>
+ [63
+
+ <./img/validcc-website-kpot-relationship.png (PNG copy)>]
+<img/validcc-website.png, id=570, 251.4996pt x 132.7359pt>
+File: img/validcc-website.png Graphic file (type png)
+<use img/validcc-website.png>
+Package pdftex.def Info: img/validcc-website.png  used on input line 1185.
+(pdftex.def)             Requested size: 341.43306pt x 180.22069pt.
+File: img/digital-background.jpg Graphic file (type jpg)
+<use img/digital-background.jpg>
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1185.
+(pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
+File: img/gosecure-logo.png Graphic file (type png)
+<use img/gosecure-logo.png>
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1185.
+(pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
+<img/anime-gun-new.png, id=572, 1491.5725pt x 1676.2625pt>
 File: img/anime-gun-new.png Graphic file (type png)
 <use img/anime-gun-new.png>
-Package pdftex.def Info: img/anime-gun-new.png  used on input line 1172.
+Package pdftex.def Info: img/anime-gun-new.png  used on input line 1185.
 (pdftex.def)             Requested size: 184.9429pt x 207.81859pt.
- [63
+ [64
 
  <./img/validcc-website.png (PNG copy)> <./img/anime-gun-new.png>]
 \openout4 = `index.vrb'.
@@ -2319,80 +2340,80 @@ Package pdftex.def Info: img/anime-gun-new.png  used on input line 1172.
  (./index.vrb)
 File: img/digital-background.jpg Graphic file (type jpg)
 <use img/digital-background.jpg>
-Package pdftex.def Info: img/digital-background.jpg  used on input line 1211.
+Package pdftex.def Info: img/digital-background.jpg  used on input line 1224.
 (pdftex.def)             Requested size: 455.24408pt x 256.0863pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1211.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1224.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-tired.png, id=571, 169.8345pt x 168.63pt>
+<img/anime-tired.png, id=580, 169.8345pt x 168.63pt>
 File: img/anime-tired.png Graphic file (type png)
 <use img/anime-tired.png>
-Package pdftex.def Info: img/anime-tired.png  used on input line 1211.
+Package pdftex.def Info: img/anime-tired.png  used on input line 1224.
 (pdftex.def)             Requested size: 113.81102pt x 113.00723pt.
- [64
+ [65
 
  <./img/anime-tired.png>]
-<img/anime-confused.png, id=578, 283.0575pt x 301.125pt>
+<img/anime-confused.png, id=587, 283.0575pt x 301.125pt>
 File: img/anime-confused.png Graphic file (type png)
 <use img/anime-confused.png>
-Package pdftex.def Info: img/anime-confused.png  used on input line 1220.
+Package pdftex.def Info: img/anime-confused.png  used on input line 1233.
 (pdftex.def)             Requested size: 227.62204pt x 242.15929pt.
 
-Overfull \vbox (32.6887pt too high) detected at line 1220
+Overfull \vbox (32.6887pt too high) detected at line 1233
  []
 
-<img/anime-classroom-background.jpg, id=579, 1927.2pt x 1084.05pt>
+<img/anime-classroom-background.jpg, id=588, 1927.2pt x 1084.05pt>
 File: img/anime-classroom-background.jpg Graphic file (type jpg)
 <use img/anime-classroom-background.jpg>
 Package pdftex.def Info: img/anime-classroom-background.jpg  used on input line
- 1220.
+ 1233.
 (pdftex.def)             Requested size: 455.24408pt x 256.07509pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1220.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1233.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-[65
+[66
 
  <./img/anime-classroom-background.jpg> <./img/anime-confused.png>]
 File: img/anime-classroom-background.jpg Graphic file (type jpg)
 <use img/anime-classroom-background.jpg>
 Package pdftex.def Info: img/anime-classroom-background.jpg  used on input line
- 1247.
+ 1260.
 (pdftex.def)             Requested size: 455.24408pt x 256.07509pt.
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1247.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1260.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-<img/anime-point.png, id=588, 2194.599pt x 2265.263pt>
+<img/anime-point.png, id=597, 2194.599pt x 2265.263pt>
 File: img/anime-point.png Graphic file (type png)
 <use img/anime-point.png>
-Package pdftex.def Info: img/anime-point.png  used on input line 1247.
+Package pdftex.def Info: img/anime-point.png  used on input line 1260.
 (pdftex.def)             Requested size: 142.26378pt x 146.83247pt.
- [66
+ [67
 
  <./img/anime-point.png>]
-<img/anime-thank-you.png, id=595, 451.6875pt x 451.6875pt>
+<img/anime-thank-you.png, id=605, 451.6875pt x 451.6875pt>
 File: img/anime-thank-you.png Graphic file (type png)
 <use img/anime-thank-you.png>
-Package pdftex.def Info: img/anime-thank-you.png  used on input line 1255.
+Package pdftex.def Info: img/anime-thank-you.png  used on input line 1268.
 (pdftex.def)             Requested size: 284.52756pt x 284.54395pt.
 
-Overfull \vbox (75.07336pt too high) detected at line 1255
+Overfull \vbox (75.07336pt too high) detected at line 1268
  []
 
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1255.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1268.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
-[67
+[68
 
  <./img/anime-thank-you.png>]
 File: img/gosecure-logo.png Graphic file (type png)
 <use img/gosecure-logo.png>
-Package pdftex.def Info: img/gosecure-logo.png  used on input line 1267.
+Package pdftex.def Info: img/gosecure-logo.png  used on input line 1280.
 (pdftex.def)             Requested size: 113.81102pt x 20.03107pt.
- [68
+ [69
 
 ]
 \tf@nav=\write10
@@ -2404,11 +2425,11 @@ Package pdftex.def Info: img/gosecure-logo.png  used on input line 1267.
 \tf@snm=\write12
 \openout12 = `index.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1269.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1269.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1282.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1282.
  (./index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1269.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1269.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1282.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1282.
 
 Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -2416,10 +2437,10 @@ runsystem(rm index.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 23247 strings out of 494553
- 461349 string characters out of 6177841
- 578885 words of memory out of 5000000
- 26144 multiletter control sequences out of 15000+600000
+ 23261 strings out of 494553
+ 461616 string characters out of 6177841
+ 580215 words of memory out of 5000000
+ 26154 multiletter control sequences out of 15000+600000
  12590 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  48i,15n,73p,793b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2431,10 +2452,10 @@ mss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmtt9.pfb>
-Output written on index.pdf (68 pages, 32274448 bytes).
+Output written on index.pdf (69 pages, 32828625 bytes).
 PDF statistics:
- 672 PDF objects out of 1000 (max. 8388607)
- 421 compressed objects within 5 object streams
- 137 named destinations out of 1000 (max. 500000)
- 537 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 682 PDF objects out of 1000 (max. 8388607)
+ 427 compressed objects within 5 object streams
+ 139 named destinations out of 1000 (max. 500000)
+ 547 words of extra memory for PDF output out of 10000 (max. 10000000)
 

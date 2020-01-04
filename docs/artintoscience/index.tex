@@ -215,6 +215,9 @@ malware@work ~$
 \begin{frame}
   \frametitle{Operation Lawyer Loot}
   \framesubtitle{Initial Infection Vector}
+  \AddToShipoutPictureFG*{
+    \makebox(150,140){\includegraphics[width=3cm]{anime-letter}}
+  }
   \begin{tabularx}{\textwidth}{ |X|X| }
     \hline
     \multicolumn{2}{|c|}{\textbf{MalSpam Email}} \\
@@ -242,6 +245,14 @@ malware@work ~$
   \end{tabularx}
 \end{frame}
 }
+
+\begin{frame}
+  \frametitle{Operation Lawyer Loot}
+  \framesubtitle{Initial Infection Vector - OSINT}
+  \begin{center}
+    \includegraphics[width=12cm]{sidneymorris}
+  \end{center}
+\end{frame}
 
 {\usebackgroundtemplate{\includegraphics[width=\paperwidth]{anime-sniper-background.png}}%
 \begin{frame}
@@ -1093,6 +1104,8 @@ Cache-Control: no-cache
     \begin{figure}[hp]
       \begin{tcolorbox}[title=KPot v2.0 - CnC Encrypt/Decrypt Routine,colback=black]
      \begin{minted}[fontsize=\tiny]{asm}
+      ;; arg0: ptr to base64 decoded data, arg1: data size
+      ;; arg2: ptr to decryption key, arg3: decryption key length
       c2dec:
         push ebp
         mov ebp, esp
