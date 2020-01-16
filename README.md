@@ -5,6 +5,7 @@
 - Samples in the file `samples.zip` the password is `infected`.
 - Code for decoding the strings for the stage 2 loader are in the `src` directory
 - Slides are located in `docs/index.pdf`
+- __KPot V2.1 has been released so if you have samples of this share them with me so I can defeat it too!__
 
 # KPot v2.0 Encrypt/Decrypt Strings and C2 Exiltrated Data
 
@@ -95,3 +96,9 @@ If you like this research and want to support my work give me a :star:.
 If you have questions send me a message! :smile_cat:
 
 Thank you! \\^-^/
+
+# KPot V2.1 Screenshots
+
+![kpot_v2_1_c2_panel](docs/img/kpot_v2_1_c2_panel.jpg)
+![kpot_v2_1_bot_ctl](docs/img/kpot_v2_1_bot_ctrl.jpg)
+
