@@ -97,8 +97,17 @@ If you have questions send me a message! :smile_cat:
 
 Thank you! \\^-^/
 
-# KPot V2.1 Screenshots
+# KPot v2.1 Screenshots
 
+__KPot v2.1 C2 Panel:__
 ![kpot_v2_1_c2_panel](docs/img/kpot_v2_1_c2_panel.jpg)
+
+__KPot v2.1 C2 Bot Control:__
 ![kpot_v2_1_bot_ctl](docs/img/kpot_v2_1_bot_ctrl.jpg)
+
+__KPot v2.1 C2 Password Dashboard:__
+![kpot_v2_1_pass_dash](docs/img/kpot_v2_1_pass_dash.jpg)
+
+__KPot v2.1 Stats Dashboard:__
+![kpot_v2_1_stats](docs/img/kpot_v2_1_stats.jpg)
 
